@@ -1,0 +1,288 @@
+{% extends "layout.html" %}
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/zzsc.css') }}">
+<style type="text/css">
+    .container {
+        margin: 0 auto;
+    }
+
+    .content {
+        max-width: 660px;
+        margin: 0 auto;
+    }
+
+    .content img {
+        max-width: 100%;
+    }
+
+    @media (max-width: 800px) {
+        .content {
+            max-width: 100%;
+            margin: 20px;
+        }
+    }
+</style>
+{% assets "select_css" %}
+    <link rel="stylesheet" href="{{ ASSET_URL }}">
+    <style>
+        .waiter-ul li a {
+            padding-top: 8px;
+        }
+    </style>
+{% endassets %}
+{% block js %}
+
+    <script src="{{ url_for('static', filename='js/sysadmin/sys_org/sys_org_add.js') }}"></script>
+    <script src="{{ url_for('static', filename='libs/bootstrap/js/bootstrap-selectpicker.js') }}"></script>
+
+{% endblock %}
+{% block maincontent %}
+
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="card card-wizard col-md-12">
+                        <div class="header text-center">
+                            <h3 class="title">新增机构</h3>
+                        </div>
+                        <div class="content">
+                            <form id="user_form" method="post" action="">
+                                {{ org_form.hidden_tag() }}
+                                {{ org_form.csrf_token }}
+                                <fieldset>
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-md-5 col-md-offset-1">
+                                                <div class="form-group">
+                                                    <label class="control-label"><span style="color: red">*</span>
+                                                        商户名
+                                                    </label>
+                                                    {{ org_form.org_name(id = "org_name", class="form-control", placeholder="商户名") }}
+                                                    {% for e in org_form.org_name.errors %}
+                                                        <span style="color: red">*{{ e }}</span>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <div class="form-group">
+                                                    <label class="control-label  "
+                                                    ><span style="color: red">*</span>
+                                                        机构简称</label>
+
+                                                    {{ org_form.org_short(id = "org_short", class="form-control") }}
+                                                    {% for e in org_form.org_short.errors %}
+                                                        <span style="color: red">*{{ e }}</span>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5 col-md-offset-1">
+                                                <div class="form-group">
+                                                    <label class="control-label  "
+                                                    ><span style="color: red">*</span>
+                                                        机构类型</label>
+
+                                                    {{ org_form.org_type(id = "org_type", class="form-control selectpicker", placeholder="机构类型") }}
+                                                    {% for e in org_form.org_type.errors %}
+                                                        <span style="color: red">*{{ e }}</span>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <div class="form-group">
+                                                    <label class="control-label  "
+                                                    ><span style="color: red">*</span>
+                                                        联系人</label>
+                                                    {{ org_form.contact(id = "contact", class="form-control", placeholder="联系人") }}
+                                                    {% for e in org_form.contact.errors %}
+                                                        <span style="color: red">*{{ e }}</span>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5 col-md-offset-1">
+                                                <div class="form-group">
+                                                    <label class="  control-label  "
+                                                    ><span
+                                                            style="color: red">*</span>
+                                                        法人名称
+                                                    </label>
+                                                    {{ org_form.master(id = "master", class="form-control", placeholder="法人名称") }}
+                                                    {% for e in org_form.master.errors %}
+                                                        <span style="color: red">*{{ e }}</span>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <div class="form-group">
+                                                    <label class="  control-label "
+                                                    ><span
+                                                            style="color: red">*</span>
+                                                        机构所在区域
+                                                    </label>
+                                                    <div class="col-md-12">
+                                                        {#                                                            {{ org_form.org_area(id ="province2", class="form-control col-md-3 selectpicker", placeholder="机构所在区域") }}#}
+                                                        <div class="col-md-4" style="padding-left:0px; ;">
+
+                                                            {{ org_form.org_area(id ="province", class="form-control selectpicker", placeholder="机构所在区域") }}
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            {#                                          <label class="sr-only" for="city2">City</label>#}
+                                                            <select class="form-control selectpicker"
+                                                                    id="city"
+                                                                    data-city="-- 选择市 --"></select>
+                                                            {{ org_form.area_city(id ="area_city", class="form-control selectpicker", placeholder="选择市") }}
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            {#                                          <label class="sr-only" for="district2">District</label>#}
+                                                            <select class="form-control selectpicker"
+                                                                    id="district"
+                                                                    data-district="-- 选择区 --"></select>
+                                                            {{ org_form.area_district(id ="area_district", class="form-control selectpicker", placeholder="选择区") }}
+                                                        </div>
+
+                                                        {% for e in org_form.area_district.errors %}
+                                                            <span style="color: red">*{{ e }}</span>
+                                                        {% endfor %}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-5 col-md-offset-1">
+                                                <div class="form-group">
+                                                    <label class="control-label  "
+                                                    ><span style="color: red">*</span>
+                                                        身份证号码</label>
+                                                    {{ org_form.idcard_number(id = "idcard_number", class="form-control", placeholder="身份证号码", minLength="13", maxLength="18") }}
+                                                    {% for e in org_form.idcard_number.errors %}
+                                                        <span style="color: red">*{{ e }}</span>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <div class="form-group">
+                                                    <label class=" control-label  "
+                                                    ><span
+                                                            style="color: red">*</span>
+                                                        具体地址
+                                                    </label>
+                                                    {{ org_form.district(id = "district", class="form-control", placeholder="具体地址") }}
+                                                    {% for e in org_form.district.errors %}
+                                                        <span style="color: red">*{{ e }}</span>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5 col-md-offset-1">
+                                                <div class="form-group">
+                                                    <label class="control-label  "
+                                                    ><span style="color: red">*</span>
+                                                        联系电话</label>
+                                                    {{ org_form.tel(id = "tel", class="form-control", placeholder="联系电话", maxLength="13") }}
+                                                    {% for e in org_form.tel.errors %}
+                                                        <span style="color: red">*{{ e }}</span>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <div class="form-group">
+                                                    <label class="  control-label  "
+                                                    ><span
+                                                            style="color: red">*</span>
+                                                        经营地址
+                                                    </label>
+                                                    {{ org_form.bl_address(id = "bl_address", class="form-control", placeholder="经营地址") }}
+                                                    {% for e in org_form.bl_address.errors %}
+                                                        <span style="color: red">*{{ e }}</span>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5 col-md-offset-1">
+                                                <div class="form-group">
+                                                    <label class="control-label">邮箱</label>
+                                                    {{ org_form.mail(id = "mail", class="form-control", placeholder="邮箱") }}
+                                                    {% for e in org_form.mail.errors %}
+                                                        <span style="color: red">*{{ e }}</span>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <div class="form-group" hidden='hidden'>
+                                                    <label class="control-label"><span style="color: red">*</span>
+                                                        所属机构
+                                                    </label>
+                                                    {{ org_form.parent_org(id = "parent_org", class="form-control selectpicker", placeholder="所属机构") }}
+                                                    {% for e in org_form.parent_org.errors %}
+                                                        <span style="color: red">*{{ e }}</span>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <div class="form-group">
+                                                    <label class=" control-label "><span style="color: red">*</span>
+                                                        所属机构
+                                                    </label>
+{#                                                    <div class="col-md-12">#}
+                                                        <select id="org_sel_menu" class="select2 form-control"></select>
+{#                                                    </div>#}
+                                                    {% for e in org_form.parent_org.errors %}
+                                                        <span style="color: red">*{{ e }}</span>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5 col-md-offset-1" style="padding-right: 6px">
+                                                <div class="form-group">
+                                                    <label class=" control-label ">
+                                                        网址
+                                                    </label>
+                                                    {{ org_form.website(id = "website", class="form-control", placeholder="网址") }}
+                                                    {% for e in org_form.website.errors %}
+                                                        <span style="color: red">*{{ e }}</span>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-10 col-md-offset-1">
+                                                <button class="btn btn-info btn-fill btn-wd"
+                                                        style="margin:30px  0px 30px 0px; float:right"
+                                                        type="submit" name="">完成
+                                                </button>
+                                                <a href="/sysorg/org">
+                                                    <button class="btn btn-info btn-fill btn-wd"
+                                                            style="margin:30px 0px 30px 0px; float:left" type="button"
+                                                            id="back" name="">返回
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% assets "select2_js" %}
+        <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+    {% endassets %}
+    <script type="text/javascript" src="/static/js/sysadmin/sys_org/src/zooming.js"></script>
+{% endblock %}
+
+
+

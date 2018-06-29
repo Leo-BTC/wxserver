@@ -1,0 +1,295 @@
+
+{#<script src="{% static "js/jquery.gritter.min.js" %}"></script>#}
+{#<link href="{% static 'css/jquery.gritter.min.css' %}" rel="stylesheet">#}
+
+
+<!-- #通用的消息提醒Dialog Qiailin -->
+<div id="dialog-message-null" class="hide">
+    <p>
+    </p>
+
+    <p>
+        请选中要删除的信息!
+    </p>
+</div><!-- #dialog-message-null -->
+<div id="dialog-message" class="hide">
+    <p>
+    </p>
+
+    <p id="lb_msg_context">
+        请确认是否删除选中的信息？
+    </p>
+</div><!-- #dialog-message-delete-->
+<div id="dialog-message-new" class="hide">
+    <p>
+    </p>
+
+    <p id="lb_msg_context">
+        请确认是否删除选中的信息？
+    </p>
+</div><!-- #dialog-message-new-->
+<div id="dialog-message-update" class="hide">
+    <p>
+    </p>
+
+    <p>
+        请确认选择要更新的信息？
+    </p>
+</div><!-- #dialog-message-update-->
+<div id="dialog-message-edit" class="hide">
+    <p>
+    </p>
+
+    <p>
+        请选择要编辑的记录？
+    </p>
+</div><!-- #dialog-message-edit-->
+
+
+<div id="dialog-message-cancel" class="hide">
+    <p>
+    </p>
+
+    <p>
+        请确认选择要注销的会员！
+    </p>
+</div><!-- #dialog-message-cancel-->
+
+<div id="dialog-message-audit" class="hide">
+    <p>
+    </p>
+
+    <p>
+        请选择需要审核的信息！
+    </p>
+</div><!-- #dialog-message-update-->
+<div id="dialog-message-audit-result" class="hide">
+    <p>
+    </p>
+
+    <p>
+        请在表格里面选择要操作的数据！
+    </p>
+</div><!-- #dialog-message-update-->
+<div style="text-align:center" id="dialog-message-alert" class="hide">
+    <p id="lb_msg_context">
+</div>
+<div id="dialog-message-reset-password" class="hide">
+    <p>
+    </p>
+
+    <p>
+        请确认是否重置用户密码？
+    </p>
+</div><!-- #dialog-message-update-->
+<div id="dialog-message-change-status" class="hide">
+    <p>
+    </p>
+
+    <p>
+        请确认是否修改用户状态？
+    </p>
+</div><!-- #dialog-message-update-->
+<div id="dialog-message-delete-all" class="hide">
+    <p>
+    </p>
+
+    <p>
+        请确认是否删除全部数据？
+    </p>
+</div><!-- #dialog-message-update-->
+<script type="text/javascript">
+    $.widget("ui.dialog", $.extend({}, $.ui.dialog.prototype, {
+        _title: function (title) {
+            var $title = this.options.title || '&nbsp;'
+            if (("title_html" in this.options) && this.options.title_html == true)
+                title.html($title);
+            else title.text($title);
+        }
+    }));
+
+
+    //确认对话框
+    function confirm_dialog(msg_title, msg, ok_function, cancel_function) {
+
+        var dialog = $("#dialog-message");
+        var lb_context = dialog.find('p#lb_msg_context');
+        lb_context.text(msg);
+        dialog.removeClass('hide').dialog({
+            modal: true,
+            title: "<div class='widget-header widget-header-small'><h4 class='smaller'><i class='ace-icon fa fa-check'></i>温馨提示</h4></div>",
+            title_html: true,
+            buttons: [
+                {
+                    text: "取消",
+                    "class": "btn btn-minier",
+                    click: function () {
+                        $(this).dialog("close");
+                        cancel_function();
+                    }
+                },
+                {
+                    text: "确定",
+                    "class": "btn btn-primary btn-minier",
+                    click: function () {
+                        $(this).dialog("close");
+                        ok_function();
+                    }
+                }
+            ]
+        });
+        $.widget("ui.dialog", $.extend({}, $.ui.dialog.prototype, {
+            _title: function (title) {
+                var $title = this.options.title || '&nbsp;'
+                if (("title_html" in this.options) && this.options.title_html == true)
+                    title.html($title);
+                else title.text($title);
+            }
+        }));
+    }
+
+    //确认对话框
+    function confirm_dialog_no(msg_title, msg, ok_function, cancel_function) {
+
+        var dialog = $("#dialog-message");
+        var lb_context = dialog.find('p#lb_msg_context');
+        lb_context.text(msg);
+
+
+        dialog.removeClass('hide').dialog({
+            modal: true,
+            title: msg_title,
+            title_html: true,
+            buttons: [
+                {
+                    text: "取消",
+                    "class": "btn btn-minier",
+                    click: function () {
+                        $(this).dialog("close");
+                        cancel_function();
+                    }
+                },
+                {
+                    text: "确定",
+                    "class": "btn btn-primary btn-minier",
+                    click: function () {
+                        $(this).dialog("close");
+                        ok_function();
+                    }
+                }
+            ]
+        });
+        $.widget("ui.dialog", $.extend({}, $.ui.dialog.prototype, {
+            _title: function (title) {
+                var $title = this.options.title || '&nbsp;'
+                if (("title_html" in this.options) && this.options.title_html == true)
+                    title.html($title);
+                else title.text($title);
+            }
+        }));
+    }
+
+    //提醒对话框
+    function alert_dialog(msg) {
+
+        var dialog = $("#dialog-message-alert");
+        var lb_context = dialog.find('p#lb_msg_context');
+        lb_context.text(msg);
+
+
+        dialog.removeClass('hide').dialog({
+            modal: true,
+            title: "<div class='widget-header widget-header-small'><h4 class='smaller'><i class='ace-icon fa fa-check'></i>温馨提示</h4></div>",
+            title_html: true,
+            buttons: [
+                {
+                    text: "确定",
+                    "class": "btn btn-primary btn-minier",
+                    click: function () {
+                        $(this).dialog("close");
+                    }
+                }
+            ],
+
+        });
+        $.widget("ui.dialog", $.extend({}, $.ui.dialog.prototype, {
+            _title: function (title) {
+                var $title = this.options.title || '&nbsp;'
+                if (("title_html" in this.options) && this.options.title_html == true)
+                    title.html($title);
+                else title.text($title);
+            }
+        }));
+
+    }
+
+    //提醒对话框
+    function alert_dialog_1(msg) {
+
+        var dialog = $("#dialog-message");
+        var lb_context = dialog.find('p#lb_msg_context');
+        lb_context.text(msg);
+
+
+        dialog.removeClass('hide').dialog({
+            modal: true,
+            title: '温馨提示',
+            title_html: true,
+            buttons: [
+                {
+                    text: "确定",
+                    "class": "btn btn-primary btn-minier",
+                    click: function () {
+                        $(this).dialog("close");
+                    }
+                }
+            ]
+        });
+    }
+
+    //弹出框的确认提示
+    function process_dialog(msg) {
+
+        var dialog = $("#dialog-message-alert");
+        var lb_context = dialog.find('p#lb_msg_context');
+        lb_context.text(msg);
+
+
+        dialog.removeClass('hide').dialog({
+            modal: true,
+            title: '温馨提示',
+            title_html: true,
+            {#            position: 'center',#}
+            buttons: [
+                {
+                    text: "确定",
+                    "class": "btn btn-primary btn-minier",
+                    click: function () {
+                        $(this).dialog("close");
+                    }
+                }
+            ]
+        });
+    }
+
+    function gritter_dialog(msg) {
+        $.gritter.add({
+            title: '温馨提示',
+            text: msg,
+            class_name: 'gritter-info gritter-center'
+        });
+    }
+
+    $.widget("ui.dialog", $.extend({}, $.ui.dialog.prototype, {
+        _title: function (title) {
+            var $title = this.options.title || '&nbsp;'
+            if (("title_html" in this.options) && this.options.title_html == true)
+                title.html($title);
+            else title.text($title);
+        }
+    }));
+
+
+</script>
+
+

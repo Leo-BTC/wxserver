@@ -1,0 +1,195 @@
+{% extends "layout.html" %}
+
+{% block css %}
+    <link href="{{ url_for('static', filename='css/icon-picker.min.css') }}" rel="stylesheet"/>
+
+    <style>
+        .wrapper {
+            height: auto;
+        }
+    </style>
+
+{% endblock %}
+
+{% block js %}
+    <script src="{{ url_for('static', filename='libs/bootstrap/js/bootstrap-selectpicker.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/sysadmin/sys_permission/sys_permission_update.js') }}"></script>
+    <script src="{{ url_for('static', filename='libs/iconpicker/iconPicker.min.js') }}"></script>
+
+{% endblock %}
+
+{% block maincontent %}
+
+    <div class="content">
+
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="card card-wizard col-md-12">
+
+                        <div class="header text-center">
+                            <h3 class="title">编辑权限</h3>
+                        </div>
+
+                        <div class="content">
+                            <form class="form" id="PermissionForm" method="post">
+                                {{ permission_form.hidden_tag() }}
+                                {{ permission_form.csrf_token }}
+
+                                <fieldset>
+                                    <div class="row">
+                                        <div class="col-md-10 col-md-offset-1">
+                                            <div class="form-group">
+                                                <label class="control-label">权限层级
+                                                    <star>*</star>
+                                                </label>
+
+                                                <div id="click_sellect_item">
+                                                </div>
+
+                                                {{ permission_form.parent_id(class_="selectpicker show-tick form-control") }}
+
+                                                {% for e in permission_form.parent_id.errors %}
+                                                    <span style="color: red">*{{ e }}</span>
+                                                {% endfor %}
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row">
+                                        <div class="col-md-5 col-md-offset-1">
+                                            <div class="form-group">
+                                                <label class="control-label">权限名称
+                                                    <star>*</star>
+                                                </label>
+                                                {{ permission_form.name(placeholder="权限名称", class_="form-control") }}
+
+                                                {% for e in permission_form.name.errors %}
+                                                    <span style="color: red">*{{ e }}</span>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="form-group">
+                                                <label class="control-label">权限url
+                                                    <star>*</star>
+                                                </label>
+                                                {{ permission_form.url(placeholder="权限url", class_="form-control") }}
+
+                                                {% for e in permission_form.url.errors %}
+                                                    <span style="color: red">*{{ e }}</span>
+                                                {% endfor %}</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-5 col-md-offset-1">
+                                            <div class="form-group">
+                                                <label class="control-label">状态
+                                                    <star>*</star>
+                                                </label>
+                                                {{ permission_form.status(placeholder="状态", class_="selectpicker show-tick form-control") }}
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-5 ">
+                                            <div class="form-group">
+                                                <label class="control-label">类型
+                                                    <star>*</star>
+                                                </label>
+                                                {{ permission_form.type(placeholder="状态", class_="selectpicker show-tick form-control") }}
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-5 col-md-offset-1">
+                                            <div class="form-group">
+                                                <label class="control-label">菜单图标</label>
+
+                                                {{ permission_form.icon(placeholder="菜单图标", class_="icon-picker") }}
+                                                {% for e in permission_form.icon.errors %}
+                                                    <span style="color: red">*{{ e }}</span>
+                                                {% endfor %}
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-5 ">
+                                            <div class="form-group">
+                                                <label class="control-label">显示顺序
+                                                    <star>*</star>
+                                                </label>
+                                                {{ permission_form.sort(class_="form-control") }}
+                                                {% for e in permission_form.sort.errors %}
+                                                    <span style="color: red">*{{ e }}</span>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row">
+                                        <div class="col-md-10 col-md-offset-1">
+
+                                            <div class="form-group">
+                                                <label>备注</label>
+
+                                                {{ permission_form.desc(placeholder="备注",
+                                                class_="form-control", rows="2",
+                                                style=" max-height: 100%; max-width: 80%;
+                                                min-width: 100%; min-height: 40px;") }}
+
+                                                {% for e in permission_form.desc.errors %}
+                                                    <span style="color: red">*{{ e }}</span>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+
+                                    <div class="row">
+                                        <div class="col-md-10 col-md-offset-1">
+                                        <button class="btn btn-info btn-fill btn-wd"
+                                                style="margin:30px 0px 30px 0px; float:right" type="submit"
+                                                name=""
+                                                id="save">完成
+                                        </button>
+                                        <a href="/permission/">
+                                            <button class="btn btn-info btn-fill btn-wd"
+                                                    style="margin:30px 0px 30px 0px; float:left" type="button"
+                                                    name=""
+                                                    id="save">返回
+                                            </button>
+                                        </a>
+                                        </div>
+                                    </div>
+
+                                </fieldset>
+
+                            </form>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+{% endblock %}
+
+

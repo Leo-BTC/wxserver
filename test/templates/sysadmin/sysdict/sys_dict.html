@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+{% block js %}
+<script src="{{ url_for('static', filename='js/sysadmin/sys_dict/sys_dict.js') }}"></script>
+{% endblock %}
+{% block maincontent %}
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card col-xs-12" style="padding-right:0px;padding-left:0px;">
+                    <div class="header">
+                        <h4 class="title">字典列表</h4>
+                    </div>
+                    <div class="col-md-12" style="margin-top:10px; border-bottom:1px dashed #dedede;height: 56px">
+                        <div class="fixed-table-toolbar" style="padding:0px;">
+                            <div class="columns columns-right pull-left">
+                                {# <a href="/sysuser/add/user">#}
+                                <button class="btn btn-default" type="button" name="" title="添加" id="add"><i
+                                        class=" fa fa-plus"></i></button>
+                                {# </a>#}
+                                {# <a href="/sysuser/add/user">#}
+                                <button class="btn btn-default" type="button" name="" title="编辑" id="update"><i
+                                        class=" fa fa-edit"></i></button>
+                                {# </a>#}
+                                <button class="btn btn-default" type="button" name="" title="停用"
+                                        onclick="demo.showSwal('warning-message-and-confirmation')" id="delete"><i
+                                        class=" fa fa-trash"></i></button>
+
+                                <button class="btn btn-default" type="button" name="" title="导入" id="import"><i
+                                        class="fa fa-mail-forward"></i></button>
+                                <button class="btn btn-default" type="button" name="" title="导出" id="export"><i
+                                        class="fa fa-mail-reply"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="col-md-12">
+                            <table id="bootstrap-table" class="table">
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,130 @@
+/*!
+    * Bootstrap 3.0 IconPicker Style
+    * Custom Style Elements for IconPicker
+    *
+    * Intigrated, Processed and  Built with passion by @titosust; Web Developer @vizrt
+  */
+.icon-popup {
+    position: absolute;
+    width: 278px;
+    height: 268px;
+    color: #000;
+    font-size: 14px
+}
+
+.icon-popup:before {
+    content: '';
+    display: inline-block;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ccc;
+    border-bottom-color: rgba(0, 0, 0, .2);
+    position: absolute;
+    top: -7px;
+    left: 6px
+}
+
+.icon-popup:after {
+    content: '';
+    display: inline-block;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #fff;
+    position: absolute;
+    top: -6px;
+    left: 7px
+}
+
+.icon-popup a:hover {
+    background-color: #eee
+}
+
+.icon-popup .icon-title {
+    position: relative;
+    background-color: #563d7c;
+    color: #fff;
+    border: 1px solid #463265
+}
+
+.icon-popup .icon-title h4 {
+    margin: 0;
+    padding: 8px 10px;
+    font-size: 17px;
+    font-weight: 700
+}
+
+.pointer {
+    cursor: pointer
+}
+
+.icon-popup .ip-control {
+    height: 40px;
+    margin-top: 2px;
+    padding-top: 2px;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.icon-popup .ip-search {
+    width: 199px;
+    padding: 5px;
+    margin-left: 3px;
+   
+}
+
+.icon-popup .icon-list {
+    position: absolute;
+    top: 43px;
+    bottom: 0;
+    overflow: hidden
+}
+
+.icon-list ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px
+}
+
+.icon-popup .ip-control ul {
+    margin: 4px 0;
+    padding: 0
+}
+
+.icon-popup .ip-control ul li {
+    float: left;
+    list-style-type: none
+}
+
+.icon-popup .ip-control ul li a {
+	padding:3px 5px 3px 5px;
+    color: #666
+}
+
+.icon-popup .ip-control ul li:first-child {
+    margin-left: 3px
+}
+
+.icon-popup .ip-control ul li:last-child {
+
+    
+    top: 9px;
+	margin-left:3px;
+	right:0
+}
+
+.icon-list ul li {
+    display: inline-block;
+    margin: 5px;
+    float: left;
+    border: 1px dotted #eee
+}
+
+.icon-list ul li a {
+    display: block;
+    text-decoration: none;
+    color: #373737;
+    padding: 6px 10px
+}
+
+.icon-list ul li a:hover {
+    color: #000
+}

@@ -1,0 +1,62 @@
+<div id="header">
+  <nav role="navigation" class="navbar navbar-style nav-blue">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" data-toggle="collapse" data-target="#mb-navbar" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        <a href="/" class="navbar-brand"><img src="static/images/logo.png" alt="" title="" height="40px" style="margin-top:5px; float:left"> <p style="padding-top:15px;float:left; color:#fff; margin-left:10px;"></p></a>
+        </div>
+      <div id="mb-navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="home.html">网站首页</a></li>
+          <li><a href="/login">登录</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+<style>
+    .curument {
+        background: #031CF780;
+        font-weight: bold;
+    }
+</style>
+
+<script type="text/javascript">
+
+
+    //   var urlstr = location.href;
+    var urlstr = window.location.pathname;
+
+    var urlstatus = false;
+    $("#nav a").each(function () {
+        var href = $(this).attr("href");
+        if (href.length == 1) {
+            if ((urlstr) == href) {
+                $(this).addClass('curument');
+                urlstatus = true;
+            } else {
+                $(this).removeClass('curument');
+            }
+        } else if (href.length > 1) {
+            if ((urlstr).indexOf(href) >= 0) {
+                $(this).addClass('curument');
+                urlstatus = true;
+            } else {
+                $(this).removeClass('curument');
+            }
+        }
+
+//        if ((urlstr).indexOf("/interface") >= 0) {
+//            $(this).addClass('curument');
+//            urlstatus = true;
+//        } else {
+//            $(this).removeClass('curument');
+//        }
+    });
+
+    //    if (!urlstatus) {
+    //        $("#nav a").eq(0).addClass('curument');
+    //    }
+</script>

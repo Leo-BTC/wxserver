@@ -1,0 +1,76 @@
+<div id="menu">
+    <!--left-nav开始-->
+    <div class="sidebar" data-color="blue">
+        <div class="logo">
+            <a href="#" class="logo-text">
+                <img src="{{ url_for('static', filename='images/logo.png') }}" width="50em" alt=""/>
+{#                 <img src="{{ session['app_loggin_url'] }}" width="50em" alt=""/>#}
+
+            </a>
+        </div>
+
+        <div class="sidebar-wrapper">
+            <div class="user">
+                <div class="photo">
+                    <img src="/static/images/avatar/{{ session.get('avatar') }}" height="80px" width="80px"/>
+                </div>
+                <div class="info">
+                    <a class="collapsed">
+                        {% with user_name = session.get('user_name') %}
+                            {% if user_name %}
+                                {{ user_name }}
+                            {% endif %}
+                        {% endwith %}
+                    </a>
+                </div>
+            </div>
+
+            <ul class="nav">
+                <li>
+                    <a href="/sysadmin/index">
+                        <i class="menu-icon fa fa-home" style="font-size:18px"></i>
+                        <p>首页</p>
+                    </a>
+                </li>
+                {% if  session.get('menu')%}
+                {% for item in session.get('menu') %}
+                    <li>
+                        <a data-toggle="collapse" href="#{{ item.url }}">
+                            <i class="menu-icon {{ item.icon }}" style="font-size:18px"></i>
+                            <p>{{ item.name }}
+                                <b class="caret"></b>
+                            </p>
+                        </a>
+                        <div class="collapse" id="{{ item.url }}">
+{#                        <div  id="{{ item.url }}">#}
+                            <ul class="nav">
+                                {% for item_children in item.children %}
+                                    <li><a href="{{ item_children.url }}">{{ item_children.name }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </li>
+                {% endfor %}
+                {% endif %}
+
+                <li>
+                    <a href="/logout">
+                        <i class="menu-icon fa fa-power-off" style="font-size:18px"></i>
+                        <p>退出</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    {% block js %}
+        <script src="{{ url_for('static', filename='js/index/menu.js') }}"></script>
+    {% endblock %}
+
+</div>
+<style>
+    .curument {
+        background: #031CF780;
+        font-weight: bold;
+    }
+</style>

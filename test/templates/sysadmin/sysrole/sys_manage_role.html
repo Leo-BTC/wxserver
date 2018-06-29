@@ -1,0 +1,147 @@
+{% extends "layout.html" %}
+{% block js %}
+    {#    <link rel="stylesheet" href="{{ url_for('static', filename='js/sysadmin/sys_role/bootstrap-duallistbox.css') }}"/>#}
+    {#    <script src="{{ url_for('static', filename='js/sysadmin/sys_role/jquery.bootstrap-duallistbox.js') }}"></script>#}
+    <script src="{{ url_for('static', filename='js/sysadmin/sys_role/sys_manage.js') }}"></script>
+
+{% endblock %}
+
+
+
+{% block css %}
+    <style type="text/css">
+        .bootstrap-duallistbox-container .info {
+            display: inline-block;
+            margin-bottom: 5px;
+            font-size: 11px;
+        {#            margin-top: 45px;#}
+        }
+
+        .bootstrap-duallistbox-container .filter {
+            display: inline-block;
+            width: 100%;
+            height: 40px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            background: #fff;
+            float: left;
+            border: 1px solid #dedede;
+        }
+
+        .card .filter {
+            position: relative;
+            text-align: left;
+            border: 1px solid #dedede;
+            margin: 0px 0px 10px 0px;
+            float: left;
+        }
+
+        .info-container {
+            width: 100%;
+            float: left;
+        }
+
+    </style>
+
+
+{% endblock %}
+
+{% block maincontent %}
+
+        <div class="content">
+
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="card card-wizard col-md-12">
+
+                            <div class="header text-center">
+                                <h3 class="title">角色授权</h3>
+                            </div>
+
+                            <div class="content">
+                                <form id="user_form" method="post" action="">
+                                    {{ role_form.hidden_tag() }}
+                                    {{ role_form.csrf_token }}
+
+                                    <div class="row">
+                                        <div class="col-md-5 col-md-offset-1">
+                                            <div class="form-group">
+                                                <label class="control-label">角色名称
+                                                </label><br>
+                                                <input value={{ name }}  class="form-control" disabled="disabled">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="form-group">
+                                                <label class="control-label">描述
+                                                </label><br>
+                                                <input name="desc" class="form-control" value={{ description }}>
+                                                {#                                            {{ role_form.desc(id = "desc", class="form-control", placeholder="描述") }}#}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-5 col-md-offset-1">
+                                            <div class="form-group">
+                                                <label class="control-label">所属机构
+                                                    <star>*</star>
+                                                </label>
+                                                {{ role_form.org_id(id = "org_id", class="  form-control ", placeholder="所属机构" ,disabled="disabled") }}
+                                                {% for e in role_form.org_id.errors %}
+                                                    <span style="color: red">*{{ e }}</span>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-md-10 col-md-offset-1">
+
+                                        <select multiple="multiple" size="10" name="duallistbox_rich" class="debox">
+                                            {% for i in list_info %}
+                                                <option value={{ i.id }}>{{ i.name }} </option>
+                                            {% endfor %}
+                                            {% for i in yeslist %}
+                                                <option value={{ i.id }} selected="selected">{{ i.name }}  </option>
+                                            {% endfor %}
+
+
+                                        </select>
+
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-10 col-md-offset-1">
+                                            {% if keyvalue == True %}
+                                                <button class="btn btn-info btn-fill btn-wd"
+                                                        style="margin:30px 0px 30px 0px; float:right"
+                                                        type="submit" name="">完成
+                                                </button>
+                                            {% endif %}
+                                            <a href="/sysrole/role">
+                                                <button class="btn btn-info btn-fill btn-wd"
+                                                        style="margin:30px 0px 30px 0px; float:left"
+                                                        id="back" name="">返回
+                                                </button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    <script type="text/javascript">
+
+    </script>
+{% endblock %}
+

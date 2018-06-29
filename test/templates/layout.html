@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>
+        {% block page_title %}
+{#       {{ session['plat_name'] }}#}
+        {% endblock %}
+    </title>
+
+    <meta name="description" content="{% block meta_description %}{% endblock %}">
+    <meta name="author" content="{% block meta_author %}{% endblock %}">
+
+    <!-- Mobile viewport optimized: h5bp.com/viewport -->
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.ico') }}">
+{#  <link rel="icon" type="image/png" href="{{ session['plat_img_url'] }}">#}
+
+
+
+    {% assets "css_all" %}
+        <link rel="stylesheet" href="{{ ASSET_URL }}">
+    {% endassets %}
+    {% block css %}
+    {% endblock %}
+
+
+    {% assets "jquery_js" %}
+        <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+    {% endassets %}
+
+
+</head>
+<body>
+
+<div class="wrapper">
+    <!--left-nav开始-->
+
+    {% block menu %}
+        {% include "menu.html" %}
+    {% endblock %}
+    <!--left-nav结束-->
+
+    <div class="main-panel">
+        <!--head-top开始-->
+        {% block header %}
+
+            {% include "header.html" %}
+
+        {% endblock %}
+        <!--head-top结束-->
+
+        <!--content开始-->
+        {% block content %}
+
+
+            {% block maincontent %}
+
+            {% endblock %}
+
+
+
+        {% endblock %}
+{#        {% block footer %}#}
+{#            {% include "footer.html" %}#}
+{#        {% endblock %}#}
+        <!--content开始-->
+
+        <!--footer开始-->
+
+
+        <!--footer结束-->
+    </div>
+</div>
+
+
+</body>
+{% assets "js_all" %}
+    <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+{% endassets %}
+{% assets "table_js" %}
+    <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+{% endassets %}
+{% block js %}
+{% endblock %}
+</html>

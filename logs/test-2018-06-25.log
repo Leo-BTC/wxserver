@@ -1,0 +1,1829 @@
+[2018-06-25 09:49:25,691] [INFO] server : Server initialized for gevent.
+[2018-06-25 09:49:38,059] [INFO] server : Server initialized for gevent.
+[2018-06-25 09:50:40,027] [INFO] server : Server initialized for gevent.
+[2018-06-25 09:50:55,604] [INFO] server : Server initialized for gevent.
+[2018-06-25 09:51:55,332] [INFO] server : Server initialized for gevent.
+[2018-06-25 10:05:49,369] [INFO] server : Server initialized for gevent.
+[2018-06-25 10:06:20,329] [INFO] server : Server initialized for gevent.
+[2018-06-25 10:07:23,151] [INFO] server : Server initialized for gevent.
+[2018-06-25 10:11:16,399] [INFO] server : Server initialized for gevent.
+[2018-06-25 10:11:17,753] [INFO] views : home
+[2018-06-25 10:13:59,871] [INFO] views : login
+[2018-06-25 10:13:59,949] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 10:14:01,005] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061l4JiL0eUg762s9JiL0bBQiL0l4Jiv&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 10:14:01,041] [INFO] views : check
+[2018-06-25 10:14:01,043] [INFO] api : check_open_id
+[2018-06-25 10:14:47,005] [INFO] views : login
+[2018-06-25 10:14:47,009] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 10:14:47,101] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001kda6F0Sx2dk2C8y5F0s946F0kda6W&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 10:14:47,131] [INFO] views : check
+[2018-06-25 10:14:47,131] [INFO] api : check_open_id
+[2018-06-25 10:14:50,369] [INFO] views : register
+[2018-06-25 10:14:50,369] [INFO] api : wx_register
+[2018-06-25 10:15:00,941] [INFO] views : list
+[2018-06-25 10:15:00,944] [INFO] api : paice
+[2018-06-25 11:17:34,028] [INFO] views : login
+[2018-06-25 11:17:34,108] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:17:34,330] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021lXxY52eOxSK0036Z52GXtY52lXxYa&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 11:17:34,358] [INFO] views : check
+[2018-06-25 11:17:34,359] [INFO] api : check_open_id
+[2018-06-25 11:17:37,456] [INFO] views : list
+[2018-06-25 11:17:37,456] [INFO] api : paice
+[2018-06-25 11:18:10,639] [INFO] views : login
+[2018-06-25 11:18:10,644] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:18:10,733] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001Nbeb22MPq7X0xSpe22335b22NbebM&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 11:18:10,779] [INFO] views : check
+[2018-06-25 11:18:10,780] [INFO] api : check_open_id
+[2018-06-25 11:18:13,054] [INFO] views : list
+[2018-06-25 11:18:13,054] [INFO] api : paice
+[2018-06-25 11:21:13,619] [INFO] server : Server initialized for gevent.
+[2018-06-25 11:23:13,138] [INFO] views : login
+[2018-06-25 11:23:13,155] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:23:13,929] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0218uzGP1skvB91oMxHP1TAlGP18uzGI&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 11:23:13,942] [INFO] views : check
+[2018-06-25 11:23:13,942] [INFO] api : check_open_id
+[2018-06-25 11:23:18,617] [INFO] views : list
+[2018-06-25 11:23:18,617] [INFO] api : paice
+[2018-06-25 11:23:29,966] [INFO] views : jointoken
+[2018-06-25 11:23:29,966] [INFO] api : jointoken
+[2018-06-25 11:23:29,967] [DEBUG] api : 'tokenname' is an invalid keyword argument for TokenItem
+[2018-06-25 11:23:29,967] [DEBUG] views : 'tokenname' is an invalid keyword argument for TokenItem
+[2018-06-25 11:25:54,030] [INFO] server : Server initialized for gevent.
+[2018-06-25 11:26:00,733] [INFO] views : login
+[2018-06-25 11:26:00,738] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:26:01,439] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071Sj5ti0RxEFn18SIui0avmti0Sj5ta&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 11:26:01,466] [INFO] views : check
+[2018-06-25 11:26:01,466] [INFO] api : check_open_id
+[2018-06-25 11:26:06,004] [INFO] views : list
+[2018-06-25 11:26:06,005] [INFO] api : paice
+[2018-06-25 11:26:12,388] [INFO] views : jointoken
+[2018-06-25 11:26:12,388] [INFO] api : jointoken
+[2018-06-25 11:26:12,393] [DEBUG] api : (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'name\': "\'LTC\'"}, 0, 0)\' at line 1') [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': {'name': 'LTC'}, 'number': 0, 'zhanbi': 0}]
+[2018-06-25 11:26:12,393] [DEBUG] views : (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'name\': "\'LTC\'"}, 0, 0)\' at line 1') [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': {'name': 'LTC'}, 'number': 0, 'zhanbi': 0}]
+[2018-06-25 11:27:14,518] [INFO] views : login
+[2018-06-25 11:27:14,521] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:27:14,603] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001580EH0e7fdi2XBAGH0N2hEH0580Ex&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 11:27:14,626] [INFO] views : check
+[2018-06-25 11:27:14,626] [INFO] api : check_open_id
+[2018-06-25 11:27:16,573] [INFO] views : list
+[2018-06-25 11:27:16,574] [INFO] api : paice
+[2018-06-25 11:27:27,482] [INFO] views : jointoken
+[2018-06-25 11:27:27,483] [INFO] api : jointoken
+[2018-06-25 11:27:27,485] [DEBUG] api : (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'name\': "\'ETH\'"}, 0, 0)\' at line 1') [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': {'name': 'ETH'}, 'number': 0, 'zhanbi': 0}]
+[2018-06-25 11:27:27,485] [DEBUG] views : (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'name\': "\'ETH\'"}, 0, 0)\' at line 1') [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': {'name': 'ETH'}, 'number': 0, 'zhanbi': 0}]
+[2018-06-25 11:28:13,037] [INFO] views : login
+[2018-06-25 11:28:13,039] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:28:13,212] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001ULNMI0E7k5h22MmMI0FYLMI0ULNMa&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 11:28:13,252] [INFO] views : check
+[2018-06-25 11:28:13,253] [INFO] api : check_open_id
+[2018-06-25 11:28:15,953] [INFO] views : list
+[2018-06-25 11:28:15,953] [INFO] api : paice
+[2018-06-25 11:28:30,828] [INFO] views : jointoken
+[2018-06-25 11:28:30,829] [INFO] api : jointoken
+[2018-06-25 11:28:30,832] [DEBUG] api : (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'name\': "\'LTC\'"}, 0, 0)\' at line 1') [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': {'name': 'LTC'}, 'number': 0, 'zhanbi': 0}]
+[2018-06-25 11:28:30,832] [DEBUG] views : (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'name\': "\'LTC\'"}, 0, 0)\' at line 1') [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': {'name': 'LTC'}, 'number': 0, 'zhanbi': 0}]
+[2018-06-25 11:29:09,571] [INFO] views : login
+[2018-06-25 11:29:09,574] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:29:09,674] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=01176DTX1xtNYS06noSX10QETX176DTv&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 11:29:09,706] [INFO] views : check
+[2018-06-25 11:29:09,706] [INFO] api : check_open_id
+[2018-06-25 11:29:12,776] [INFO] views : list
+[2018-06-25 11:29:12,777] [INFO] api : paice
+[2018-06-25 11:29:22,086] [INFO] views : jointoken
+[2018-06-25 11:29:22,087] [INFO] api : jointoken
+[2018-06-25 11:29:22,090] [DEBUG] api : (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'name\': "\'LTC\'"}, 0, 0)\' at line 1') [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': {'name': 'LTC'}, 'number': 0, 'zhanbi': 0}]
+[2018-06-25 11:29:22,090] [DEBUG] views : (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'name\': "\'LTC\'"}, 0, 0)\' at line 1') [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': {'name': 'LTC'}, 'number': 0, 'zhanbi': 0}]
+[2018-06-25 11:30:40,219] [INFO] views : login
+[2018-06-25 11:30:40,222] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:30:40,316] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081RTYd21kUl7P1RIxf21jz0e21RTYdw&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 11:30:40,341] [INFO] views : check
+[2018-06-25 11:30:40,341] [INFO] api : check_open_id
+[2018-06-25 11:30:41,768] [INFO] views : list
+[2018-06-25 11:30:41,768] [INFO] api : paice
+[2018-06-25 11:30:48,936] [INFO] views : jointoken
+[2018-06-25 11:30:48,937] [INFO] api : jointoken
+[2018-06-25 11:30:48,938] [DEBUG] api : (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'name\': "\'LTC\'"}, 0, 0)\' at line 1') [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': {'name': 'LTC'}, 'number': 0, 'zhanbi': 0}]
+[2018-06-25 11:30:48,939] [DEBUG] views : (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'name\': "\'LTC\'"}, 0, 0)\' at line 1') [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': {'name': 'LTC'}, 'number': 0, 'zhanbi': 0}]
+[2018-06-25 11:31:32,903] [INFO] server : Server initialized for gevent.
+[2018-06-25 11:31:38,733] [INFO] views : login
+[2018-06-25 11:31:38,738] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:31:39,461] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081ZMfSv0OFCLi1xrZUv02QtSv0ZMfSI&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 11:31:39,482] [INFO] views : check
+[2018-06-25 11:31:39,483] [INFO] api : check_open_id
+[2018-06-25 11:31:42,526] [INFO] views : list
+[2018-06-25 11:31:42,526] [INFO] api : paice
+[2018-06-25 11:31:49,422] [INFO] views : jointoken
+[2018-06-25 11:31:49,423] [DEBUG] views : 'dict' object has no attribute 'name'
+[2018-06-25 11:32:29,410] [INFO] server : Server initialized for gevent.
+[2018-06-25 11:32:33,755] [INFO] views : login
+[2018-06-25 11:32:33,761] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:32:34,417] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021KLFJW0eZoHU1N23IW0s2JJW0KLFJ1&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 11:32:34,431] [INFO] views : check
+[2018-06-25 11:32:34,431] [INFO] api : check_open_id
+[2018-06-25 11:32:35,856] [INFO] views : list
+[2018-06-25 11:32:35,856] [INFO] api : paice
+[2018-06-25 11:32:41,148] [INFO] views : jointoken
+[2018-06-25 11:32:41,149] [INFO] api : jointoken
+[2018-06-25 11:32:41,151] [DEBUG] api : (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'name\': "\'LTC\'"}, 0, 0)\' at line 1') [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': {'name': 'LTC'}, 'number': 0, 'zhanbi': 0}]
+[2018-06-25 11:32:41,151] [DEBUG] views : (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'name\': "\'LTC\'"}, 0, 0)\' at line 1') [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': {'name': 'LTC'}, 'number': 0, 'zhanbi': 0}]
+[2018-06-25 11:33:37,849] [INFO] server : Server initialized for gevent.
+[2018-06-25 11:33:43,200] [INFO] views : login
+[2018-06-25 11:33:43,207] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:33:44,058] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0210gL8i0EzOgy1NMj9i0LH39i00gL8o&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 11:33:44,075] [INFO] views : check
+[2018-06-25 11:33:44,075] [INFO] api : check_open_id
+[2018-06-25 11:33:47,365] [INFO] views : list
+[2018-06-25 11:33:47,365] [INFO] api : paice
+[2018-06-25 11:33:54,333] [INFO] views : jointoken
+[2018-06-25 11:33:54,333] [INFO] api : jointoken
+[2018-06-25 11:33:54,337] [DEBUG] api : (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'name\': "\'LTC\'"}, 0, 0)\' at line 1') [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': {'name': 'LTC'}, 'number': 0, 'zhanbi': 0}]
+[2018-06-25 11:33:54,338] [DEBUG] views : (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'name\': "\'LTC\'"}, 0, 0)\' at line 1') [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': {'name': 'LTC'}, 'number': 0, 'zhanbi': 0}]
+[2018-06-25 11:34:15,391] [INFO] server : Server initialized for gevent.
+[2018-06-25 11:34:20,051] [INFO] views : login
+[2018-06-25 11:34:20,055] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:34:20,726] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011sep3d1feHzs02A13d1LfN3d1sep3u&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 11:34:20,740] [INFO] views : check
+[2018-06-25 11:34:20,741] [INFO] api : check_open_id
+[2018-06-25 11:34:22,885] [INFO] views : list
+[2018-06-25 11:34:22,886] [INFO] api : paice
+[2018-06-25 11:34:31,739] [INFO] views : jointoken
+[2018-06-25 11:34:50,013] [INFO] server : Server initialized for gevent.
+[2018-06-25 11:34:55,439] [INFO] views : login
+[2018-06-25 11:34:55,443] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:34:56,137] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=01196FPt1LI4qd0zCHRt1datPt196FPi&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 11:34:56,152] [INFO] views : check
+[2018-06-25 11:34:56,152] [INFO] api : check_open_id
+[2018-06-25 11:34:57,673] [INFO] views : list
+[2018-06-25 11:34:57,673] [INFO] api : paice
+[2018-06-25 11:35:03,901] [INFO] views : jointoken
+[2018-06-25 11:35:03,902] [INFO] api : jointoken
+[2018-06-25 11:35:03,907] [DEBUG] api : (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'name\': "\'LTC\'"}, 0, 0)\' at line 1') [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': {'name': 'LTC'}, 'number': 0, 'zhanbi': 0}]
+[2018-06-25 11:35:03,908] [DEBUG] views : (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\'name\': "\'LTC\'"}, 0, 0)\' at line 1') [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': {'name': 'LTC'}, 'number': 0, 'zhanbi': 0}]
+[2018-06-25 11:35:39,005] [INFO] server : Server initialized for gevent.
+[2018-06-25 11:35:44,322] [INFO] views : login
+[2018-06-25 11:35:44,326] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:35:44,952] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021oCcgH0dR67i2I9hhH0XQngH0oCcgu&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 11:35:44,968] [INFO] views : check
+[2018-06-25 11:35:44,968] [INFO] api : check_open_id
+[2018-06-25 11:35:47,621] [INFO] views : list
+[2018-06-25 11:35:47,621] [INFO] api : paice
+[2018-06-25 11:35:53,444] [INFO] views : jointoken
+[2018-06-25 11:35:53,444] [INFO] api : jointoken
+[2018-06-25 11:35:53,454] [DEBUG] api : (pymysql.err.ProgrammingError) (1146, "Table 'test.token_item' doesn't exist") [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': 'LTC', 'number': 0, 'zhanbi': 0}]
+[2018-06-25 11:35:53,455] [DEBUG] views : (pymysql.err.ProgrammingError) (1146, "Table 'test.token_item' doesn't exist") [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': 'LTC', 'number': 0, 'zhanbi': 0}]
+[2018-06-25 11:37:09,921] [INFO] server : Server initialized for gevent.
+[2018-06-25 11:37:16,871] [INFO] views : login
+[2018-06-25 11:37:16,876] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:37:17,818] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021QN89h2m2THI0onl9h2PZi9h2QN89A&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 11:37:17,833] [INFO] views : check
+[2018-06-25 11:37:17,833] [INFO] api : check_open_id
+[2018-06-25 11:37:22,335] [INFO] views : list
+[2018-06-25 11:37:22,335] [INFO] api : paice
+[2018-06-25 11:37:27,372] [INFO] views : jointoken
+[2018-06-25 11:37:27,373] [INFO] api : jointoken
+[2018-06-25 11:37:27,377] [DEBUG] api : (pymysql.err.InternalError) (1054, "Unknown column 'tokenname' in 'field list'") [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': 'LTC', 'number': 0, 'zhanbi': 0}]
+[2018-06-25 11:37:27,377] [DEBUG] views : (pymysql.err.InternalError) (1054, "Unknown column 'tokenname' in 'field list'") [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': 'LTC', 'number': 0, 'zhanbi': 0}]
+[2018-06-25 11:38:18,274] [INFO] server : Server initialized for gevent.
+[2018-06-25 11:38:22,532] [INFO] views : login
+[2018-06-25 11:38:22,538] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:38:23,176] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061fMn0c1w7FEt0lWOXb1hLr0c1fMn0Y&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 11:38:23,190] [INFO] views : check
+[2018-06-25 11:38:23,190] [INFO] api : check_open_id
+[2018-06-25 11:38:26,469] [INFO] views : list
+[2018-06-25 11:38:26,469] [INFO] api : paice
+[2018-06-25 11:38:31,814] [INFO] views : jointoken
+[2018-06-25 11:38:31,815] [INFO] api : jointoken
+[2018-06-25 11:50:11,826] [INFO] views : login
+[2018-06-25 11:50:11,829] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:50:12,001] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061kEeLY1P4zE01ih8LY16NdLY1kEeLK&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 11:50:12,037] [INFO] views : check
+[2018-06-25 11:50:12,037] [INFO] api : check_open_id
+[2018-06-25 11:57:58,254] [INFO] views : login
+[2018-06-25 11:57:58,260] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:57:58,389] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001obwCo1T0EEq0nr8Do1FHICo1obwC1&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 11:57:58,416] [INFO] views : check
+[2018-06-25 11:57:58,417] [INFO] api : check_open_id
+[2018-06-25 11:58:00,560] [INFO] views : list
+[2018-06-25 11:58:00,561] [INFO] api : paice
+[2018-06-25 11:58:25,145] [INFO] views : login
+[2018-06-25 11:58:25,148] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:58:25,283] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071Glyhm14YPlj0JNmim1p2Jhm1Glyhz&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 11:58:25,306] [INFO] views : check
+[2018-06-25 11:58:25,307] [INFO] api : check_open_id
+[2018-06-25 11:58:27,828] [INFO] views : list
+[2018-06-25 11:58:27,829] [INFO] api : paice
+[2018-06-25 11:58:56,653] [INFO] server : Server initialized for gevent.
+[2018-06-25 11:59:00,974] [INFO] views : login
+[2018-06-25 11:59:00,988] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:59:01,629] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071T3F7y1dySHh0Rje8y1SHs7y1T3F7o&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 11:59:01,642] [INFO] views : check
+[2018-06-25 11:59:01,643] [INFO] api : check_open_id
+[2018-06-25 11:59:04,577] [INFO] views : list
+[2018-06-25 11:59:04,578] [INFO] api : paice
+[2018-06-25 11:59:38,156] [INFO] server : Server initialized for gevent.
+[2018-06-25 11:59:42,760] [INFO] views : login
+[2018-06-25 11:59:42,765] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:59:43,628] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011jgv1f2wf8LB0b8l5f2E1c1f2jgv16&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 11:59:43,665] [INFO] views : check
+[2018-06-25 11:59:43,666] [INFO] api : check_open_id
+[2018-06-25 11:59:46,033] [INFO] views : list
+[2018-06-25 11:59:46,033] [INFO] api : paice
+[2018-06-25 11:59:47,193] [INFO] views : alltoken
+[2018-06-25 11:59:47,193] [INFO] views : log() missing 1 required positional argument: 'msg'
+[2018-06-25 11:59:53,726] [INFO] views : login
+[2018-06-25 11:59:53,729] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 11:59:53,862] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001Bjfrw1N9dd90qdRnw1cbtrw1Bjfro&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 11:59:53,899] [INFO] views : check
+[2018-06-25 11:59:53,900] [INFO] api : check_open_id
+[2018-06-25 11:59:55,974] [INFO] views : list
+[2018-06-25 11:59:55,974] [INFO] api : paice
+[2018-06-25 11:59:57,553] [INFO] views : alltoken
+[2018-06-25 11:59:57,554] [INFO] views : log() missing 1 required positional argument: 'msg'
+[2018-06-25 12:01:58,989] [INFO] server : Server initialized for gevent.
+[2018-06-25 12:02:03,998] [INFO] views : login
+[2018-06-25 12:02:04,004] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 12:02:04,812] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011zbXcr0oTGap12ojcr0nzQcr0zbXcW&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 12:02:04,836] [INFO] views : check
+[2018-06-25 12:02:04,836] [INFO] api : check_open_id
+[2018-06-25 12:02:06,919] [INFO] views : list
+[2018-06-25 12:02:06,919] [INFO] api : paice
+[2018-06-25 12:02:08,355] [INFO] views : alltoken
+[2018-06-25 12:02:08,356] [INFO] views : log() missing 1 required positional argument: 'msg'
+[2018-06-25 12:03:05,647] [INFO] server : Server initialized for gevent.
+[2018-06-25 12:03:10,956] [INFO] views : login
+[2018-06-25 12:03:10,961] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 12:03:11,641] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0614alHV18T4bV0nnTHV1MyiHV14alH0&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 12:03:11,655] [INFO] views : check
+[2018-06-25 12:03:11,655] [INFO] api : check_open_id
+[2018-06-25 12:03:13,858] [INFO] views : list
+[2018-06-25 12:03:13,859] [INFO] api : paice
+[2018-06-25 12:03:15,078] [INFO] views : alltoken
+[2018-06-25 12:03:15,078] [INFO] views : log() missing 1 required positional argument: 'msg'
+[2018-06-25 12:05:48,437] [INFO] server : Server initialized for gevent.
+[2018-06-25 12:05:53,137] [INFO] views : login
+[2018-06-25 12:05:53,141] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 12:05:53,839] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081yp6YD0yLtgc20CVYD0dTPXD0yp6YS&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 12:05:53,854] [INFO] views : check
+[2018-06-25 12:05:53,855] [INFO] api : check_open_id
+[2018-06-25 12:05:56,463] [INFO] views : list
+[2018-06-25 12:05:56,464] [INFO] api : paice
+[2018-06-25 12:05:58,046] [INFO] views : alltokenviews
+[2018-06-25 12:05:58,047] [INFO] views : log() missing 1 required positional argument: 'msg'
+[2018-06-25 12:06:04,497] [INFO] views : login
+[2018-06-25 12:06:04,503] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 12:06:04,609] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071JbvnA0G5EUf2DaTkA0MfFnA0JbvnY&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 12:06:04,632] [INFO] views : check
+[2018-06-25 12:06:04,632] [INFO] api : check_open_id
+[2018-06-25 12:06:06,514] [INFO] views : list
+[2018-06-25 12:06:06,515] [INFO] api : paice
+[2018-06-25 12:06:07,763] [INFO] views : alltokenviews
+[2018-06-25 12:06:07,764] [INFO] views : log() missing 1 required positional argument: 'msg'
+[2018-06-25 12:06:45,159] [INFO] server : Server initialized for gevent.
+[2018-06-25 12:06:47,727] [INFO] server : Server initialized for gevent.
+[2018-06-25 12:06:53,046] [INFO] views : login
+[2018-06-25 12:06:53,053] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 12:06:53,909] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021IqASN0utm942soqSN0mAGSN0IqASS&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 12:06:53,941] [INFO] views : check
+[2018-06-25 12:06:53,942] [INFO] api : check_open_id
+[2018-06-25 12:06:56,295] [INFO] views : list
+[2018-06-25 12:06:56,295] [INFO] api : paice
+[2018-06-25 12:06:58,421] [INFO] views : alltokenviews
+[2018-06-25 12:06:58,422] [INFO] views : log() missing 1 required positional argument: 'msg'
+[2018-06-25 13:21:08,502] [INFO] server : Server initialized for gevent.
+[2018-06-25 13:21:17,055] [INFO] views : login
+[2018-06-25 13:21:17,070] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 13:21:17,752] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061PnoBf0H9chA1nk6Bf0SsCBf0PnoBU&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 13:21:17,773] [INFO] views : check
+[2018-06-25 13:21:17,773] [INFO] api : check_open_id
+[2018-06-25 13:24:41,155] [INFO] views : login
+[2018-06-25 13:24:41,159] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 13:24:41,241] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=02160st102KWJE1fTDs10AUKt1060stE&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 13:24:41,279] [INFO] views : check
+[2018-06-25 13:24:41,279] [INFO] api : check_open_id
+[2018-06-25 13:26:43,232] [INFO] views : register
+[2018-06-25 13:26:43,233] [INFO] api : wx_register
+[2018-06-25 13:27:26,264] [INFO] views : list
+[2018-06-25 13:27:26,264] [INFO] api : paice
+[2018-06-25 13:28:58,062] [INFO] views : login
+[2018-06-25 13:28:58,069] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 13:28:58,173] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061UYtsG1vx0a80K3htG1HfKsG1UYtsa&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 13:28:58,197] [INFO] views : check
+[2018-06-25 13:28:58,197] [INFO] api : check_open_id
+[2018-06-25 13:28:58,202] [DEBUG] api : 'UserInfo' object has no attribute 'phone'
+[2018-06-25 13:29:10,952] [INFO] views : login
+[2018-06-25 13:29:10,955] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 13:29:11,068] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081hkzPm1zaJTj0IW0Pm11ROPm1hkzP5&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 13:29:11,094] [INFO] views : check
+[2018-06-25 13:29:11,094] [INFO] api : check_open_id
+[2018-06-25 13:29:11,100] [DEBUG] api : 'UserInfo' object has no attribute 'phone'
+[2018-06-25 13:30:49,536] [INFO] views : register
+[2018-06-25 13:30:49,537] [INFO] api : wx_register
+[2018-06-25 13:32:23,631] [INFO] views : login
+[2018-06-25 13:32:23,637] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 13:32:23,765] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0819xc522zhcjX0Sq1222zEC5229xc5A&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 13:32:23,787] [INFO] views : check
+[2018-06-25 13:32:23,787] [INFO] api : check_open_id
+[2018-06-25 13:32:23,794] [DEBUG] api : 'UserInfo' object has no attribute 'phone'
+[2018-06-25 13:33:17,308] [INFO] server : Server initialized for gevent.
+[2018-06-25 13:33:29,887] [INFO] views : login
+[2018-06-25 13:33:29,894] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 13:33:30,732] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061UrJhi2pFOzH0oZqhi2ZEJhi2UrJhh&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 13:33:30,755] [INFO] views : check
+[2018-06-25 13:33:30,756] [INFO] api : check_open_id
+[2018-06-25 13:33:37,334] [INFO] views : register
+[2018-06-25 13:33:37,335] [INFO] api : wx_register
+[2018-06-25 13:33:54,957] [INFO] views : login
+[2018-06-25 13:33:54,960] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 13:33:55,054] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0118tkTc2wGYrE0AVNTc2kxyTc28tkTO&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 13:33:55,073] [INFO] views : check
+[2018-06-25 13:33:55,073] [INFO] api : check_open_id
+[2018-06-25 13:34:11,565] [INFO] views : list
+[2018-06-25 13:34:11,565] [INFO] api : paice
+[2018-06-25 13:35:16,059] [INFO] views : login
+[2018-06-25 13:35:16,065] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 13:35:16,207] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081Z1ltO0QeRpb2SRguO0GZttO0Z1ltJ&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 13:35:16,228] [INFO] views : check
+[2018-06-25 13:35:16,229] [INFO] api : check_open_id
+[2018-06-25 13:35:22,647] [INFO] views : list
+[2018-06-25 13:35:22,647] [INFO] api : paice
+[2018-06-25 13:35:25,008] [INFO] views : alltokenviews
+[2018-06-25 13:35:25,009] [INFO] views : log() missing 1 required positional argument: 'msg'
+[2018-06-25 13:35:30,350] [INFO] views : alltokenviews
+[2018-06-25 13:35:30,350] [INFO] views : log() missing 1 required positional argument: 'msg'
+[2018-06-25 13:36:50,161] [INFO] server : Server initialized for gevent.
+[2018-06-25 13:36:58,562] [INFO] views : login
+[2018-06-25 13:36:58,574] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 13:36:59,233] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011bKdFK10D8850kJQHK1NukFK1bKdFN&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 13:36:59,249] [INFO] views : check
+[2018-06-25 13:36:59,250] [INFO] api : check_open_id
+[2018-06-25 13:37:06,759] [INFO] views : list
+[2018-06-25 13:37:06,760] [INFO] api : paice
+[2018-06-25 13:37:08,874] [INFO] views : alltokenviews
+[2018-06-25 13:37:08,875] [INFO] views : log() missing 1 required positional argument: 'msg'
+[2018-06-25 13:38:03,853] [INFO] server : Server initialized for gevent.
+[2018-06-25 13:38:09,475] [INFO] views : login
+[2018-06-25 13:38:09,485] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 13:38:10,158] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081MW8c31wW0GN1Xuo931SB3c31MW8cO&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 13:38:10,181] [INFO] views : check
+[2018-06-25 13:38:10,182] [INFO] api : check_open_id
+[2018-06-25 13:38:16,865] [INFO] views : list
+[2018-06-25 13:38:16,866] [INFO] api : paice
+[2018-06-25 13:38:19,461] [INFO] views : alltokenviews
+[2018-06-25 13:38:19,461] [INFO] api : alltoken
+[2018-06-25 13:38:19,465] [DEBUG] api : 'list' object has no attribute 'tokenname'
+[2018-06-25 13:38:19,465] [INFO] views : 'list' object has no attribute 'tokenname'
+[2018-06-25 13:39:54,879] [INFO] views : login
+[2018-06-25 13:39:54,883] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 13:39:55,000] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011BGydK0zQS972qvkdK03bLdK0BGyd3&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 13:39:55,021] [INFO] views : check
+[2018-06-25 13:39:55,021] [INFO] api : check_open_id
+[2018-06-25 13:40:03,197] [INFO] views : list
+[2018-06-25 13:40:03,198] [INFO] api : paice
+[2018-06-25 13:40:06,098] [INFO] views : alltokenviews
+[2018-06-25 13:40:06,098] [INFO] api : alltoken
+[2018-06-25 13:40:06,101] [DEBUG] api : 'list' object has no attribute 'tokenname'
+[2018-06-25 13:40:06,101] [INFO] views : 'list' object has no attribute 'tokenname'
+[2018-06-25 13:42:32,023] [INFO] server : Server initialized for gevent.
+[2018-06-25 13:42:45,580] [INFO] views : login
+[2018-06-25 13:42:45,588] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 13:42:46,260] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021syF060cKchJ1LsOX507yH060syF0e&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 13:42:46,286] [INFO] views : check
+[2018-06-25 13:42:46,287] [INFO] api : check_open_id
+[2018-06-25 13:42:54,098] [INFO] views : list
+[2018-06-25 13:42:54,098] [INFO] api : paice
+[2018-06-25 13:42:56,868] [INFO] views : alltokenviews
+[2018-06-25 13:42:56,868] [INFO] api : alltoken
+[2018-06-25 13:42:56,872] [DEBUG] api : 'list' object has no attribute 'number'
+[2018-06-25 13:42:56,873] [INFO] views : 'list' object has no attribute 'number'
+[2018-06-25 13:43:32,790] [INFO] views : login
+[2018-06-25 13:43:32,793] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 13:43:32,919] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061GX0470fq5DH1IxK370hbS370GX04R&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 13:43:32,941] [INFO] views : check
+[2018-06-25 13:43:32,942] [INFO] api : check_open_id
+[2018-06-25 13:43:39,967] [INFO] views : list
+[2018-06-25 13:43:39,967] [INFO] api : paice
+[2018-06-25 13:43:42,873] [INFO] views : alltokenviews
+[2018-06-25 13:43:42,874] [INFO] api : alltoken
+[2018-06-25 13:43:42,876] [DEBUG] api : 'list' object has no attribute 'number'
+[2018-06-25 13:43:42,877] [INFO] views : 'list' object has no attribute 'number'
+[2018-06-25 13:44:20,952] [INFO] views : login
+[2018-06-25 13:44:20,956] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 13:44:21,051] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001Dzm6G0h4Pdj2DxU6G0FeG6G0Dzm6D&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 13:44:21,076] [INFO] views : check
+[2018-06-25 13:44:21,077] [INFO] api : check_open_id
+[2018-06-25 13:44:27,407] [INFO] views : list
+[2018-06-25 13:44:27,407] [INFO] api : paice
+[2018-06-25 13:44:30,405] [INFO] views : alltokenviews
+[2018-06-25 13:44:30,405] [INFO] api : alltoken
+[2018-06-25 13:44:30,409] [DEBUG] api : 'list' object has no attribute 'number'
+[2018-06-25 13:44:30,409] [INFO] views : 'list' object has no attribute 'number'
+[2018-06-25 13:45:02,283] [INFO] views : login
+[2018-06-25 13:45:02,287] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 13:45:02,374] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081GK09903GJvw1hAk890ZvS890GK09z&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 13:45:02,398] [INFO] views : check
+[2018-06-25 13:45:02,398] [INFO] api : check_open_id
+[2018-06-25 13:45:06,966] [INFO] views : list
+[2018-06-25 13:45:06,967] [INFO] api : paice
+[2018-06-25 13:45:10,194] [INFO] views : alltokenviews
+[2018-06-25 13:45:10,196] [INFO] api : alltoken
+[2018-06-25 13:45:10,200] [DEBUG] api : 'list' object has no attribute 'number'
+[2018-06-25 13:45:10,200] [INFO] views : 'list' object has no attribute 'number'
+[2018-06-25 13:45:37,351] [INFO] server : Server initialized for gevent.
+[2018-06-25 13:45:47,161] [INFO] views : login
+[2018-06-25 13:45:47,166] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 13:45:47,943] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081tk1vg1DOk9y0p8Lvg1P5Jug1tk1vv&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 13:45:47,958] [INFO] views : check
+[2018-06-25 13:45:47,959] [INFO] api : check_open_id
+[2018-06-25 13:45:53,513] [INFO] views : list
+[2018-06-25 13:45:53,514] [INFO] api : paice
+[2018-06-25 13:45:56,382] [INFO] views : alltokenviews
+[2018-06-25 13:45:56,382] [INFO] api : alltoken
+[2018-06-25 13:45:58,859] [INFO] views : alltokenviews
+[2018-06-25 13:45:58,859] [INFO] api : alltoken
+[2018-06-25 13:46:27,783] [INFO] views : jointoken
+[2018-06-25 13:46:27,784] [INFO] api : jointoken
+[2018-06-25 13:46:27,796] [DEBUG] api : (pymysql.err.IntegrityError) (1062, "Duplicate entry '0' for key 'PRIMARY'") [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': 'ETH', 'number': 0, 'zhanbi': 0}]
+[2018-06-25 13:46:27,797] [DEBUG] views : (pymysql.err.IntegrityError) (1062, "Duplicate entry '0' for key 'PRIMARY'") [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': 'ETH', 'number': 0, 'zhanbi': 0}]
+[2018-06-25 13:52:39,617] [INFO] server : Server initialized for gevent.
+[2018-06-25 13:52:55,158] [INFO] views : login
+[2018-06-25 13:52:55,167] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 13:52:56,118] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0116M5TU0eJ6pV1ckhUU0uY1TU06M5T6&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 13:52:56,140] [INFO] views : check
+[2018-06-25 13:52:56,141] [INFO] api : check_open_id
+[2018-06-25 13:53:03,020] [INFO] views : list
+[2018-06-25 13:53:03,021] [INFO] api : paice
+[2018-06-25 13:53:06,464] [INFO] views : alltokenviews
+[2018-06-25 13:53:06,465] [INFO] api : alltoken
+[2018-06-25 13:53:22,592] [INFO] views : jointoken
+[2018-06-25 13:53:22,593] [INFO] api : jointoken
+[2018-06-25 13:53:22,602] [DEBUG] api : (pymysql.err.IntegrityError) (1062, "Duplicate entry '0' for key 'PRIMARY'") [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': 'DBC', 'number': 0, 'zhanbi': 0}]
+[2018-06-25 13:53:22,602] [DEBUG] views : (pymysql.err.IntegrityError) (1062, "Duplicate entry '0' for key 'PRIMARY'") [SQL: 'INSERT INTO token_item (open_id, tokenname, number, zhanbi) VALUES (%(open_id)s, %(tokenname)s, %(number)s, %(zhanbi)s)'] [parameters: {'open_id': 'oMMQU0ZF-9R_1LoJAWJFGcWlykHk', 'tokenname': 'DBC', 'number': 0, 'zhanbi': 0}]
+[2018-06-25 13:54:49,543] [INFO] server : Server initialized for gevent.
+[2018-06-25 13:55:01,249] [INFO] views : login
+[2018-06-25 13:55:01,258] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 13:55:02,267] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081sRPdw0qOzYi1Qnsfw0sDzdw0sRPdl&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 13:55:02,292] [INFO] views : check
+[2018-06-25 13:55:02,292] [INFO] api : check_open_id
+[2018-06-25 13:55:08,528] [INFO] views : list
+[2018-06-25 13:55:08,529] [INFO] api : paice
+[2018-06-25 13:55:11,598] [INFO] views : alltokenviews
+[2018-06-25 13:55:11,599] [INFO] api : alltoken
+[2018-06-25 13:55:24,230] [INFO] views : jointoken
+[2018-06-25 13:55:24,232] [INFO] api : jointoken
+[2018-06-25 14:12:54,861] [INFO] views : login
+[2018-06-25 14:12:54,866] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:12:54,982] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071QPUId0vA7XA1QKGJd0Cr2Jd0QPUIE&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:12:55,000] [INFO] views : check
+[2018-06-25 14:12:55,000] [INFO] api : check_open_id
+[2018-06-25 14:13:02,575] [INFO] views : list
+[2018-06-25 14:13:02,576] [INFO] api : paice
+[2018-06-25 14:13:05,259] [INFO] views : alltokenviews
+[2018-06-25 14:13:05,259] [INFO] api : alltoken
+[2018-06-25 14:13:29,749] [INFO] server : Server initialized for gevent.
+[2018-06-25 14:13:39,735] [INFO] views : login
+[2018-06-25 14:13:39,741] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:13:40,355] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021Oe0gU1MOu0W0lRMgU1w03gU1Oe0go&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:13:40,376] [INFO] views : check
+[2018-06-25 14:13:40,377] [INFO] api : check_open_id
+[2018-06-25 14:13:47,458] [INFO] views : list
+[2018-06-25 14:13:47,459] [INFO] api : paice
+[2018-06-25 14:13:51,262] [INFO] views : alltokenviews
+[2018-06-25 14:13:51,262] [INFO] api : alltoken
+[2018-06-25 14:13:51,268] [DEBUG] api : 'list' object has no attribute 'tokenname'
+[2018-06-25 14:13:51,268] [INFO] views : 'list' object has no attribute 'tokenname'
+[2018-06-25 14:14:14,636] [INFO] server : Server initialized for gevent.
+[2018-06-25 14:14:45,313] [INFO] views : login
+[2018-06-25 14:14:45,320] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:14:46,073] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021wmOhA0Cb65g1olPgA0ppPhA0wmOhk&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:14:46,094] [INFO] views : check
+[2018-06-25 14:14:46,095] [INFO] api : check_open_id
+[2018-06-25 14:14:54,753] [INFO] views : list
+[2018-06-25 14:14:54,753] [INFO] api : paice
+[2018-06-25 14:14:57,919] [INFO] views : alltokenviews
+[2018-06-25 14:14:57,920] [INFO] api : alltoken
+[2018-06-25 14:15:37,393] [INFO] server : Server initialized for gevent.
+[2018-06-25 14:15:44,560] [INFO] views : login
+[2018-06-25 14:15:44,568] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:15:45,321] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021LbOqQ0momY82l4NoQ0T7HqQ0LbOqL&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:15:45,338] [INFO] views : check
+[2018-06-25 14:15:45,339] [INFO] api : check_open_id
+[2018-06-25 14:15:52,573] [INFO] views : list
+[2018-06-25 14:15:52,574] [INFO] api : paice
+[2018-06-25 14:15:55,814] [INFO] views : alltokenviews
+[2018-06-25 14:15:55,815] [INFO] api : alltoken
+[2018-06-25 14:16:55,182] [INFO] server : Server initialized for gevent.
+[2018-06-25 14:17:02,869] [INFO] views : login
+[2018-06-25 14:17:02,874] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:17:03,606] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011qdmxY0cJrk12KupxY06texY0qdmxz&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:17:03,628] [INFO] views : check
+[2018-06-25 14:17:03,629] [INFO] api : check_open_id
+[2018-06-25 14:17:09,154] [INFO] views : list
+[2018-06-25 14:17:09,155] [INFO] api : paice
+[2018-06-25 14:17:12,776] [INFO] views : alltokenviews
+[2018-06-25 14:17:12,776] [INFO] api : alltoken
+[2018-06-25 14:17:12,778] [DEBUG] api : 'BaseQuery' object has no attribute 'tokenname'
+[2018-06-25 14:17:12,778] [INFO] views : 'BaseQuery' object has no attribute 'tokenname'
+[2018-06-25 14:17:57,774] [INFO] server : Server initialized for gevent.
+[2018-06-25 14:18:08,912] [INFO] views : login
+[2018-06-25 14:18:08,922] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:18:09,626] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011gSEpu0OvqUc1Wdjpu0TAzpu0gSEpy&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:18:09,650] [INFO] views : check
+[2018-06-25 14:18:09,651] [INFO] api : check_open_id
+[2018-06-25 14:18:15,314] [INFO] views : list
+[2018-06-25 14:18:15,314] [INFO] api : paice
+[2018-06-25 14:18:18,657] [INFO] views : alltokenviews
+[2018-06-25 14:18:18,658] [INFO] api : alltoken
+[2018-06-25 14:18:18,661] [DEBUG] api : 'list' object has no attribute 'tokenname'
+[2018-06-25 14:18:18,662] [INFO] views : 'list' object has no attribute 'tokenname'
+[2018-06-25 14:18:56,461] [INFO] server : Server initialized for gevent.
+[2018-06-25 14:19:02,047] [INFO] views : login
+[2018-06-25 14:19:02,051] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:19:02,797] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071e2uGd2hb97D0DoxFd2aloGd2e2uGX&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:19:02,819] [INFO] views : check
+[2018-06-25 14:19:02,819] [INFO] api : check_open_id
+[2018-06-25 14:19:12,316] [INFO] views : list
+[2018-06-25 14:19:12,316] [INFO] api : paice
+[2018-06-25 14:19:15,221] [INFO] views : alltokenviews
+[2018-06-25 14:19:15,221] [INFO] api : alltoken
+[2018-06-25 14:19:15,225] [DEBUG] api : 'list' object has no attribute 'length'
+[2018-06-25 14:19:15,225] [INFO] views : 'list' object has no attribute 'length'
+[2018-06-25 14:19:51,994] [INFO] server : Server initialized for gevent.
+[2018-06-25 14:19:55,701] [INFO] views : login
+[2018-06-25 14:19:55,709] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:19:56,413] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021wuXeR0eOMM92luigR0Gr3fR0wuXef&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:19:56,438] [INFO] views : check
+[2018-06-25 14:19:56,438] [INFO] api : check_open_id
+[2018-06-25 14:20:01,670] [INFO] views : list
+[2018-06-25 14:20:01,670] [INFO] api : paice
+[2018-06-25 14:20:06,756] [INFO] views : alltokenviews
+[2018-06-25 14:20:06,757] [INFO] api : alltoken
+[2018-06-25 14:20:06,761] [DEBUG] api : 'list' object has no attribute 'tokenname'
+[2018-06-25 14:20:06,761] [INFO] views : 'list' object has no attribute 'tokenname'
+[2018-06-25 14:21:22,868] [INFO] server : Server initialized for gevent.
+[2018-06-25 14:21:28,191] [INFO] views : login
+[2018-06-25 14:21:28,198] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:21:28,957] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081iaTmC090rDf2c1VnC0iw1nC0iaTmy&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:21:28,984] [INFO] views : check
+[2018-06-25 14:21:28,985] [INFO] api : check_open_id
+[2018-06-25 14:21:36,051] [INFO] views : list
+[2018-06-25 14:21:36,052] [INFO] api : paice
+[2018-06-25 14:21:43,849] [INFO] views : alltokenviews
+[2018-06-25 14:21:43,850] [INFO] api : alltoken
+[2018-06-25 14:21:43,854] [DEBUG] api : 'list' object has no attribute 'tokenname'
+[2018-06-25 14:21:43,854] [INFO] views : 'list' object has no attribute 'tokenname'
+[2018-06-25 14:22:39,942] [INFO] server : Server initialized for gevent.
+[2018-06-25 14:22:48,079] [INFO] views : login
+[2018-06-25 14:22:48,086] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:22:48,820] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071pUTkl02WHZl1L4qkl0LU5ll0pUTkW&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:22:48,842] [INFO] views : check
+[2018-06-25 14:22:48,843] [INFO] api : check_open_id
+[2018-06-25 14:22:56,322] [INFO] views : list
+[2018-06-25 14:22:56,322] [INFO] api : paice
+[2018-06-25 14:22:59,330] [INFO] views : alltokenviews
+[2018-06-25 14:22:59,331] [INFO] api : alltoken
+[2018-06-25 14:22:59,336] [DEBUG] api : 'list' object has no attribute 'tokenname'
+[2018-06-25 14:22:59,336] [INFO] views : 'list' object has no attribute 'tokenname'
+[2018-06-25 14:24:16,042] [INFO] server : Server initialized for gevent.
+[2018-06-25 14:24:21,912] [INFO] views : login
+[2018-06-25 14:24:21,926] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:24:22,577] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061iBcsj20ghtG0BXxrj22Y6sj2iBcsD&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:24:22,608] [INFO] views : check
+[2018-06-25 14:24:22,609] [INFO] api : check_open_id
+[2018-06-25 14:24:27,877] [INFO] views : list
+[2018-06-25 14:24:27,878] [INFO] api : paice
+[2018-06-25 14:24:30,746] [INFO] views : alltokenviews
+[2018-06-25 14:24:30,747] [INFO] api : alltoken
+[2018-06-25 14:26:59,005] [INFO] server : Server initialized for gevent.
+[2018-06-25 14:27:08,569] [INFO] views : login
+[2018-06-25 14:27:08,575] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:27:09,345] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001kV0lk0bN0Zm1oggjk0EoQkk0kV0ln&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:27:09,367] [INFO] views : check
+[2018-06-25 14:27:09,368] [INFO] api : check_open_id
+[2018-06-25 14:27:14,847] [INFO] views : list
+[2018-06-25 14:27:14,847] [INFO] api : paice
+[2018-06-25 14:27:18,379] [INFO] views : alltokenviews
+[2018-06-25 14:27:18,379] [INFO] api : alltoken
+[2018-06-25 14:27:18,384] [INFO] views : Object of type 'TokenItem' is not JSON serializable
+[2018-06-25 14:30:42,287] [INFO] server : Server initialized for gevent.
+[2018-06-25 14:30:52,042] [INFO] views : login
+[2018-06-25 14:30:52,051] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:30:52,737] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071rufUb1Wb5Ht0GHlTb16VeUb1rufU3&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 14:30:52,758] [INFO] views : check
+[2018-06-25 14:30:52,758] [INFO] api : check_open_id
+[2018-06-25 14:31:00,836] [INFO] views : list
+[2018-06-25 14:31:00,837] [INFO] api : paice
+[2018-06-25 14:31:04,244] [INFO] views : alltokenviews
+[2018-06-25 14:31:04,245] [INFO] api : alltoken
+[2018-06-25 14:32:10,214] [INFO] server : Server initialized for gevent.
+[2018-06-25 14:32:16,245] [INFO] views : login
+[2018-06-25 14:32:16,251] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:32:16,939] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081A19ph0bXXOx13Ivoh02ncph0A19p6&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 14:32:16,965] [INFO] views : check
+[2018-06-25 14:32:16,965] [INFO] api : check_open_id
+[2018-06-25 14:32:23,426] [INFO] views : list
+[2018-06-25 14:32:23,426] [INFO] api : paice
+[2018-06-25 14:32:26,318] [INFO] views : alltokenviews
+[2018-06-25 14:32:26,318] [INFO] api : alltoken
+[2018-06-25 14:38:45,480] [INFO] views : login
+[2018-06-25 14:38:45,485] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:38:45,588] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0715P9wb09dY3u1EHWyb04YXvb05P9wH&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:38:45,604] [INFO] views : check
+[2018-06-25 14:38:45,605] [INFO] api : check_open_id
+[2018-06-25 14:38:51,981] [INFO] views : list
+[2018-06-25 14:38:51,981] [INFO] api : paice
+[2018-06-25 14:38:54,931] [INFO] views : alltokenviews
+[2018-06-25 14:38:54,932] [INFO] api : alltoken
+[2018-06-25 14:40:12,877] [INFO] views : login
+[2018-06-25 14:40:12,884] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:40:12,995] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001AzEfp1eSW8r0Qzyfp1ZFwfp1AzEfs&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:40:13,023] [INFO] views : check
+[2018-06-25 14:40:13,024] [INFO] api : check_open_id
+[2018-06-25 14:40:21,098] [INFO] views : list
+[2018-06-25 14:40:21,098] [INFO] api : paice
+[2018-06-25 14:40:27,255] [INFO] views : alltokenviews
+[2018-06-25 14:40:27,256] [INFO] api : alltoken
+[2018-06-25 14:42:58,581] [INFO] views : login
+[2018-06-25 14:42:58,590] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:42:58,719] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001GrLmv0J49jb1dYApv0TGSmv0GrLmC&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:42:58,756] [INFO] views : check
+[2018-06-25 14:42:58,757] [INFO] api : check_open_id
+[2018-06-25 14:44:12,449] [INFO] views : login
+[2018-06-25 14:44:12,454] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:44:12,560] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011UTxEt0HLu0c1ObNCt0tQNEt0UTxEC&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:44:12,586] [INFO] views : check
+[2018-06-25 14:44:12,586] [INFO] api : check_open_id
+[2018-06-25 14:44:18,183] [INFO] views : list
+[2018-06-25 14:44:18,183] [INFO] api : paice
+[2018-06-25 14:44:21,738] [INFO] views : alltokenviews
+[2018-06-25 14:44:21,739] [INFO] api : alltoken
+[2018-06-25 14:45:05,097] [INFO] views : login
+[2018-06-25 14:45:05,102] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:45:05,207] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071yE0ca0u0B8x14G4da0obZba0yE0ch&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:45:05,239] [INFO] views : check
+[2018-06-25 14:45:05,239] [INFO] api : check_open_id
+[2018-06-25 14:45:11,591] [INFO] views : list
+[2018-06-25 14:45:11,592] [INFO] api : paice
+[2018-06-25 14:45:14,696] [INFO] views : alltokenviews
+[2018-06-25 14:45:14,696] [INFO] api : alltoken
+[2018-06-25 14:49:02,220] [INFO] server : Server initialized for gevent.
+[2018-06-25 14:49:08,374] [INFO] views : login
+[2018-06-25 14:49:08,387] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:49:09,131] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001CSFE22X5HSX0be5E22DbGE22CSFE6&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:49:09,163] [INFO] views : check
+[2018-06-25 14:49:09,164] [INFO] api : check_open_id
+[2018-06-25 14:49:17,173] [INFO] views : list
+[2018-06-25 14:49:17,173] [INFO] api : paice
+[2018-06-25 14:49:20,364] [INFO] views : alltokenviews
+[2018-06-25 14:49:20,365] [INFO] api : alltoken
+[2018-06-25 14:49:37,968] [INFO] views : login
+[2018-06-25 14:49:37,972] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:49:38,115] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001F1TNe2SG2YB0OesOe2AC2Oe2F1TN4&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:49:38,138] [INFO] views : check
+[2018-06-25 14:49:38,138] [INFO] api : check_open_id
+[2018-06-25 14:49:44,679] [INFO] views : list
+[2018-06-25 14:49:44,680] [INFO] api : paice
+[2018-06-25 14:49:47,233] [INFO] views : alltokenviews
+[2018-06-25 14:49:47,233] [INFO] api : alltoken
+[2018-06-25 14:50:05,647] [INFO] views : login
+[2018-06-25 14:50:05,654] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:50:05,761] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0011lH5Q0pXhUa2vw89Q0nCG5Q01lH5m&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:50:05,795] [INFO] views : check
+[2018-06-25 14:50:05,795] [INFO] api : check_open_id
+[2018-06-25 14:50:10,198] [INFO] views : list
+[2018-06-25 14:50:10,198] [INFO] api : paice
+[2018-06-25 14:50:19,932] [INFO] views : alltokenviews
+[2018-06-25 14:50:19,932] [INFO] api : alltoken
+[2018-06-25 14:51:26,545] [INFO] views : login
+[2018-06-25 14:51:26,551] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:51:26,665] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021Yt1c72rsIfK03RDa720T5c72Yt1cH&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:51:26,688] [INFO] views : check
+[2018-06-25 14:51:26,688] [INFO] api : check_open_id
+[2018-06-25 14:51:32,790] [INFO] views : list
+[2018-06-25 14:51:32,791] [INFO] api : paice
+[2018-06-25 14:51:35,789] [INFO] views : alltokenviews
+[2018-06-25 14:51:35,789] [INFO] api : alltoken
+[2018-06-25 14:52:37,297] [INFO] views : login
+[2018-06-25 14:52:37,303] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:52:37,444] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021OjYSb1at6Gt0tmjTb1OV6Tb1OjYS9&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:52:37,471] [INFO] views : check
+[2018-06-25 14:52:37,472] [INFO] api : check_open_id
+[2018-06-25 14:52:49,618] [INFO] views : list
+[2018-06-25 14:52:49,619] [INFO] api : paice
+[2018-06-25 14:52:54,985] [INFO] views : alltokenviews
+[2018-06-25 14:52:54,985] [INFO] api : alltoken
+[2018-06-25 14:54:04,046] [INFO] views : login
+[2018-06-25 14:54:04,049] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:54:04,174] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081N4tPH0qCoGi2JSmPH0cwLPH0N4tPm&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:54:04,196] [INFO] views : check
+[2018-06-25 14:54:04,196] [INFO] api : check_open_id
+[2018-06-25 14:54:11,085] [INFO] views : list
+[2018-06-25 14:54:11,085] [INFO] api : paice
+[2018-06-25 14:54:14,427] [INFO] views : alltokenviews
+[2018-06-25 14:54:14,427] [INFO] api : alltoken
+[2018-06-25 14:54:41,622] [INFO] views : login
+[2018-06-25 14:54:41,626] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:54:41,713] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081aQ0Re2CsT0C0YvVPe2zxBQe2aQ0Re&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:54:41,742] [INFO] views : check
+[2018-06-25 14:54:41,743] [INFO] api : check_open_id
+[2018-06-25 14:54:46,297] [INFO] views : list
+[2018-06-25 14:54:46,297] [INFO] api : paice
+[2018-06-25 14:54:49,556] [INFO] views : alltokenviews
+[2018-06-25 14:54:49,556] [INFO] api : alltoken
+[2018-06-25 14:55:35,058] [INFO] views : login
+[2018-06-25 14:55:35,061] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:55:35,152] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001qJN3u0O8U7c1aSR3u0iiq3u0qJN39&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:55:35,200] [INFO] views : check
+[2018-06-25 14:55:35,201] [INFO] api : check_open_id
+[2018-06-25 14:55:39,191] [INFO] views : list
+[2018-06-25 14:55:39,191] [INFO] api : paice
+[2018-06-25 14:55:41,593] [INFO] views : alltokenviews
+[2018-06-25 14:55:41,593] [INFO] api : alltoken
+[2018-06-25 14:56:23,192] [INFO] views : login
+[2018-06-25 14:56:23,198] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:56:23,289] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081UdbWE0Ueutk2CrwVE0BR9WE0UdbWS&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:56:23,315] [INFO] views : check
+[2018-06-25 14:56:23,315] [INFO] api : check_open_id
+[2018-06-25 14:56:27,820] [INFO] views : list
+[2018-06-25 14:56:27,820] [INFO] api : paice
+[2018-06-25 14:56:30,910] [INFO] views : alltokenviews
+[2018-06-25 14:56:30,910] [INFO] api : alltoken
+[2018-06-25 14:56:47,833] [INFO] views : login
+[2018-06-25 14:56:47,839] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:56:47,992] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001Ny8kz1VNHug02amkz1FJUjz1Ny8k1&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 14:56:48,029] [INFO] views : check
+[2018-06-25 14:56:48,030] [INFO] api : check_open_id
+[2018-06-25 14:56:54,007] [INFO] views : list
+[2018-06-25 14:56:54,007] [INFO] api : paice
+[2018-06-25 14:56:56,407] [INFO] views : alltokenviews
+[2018-06-25 14:56:56,407] [INFO] api : alltoken
+[2018-06-25 14:59:10,203] [INFO] views : login
+[2018-06-25 14:59:10,209] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 14:59:10,340] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061vlcWg2KPkmI0XgcXg20RjWg2vlcWW&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 14:59:10,373] [INFO] views : check
+[2018-06-25 14:59:10,374] [INFO] api : check_open_id
+[2018-06-25 14:59:14,614] [INFO] views : list
+[2018-06-25 14:59:14,614] [INFO] api : paice
+[2018-06-25 14:59:17,457] [INFO] views : alltokenviews
+[2018-06-25 14:59:17,458] [INFO] api : alltoken
+[2018-06-25 15:00:36,365] [INFO] views : jointoken
+[2018-06-25 15:00:36,365] [INFO] api : jointoken
+[2018-06-25 15:00:38,251] [INFO] views : jointoken
+[2018-06-25 15:00:38,252] [INFO] api : jointoken
+[2018-06-25 15:00:39,947] [INFO] views : jointoken
+[2018-06-25 15:00:39,948] [INFO] api : jointoken
+[2018-06-25 15:00:40,142] [INFO] views : jointoken
+[2018-06-25 15:00:40,143] [INFO] api : jointoken
+[2018-06-25 15:00:55,637] [INFO] views : alltokenviews
+[2018-06-25 15:00:55,638] [INFO] api : alltoken
+[2018-06-25 15:02:49,583] [INFO] views : login
+[2018-06-25 15:02:49,588] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:02:49,682] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011Pu7IB0f20ye2A4LGB0y1aIB0Pu7Ia&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 15:02:49,951] [INFO] views : check
+[2018-06-25 15:02:49,952] [INFO] api : check_open_id
+[2018-06-25 15:02:59,073] [INFO] views : list
+[2018-06-25 15:02:59,075] [INFO] api : paice
+[2018-06-25 15:03:01,824] [INFO] views : alltokenviews
+[2018-06-25 15:03:01,825] [INFO] api : alltoken
+[2018-06-25 15:03:06,556] [INFO] views : alltokenviews
+[2018-06-25 15:03:06,558] [INFO] api : alltoken
+[2018-06-25 15:07:33,966] [INFO] views : login
+[2018-06-25 15:07:33,973] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:07:34,079] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071xgQh41QWHuM11Wkh4176Ph41xgQhA&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 15:07:34,101] [INFO] views : check
+[2018-06-25 15:07:34,102] [INFO] api : check_open_id
+[2018-06-25 15:08:43,176] [INFO] views : login
+[2018-06-25 15:08:43,180] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:08:43,268] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001o7s021e7KTO1vE9Z11jue021o7s0Y&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 15:08:43,301] [INFO] views : check
+[2018-06-25 15:08:43,301] [INFO] api : check_open_id
+[2018-06-25 15:08:50,779] [INFO] views : list
+[2018-06-25 15:08:50,779] [INFO] api : paice
+[2018-06-25 15:08:53,723] [INFO] views : alltokenviews
+[2018-06-25 15:08:53,723] [INFO] api : alltoken
+[2018-06-25 15:09:16,110] [INFO] views : login
+[2018-06-25 15:09:16,114] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:09:17,009] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011ZfPR81GnH4R1Q4WS81H3SR81ZfPRk&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 15:09:17,053] [INFO] views : check
+[2018-06-25 15:09:17,054] [INFO] api : check_open_id
+[2018-06-25 15:09:21,059] [INFO] views : list
+[2018-06-25 15:09:21,060] [INFO] api : paice
+[2018-06-25 15:09:24,039] [INFO] views : alltokenviews
+[2018-06-25 15:09:24,040] [INFO] api : alltoken
+[2018-06-25 15:09:56,697] [INFO] views : login
+[2018-06-25 15:09:56,701] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:09:56,799] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011EGdwL0PyBt62zglvL0JgewL0EGdwx&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 15:09:56,827] [INFO] views : check
+[2018-06-25 15:09:56,828] [INFO] api : check_open_id
+[2018-06-25 15:10:01,241] [INFO] views : list
+[2018-06-25 15:10:01,241] [INFO] api : paice
+[2018-06-25 15:10:03,955] [INFO] views : alltokenviews
+[2018-06-25 15:10:03,955] [INFO] api : alltoken
+[2018-06-25 15:10:49,254] [INFO] views : login
+[2018-06-25 15:10:49,257] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:10:49,347] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081KK5fn1mI2ki0f9xfn1cdSen1KK5f-&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 15:10:49,377] [INFO] views : check
+[2018-06-25 15:10:49,378] [INFO] api : check_open_id
+[2018-06-25 15:10:54,424] [INFO] views : list
+[2018-06-25 15:10:54,425] [INFO] api : paice
+[2018-06-25 15:10:56,926] [INFO] views : alltokenviews
+[2018-06-25 15:10:56,926] [INFO] api : alltoken
+[2018-06-25 15:11:18,296] [INFO] views : login
+[2018-06-25 15:11:18,302] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:11:18,407] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061ZHsJ52kfD3L0p1kK52aEHJ52ZHsJQ&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 15:11:18,435] [INFO] views : check
+[2018-06-25 15:11:18,435] [INFO] api : check_open_id
+[2018-06-25 15:11:22,957] [INFO] views : list
+[2018-06-25 15:11:22,957] [INFO] api : paice
+[2018-06-25 15:11:25,682] [INFO] views : alltokenviews
+[2018-06-25 15:11:25,683] [INFO] api : alltoken
+[2018-06-25 15:12:06,562] [INFO] views : login
+[2018-06-25 15:12:06,566] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:12:06,653] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081NfV1y1AvbLh05215y1wOV1y1NfV1U&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 15:12:06,684] [INFO] views : check
+[2018-06-25 15:12:06,685] [INFO] api : check_open_id
+[2018-06-25 15:12:11,039] [INFO] views : list
+[2018-06-25 15:12:11,040] [INFO] api : paice
+[2018-06-25 15:12:13,237] [INFO] views : alltokenviews
+[2018-06-25 15:12:13,238] [INFO] api : alltoken
+[2018-06-25 15:12:55,596] [INFO] views : login
+[2018-06-25 15:12:55,603] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:12:55,689] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0811aH962Z7ycL0bWub62t7F9621aH9w&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 15:12:55,713] [INFO] views : check
+[2018-06-25 15:12:55,713] [INFO] api : check_open_id
+[2018-06-25 15:12:59,818] [INFO] views : list
+[2018-06-25 15:12:59,819] [INFO] api : paice
+[2018-06-25 15:13:02,022] [INFO] views : alltokenviews
+[2018-06-25 15:13:02,022] [INFO] api : alltoken
+[2018-06-25 15:13:51,253] [INFO] views : login
+[2018-06-25 15:13:51,257] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:13:51,356] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=07118hp91BHpCR1GTyo91OLvp9118hpx&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 15:13:51,381] [INFO] views : check
+[2018-06-25 15:13:51,381] [INFO] api : check_open_id
+[2018-06-25 15:13:55,554] [INFO] views : list
+[2018-06-25 15:13:55,554] [INFO] api : paice
+[2018-06-25 15:13:57,836] [INFO] views : alltokenviews
+[2018-06-25 15:13:57,837] [INFO] api : alltoken
+[2018-06-25 15:14:15,794] [INFO] views : login
+[2018-06-25 15:14:15,797] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:14:15,880] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011BR7bk15aEVl0XSJek1PL5bk1BR7by&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 15:14:15,906] [INFO] views : check
+[2018-06-25 15:14:15,907] [INFO] api : check_open_id
+[2018-06-25 15:14:19,969] [INFO] views : list
+[2018-06-25 15:14:19,969] [INFO] api : paice
+[2018-06-25 15:14:22,114] [INFO] views : alltokenviews
+[2018-06-25 15:14:22,114] [INFO] api : alltoken
+[2018-06-25 15:15:17,992] [INFO] views : login
+[2018-06-25 15:15:18,000] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:15:18,114] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021HTDRp0l2twq1FIbSp0KprRp0HTDR2&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 15:15:18,166] [INFO] views : check
+[2018-06-25 15:15:18,166] [INFO] api : check_open_id
+[2018-06-25 15:15:22,619] [INFO] views : list
+[2018-06-25 15:15:22,619] [INFO] api : paice
+[2018-06-25 15:15:24,904] [INFO] views : alltokenviews
+[2018-06-25 15:15:24,904] [INFO] api : alltoken
+[2018-06-25 15:15:49,291] [INFO] views : login
+[2018-06-25 15:15:49,294] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:15:49,366] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071bsUXp1nWPip0KilZp1xvBXp1bsUXg&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 15:15:49,390] [INFO] views : check
+[2018-06-25 15:15:49,391] [INFO] api : check_open_id
+[2018-06-25 15:15:53,915] [INFO] views : list
+[2018-06-25 15:15:53,915] [INFO] api : paice
+[2018-06-25 15:15:56,412] [INFO] views : alltokenviews
+[2018-06-25 15:15:56,413] [INFO] api : alltoken
+[2018-06-25 15:17:27,567] [INFO] views : login
+[2018-06-25 15:17:27,573] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:17:27,665] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0016G3v50IsBTK159Et50EC4v506G3v-&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 15:17:27,694] [INFO] views : check
+[2018-06-25 15:17:27,695] [INFO] api : check_open_id
+[2018-06-25 15:17:33,810] [INFO] views : list
+[2018-06-25 15:17:33,810] [INFO] api : paice
+[2018-06-25 15:17:36,116] [INFO] views : alltokenviews
+[2018-06-25 15:17:36,116] [INFO] api : alltoken
+[2018-06-25 15:18:04,468] [INFO] views : login
+[2018-06-25 15:18:04,476] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:18:04,586] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061ztE7M0ADrF42EjfaM0o3X7M0ztE7p&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 15:18:04,637] [INFO] views : check
+[2018-06-25 15:18:04,638] [INFO] api : check_open_id
+[2018-06-25 15:18:09,124] [INFO] views : list
+[2018-06-25 15:18:09,125] [INFO] api : paice
+[2018-06-25 15:18:11,774] [INFO] views : alltokenviews
+[2018-06-25 15:18:11,774] [INFO] api : alltoken
+[2018-06-25 15:21:33,354] [INFO] views : login
+[2018-06-25 15:21:33,357] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:21:33,469] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0718asC90aN2zw15lmA902sDC908asCz&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 15:21:33,495] [INFO] views : check
+[2018-06-25 15:21:33,496] [INFO] api : check_open_id
+[2018-06-25 15:21:38,081] [INFO] views : list
+[2018-06-25 15:21:38,082] [INFO] api : paice
+[2018-06-25 15:21:41,109] [INFO] views : alltokenviews
+[2018-06-25 15:21:41,110] [INFO] api : alltoken
+[2018-06-25 15:22:46,831] [INFO] views : login
+[2018-06-25 15:22:46,837] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:22:46,945] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071LtZFX1wYnCS0WLBEX1r5eGX1LtZFP&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 15:22:46,962] [INFO] views : check
+[2018-06-25 15:22:46,963] [INFO] api : check_open_id
+[2018-06-25 15:22:55,497] [INFO] views : list
+[2018-06-25 15:22:55,498] [INFO] api : paice
+[2018-06-25 15:22:58,732] [INFO] views : alltokenviews
+[2018-06-25 15:22:58,733] [INFO] api : alltoken
+[2018-06-25 15:23:30,388] [INFO] views : login
+[2018-06-25 15:23:30,392] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:23:30,476] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071ViFvI0CdXNg2ZaOxI0DSxvI0ViFv2&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 15:23:30,504] [INFO] views : check
+[2018-06-25 15:23:30,504] [INFO] api : check_open_id
+[2018-06-25 15:23:35,061] [INFO] views : list
+[2018-06-25 15:23:35,061] [INFO] api : paice
+[2018-06-25 15:23:39,204] [INFO] views : alltokenviews
+[2018-06-25 15:23:39,205] [INFO] api : alltoken
+[2018-06-25 15:24:04,249] [INFO] views : login
+[2018-06-25 15:24:04,255] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:24:04,358] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071CGQjA0hyp7g12DnjA0DeZjA0CGQju&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 15:24:04,381] [INFO] views : check
+[2018-06-25 15:24:04,381] [INFO] api : check_open_id
+[2018-06-25 15:24:09,564] [INFO] views : list
+[2018-06-25 15:24:09,565] [INFO] api : paice
+[2018-06-25 15:24:12,537] [INFO] views : alltokenviews
+[2018-06-25 15:24:12,538] [INFO] api : alltoken
+[2018-06-25 15:26:37,846] [INFO] views : login
+[2018-06-25 15:26:37,850] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:26:37,936] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081CcHE112iYxO1q0xI11x6YE11CcHEi&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 15:26:37,956] [INFO] views : check
+[2018-06-25 15:26:37,957] [INFO] api : check_open_id
+[2018-06-25 15:26:42,591] [INFO] views : list
+[2018-06-25 15:26:42,591] [INFO] api : paice
+[2018-06-25 15:26:44,447] [INFO] views : alltokenviews
+[2018-06-25 15:26:44,447] [INFO] api : alltoken
+[2018-06-25 15:29:34,700] [INFO] views : alltokenviews
+[2018-06-25 15:29:34,701] [INFO] api : alltoken
+[2018-06-25 15:29:44,449] [INFO] views : login
+[2018-06-25 15:29:44,456] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:29:44,545] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081Y8UAb13KNEv0zFICb1OYMAb1Y8UAh&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 15:29:44,580] [INFO] views : check
+[2018-06-25 15:29:44,580] [INFO] api : check_open_id
+[2018-06-25 15:29:50,375] [INFO] views : list
+[2018-06-25 15:29:50,375] [INFO] api : paice
+[2018-06-25 15:29:53,653] [INFO] views : alltokenviews
+[2018-06-25 15:29:53,654] [INFO] api : alltoken
+[2018-06-25 15:30:53,058] [INFO] views : login
+[2018-06-25 15:30:53,061] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:30:53,152] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081oLMFg2cnehB0Ns9Gg23aEFg2oLMFn&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 15:30:53,215] [INFO] views : check
+[2018-06-25 15:30:53,216] [INFO] api : check_open_id
+[2018-06-25 15:30:57,063] [INFO] views : list
+[2018-06-25 15:30:57,064] [INFO] api : paice
+[2018-06-25 15:30:58,800] [INFO] views : alltokenviews
+[2018-06-25 15:30:58,801] [INFO] api : alltoken
+[2018-06-25 15:31:29,179] [INFO] views : login
+[2018-06-25 15:31:29,181] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:31:29,258] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061UTzcw08hS5j1xskbw05MPcw0UTzcs&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 15:31:29,290] [INFO] views : check
+[2018-06-25 15:31:29,290] [INFO] api : check_open_id
+[2018-06-25 15:31:34,665] [INFO] views : list
+[2018-06-25 15:31:34,665] [INFO] api : paice
+[2018-06-25 15:31:37,264] [INFO] views : alltokenviews
+[2018-06-25 15:31:37,265] [INFO] api : alltoken
+[2018-06-25 15:35:07,479] [INFO] views : login
+[2018-06-25 15:35:07,488] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:35:07,624] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011nikcP1njY921xGkeP18pycP1nikcn&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 15:35:07,667] [INFO] views : check
+[2018-06-25 15:35:07,668] [INFO] api : check_open_id
+[2018-06-25 15:35:12,107] [INFO] views : login
+[2018-06-25 15:35:12,112] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:35:12,216] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0216GGJE1378t100xHKE1BguJE16GGJJ&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 15:35:12,241] [INFO] views : check
+[2018-06-25 15:35:12,242] [INFO] api : check_open_id
+[2018-06-25 15:35:17,305] [INFO] views : list
+[2018-06-25 15:35:17,306] [INFO] api : paice
+[2018-06-25 15:35:19,466] [INFO] views : alltokenviews
+[2018-06-25 15:35:19,466] [INFO] api : alltoken
+[2018-06-25 15:35:48,100] [INFO] views : login
+[2018-06-25 15:35:48,106] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:35:48,186] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061BADlv1WgIfa05gAkv1d8klv1BADlF&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 15:35:48,202] [INFO] views : check
+[2018-06-25 15:35:48,202] [INFO] api : check_open_id
+[2018-06-25 15:35:56,255] [INFO] views : list
+[2018-06-25 15:35:56,256] [INFO] api : paice
+[2018-06-25 15:35:58,283] [INFO] views : alltokenviews
+[2018-06-25 15:35:58,284] [INFO] api : alltoken
+[2018-06-25 15:37:29,506] [INFO] views : login
+[2018-06-25 15:37:29,511] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 15:37:29,605] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0015jFF10t7vvE12IWD10U4rF105jFFC&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 15:37:29,634] [INFO] views : check
+[2018-06-25 15:37:29,634] [INFO] api : check_open_id
+[2018-06-25 15:37:36,728] [INFO] views : list
+[2018-06-25 15:37:36,728] [INFO] api : paice
+[2018-06-25 15:37:38,908] [INFO] views : alltokenviews
+[2018-06-25 15:37:38,908] [INFO] api : alltoken
+[2018-06-25 16:17:27,395] [INFO] views : login
+[2018-06-25 16:17:27,444] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:17:29,250] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001SNJO902cPTw12XTN90ZWuO90SNJOo&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 16:17:29,283] [INFO] views : check
+[2018-06-25 16:17:29,283] [INFO] api : check_open_id
+[2018-06-25 16:17:40,574] [INFO] views : list
+[2018-06-25 16:17:40,575] [INFO] api : paice
+[2018-06-25 16:17:43,834] [INFO] views : alltokenviews
+[2018-06-25 16:17:43,835] [INFO] api : alltoken
+[2018-06-25 16:18:20,013] [INFO] views : login
+[2018-06-25 16:18:20,020] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:18:21,781] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021KMnxk0N6r3l1gqSwk0YSjxk0KMnxJ&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 16:18:21,821] [INFO] views : check
+[2018-06-25 16:18:21,822] [INFO] api : check_open_id
+[2018-06-25 16:18:28,718] [INFO] views : list
+[2018-06-25 16:18:28,719] [INFO] api : paice
+[2018-06-25 16:18:55,578] [INFO] views : login
+[2018-06-25 16:18:55,584] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:18:57,171] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001irwkX1wjuGU0jB3jX1jzrkX1irwkl&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 16:18:57,217] [INFO] views : check
+[2018-06-25 16:18:57,218] [INFO] api : check_open_id
+[2018-06-25 16:19:01,329] [INFO] views : list
+[2018-06-25 16:19:01,330] [INFO] api : paice
+[2018-06-25 16:19:46,743] [INFO] views : login
+[2018-06-25 16:19:46,748] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:19:48,719] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001MJZ6f1zOtds0Aal5f1sM37f1MJZ6h&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 16:19:48,738] [INFO] views : check
+[2018-06-25 16:19:48,739] [INFO] api : check_open_id
+[2018-06-25 16:19:53,862] [INFO] views : list
+[2018-06-25 16:19:53,862] [INFO] api : paice
+[2018-06-25 16:23:33,960] [INFO] views : alltokenviews
+[2018-06-25 16:23:33,960] [INFO] api : alltoken
+[2018-06-25 16:28:20,323] [INFO] views : alltokenviews
+[2018-06-25 16:28:20,324] [INFO] api : alltoken
+[2018-06-25 16:28:22,992] [INFO] views : alltokenviews
+[2018-06-25 16:28:22,993] [INFO] api : alltoken
+[2018-06-25 16:34:51,460] [INFO] views : login
+[2018-06-25 16:34:51,464] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:34:53,029] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0214DDy82QkZZR00v2w82ndey824DDy0&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 16:34:53,045] [INFO] views : check
+[2018-06-25 16:34:53,045] [INFO] api : check_open_id
+[2018-06-25 16:35:52,071] [INFO] views : login
+[2018-06-25 16:35:52,074] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:35:53,624] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001xtvVU14mrxW0gFhVU1o5JVU1xtvVZ&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 16:35:53,645] [INFO] views : check
+[2018-06-25 16:35:53,646] [INFO] api : check_open_id
+[2018-06-25 16:38:44,541] [INFO] views : login
+[2018-06-25 16:38:44,546] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:38:46,010] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061ApLZg1XXQMy04z81h1adPZg1ApLZa&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 16:38:46,024] [INFO] views : check
+[2018-06-25 16:38:46,025] [INFO] api : check_open_id
+[2018-06-25 16:42:05,092] [INFO] views : login
+[2018-06-25 16:42:05,097] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:42:06,783] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011DJR3H0TZK2k23bK2H0P9A3H0DJR3n&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 16:42:06,808] [INFO] views : check
+[2018-06-25 16:42:06,808] [INFO] api : check_open_id
+[2018-06-25 16:42:45,975] [INFO] views : login
+[2018-06-25 16:42:45,980] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:42:48,532] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081fcY8f1euA6s0BJw9f10fZ8f1fcY83&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 16:42:48,546] [INFO] views : check
+[2018-06-25 16:42:48,546] [INFO] api : check_open_id
+[2018-06-25 16:43:29,756] [INFO] views : login
+[2018-06-25 16:43:29,760] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:43:31,473] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011skJXA1irLJd08tgXA1AqwXA1skJXT&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 16:43:31,493] [INFO] views : check
+[2018-06-25 16:43:31,494] [INFO] api : check_open_id
+[2018-06-25 16:44:08,249] [INFO] views : login
+[2018-06-25 16:44:08,252] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:44:09,924] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081vVtMO1KoM121s4RLO1ksjMO1vVtMJ&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 16:44:09,951] [INFO] views : check
+[2018-06-25 16:44:09,951] [INFO] api : check_open_id
+[2018-06-25 16:44:42,339] [INFO] views : login
+[2018-06-25 16:44:42,344] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:44:44,535] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001whyc711rxOT1Sp2d71Udoc71whyc7&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 16:44:44,560] [INFO] views : check
+[2018-06-25 16:44:44,561] [INFO] api : check_open_id
+[2018-06-25 16:46:57,090] [INFO] views : login
+[2018-06-25 16:46:57,095] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:46:58,787] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061i0zuC0ABbtf2kj3uC0MrquC0i0zuK&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 16:46:58,802] [INFO] views : check
+[2018-06-25 16:46:58,802] [INFO] api : check_open_id
+[2018-06-25 16:47:33,466] [INFO] views : login
+[2018-06-25 16:47:33,471] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:47:34,980] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011gFTpx0IhxTh16ZNnx0HXVpx0gFTpI&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 16:47:34,994] [INFO] views : check
+[2018-06-25 16:47:34,994] [INFO] api : check_open_id
+[2018-06-25 16:48:24,383] [INFO] views : login
+[2018-06-25 16:48:24,386] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:48:25,926] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001IzQ6I0ZYxXi2xVL4I0ZOD6I0IzQ6x&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 16:48:25,941] [INFO] views : check
+[2018-06-25 16:48:25,942] [INFO] api : check_open_id
+[2018-06-25 16:50:26,968] [INFO] views : login
+[2018-06-25 16:50:26,971] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:50:28,507] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011nTcH60ZxQFJ1CHLH603l5H60nTcH2&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 16:50:28,524] [INFO] views : check
+[2018-06-25 16:50:28,525] [INFO] api : check_open_id
+[2018-06-25 16:51:30,084] [INFO] views : login
+[2018-06-25 16:51:30,089] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:51:31,628] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081TcoF40oVS3K1uHhG40QSpF40TcoFq&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 16:51:31,650] [INFO] views : check
+[2018-06-25 16:51:31,650] [INFO] api : check_open_id
+[2018-06-25 16:51:49,096] [INFO] views : login
+[2018-06-25 16:51:49,100] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:51:50,629] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071oyCMP08WHJa2nJLNP0XfwMP0oyCMK&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 16:51:50,642] [INFO] views : check
+[2018-06-25 16:51:50,643] [INFO] api : check_open_id
+[2018-06-25 16:52:22,964] [INFO] views : login
+[2018-06-25 16:52:22,966] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:52:24,540] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011Rbdxb0LzJ4u1DWKxb052Ywb0RbdxC&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 16:52:24,564] [INFO] views : check
+[2018-06-25 16:52:24,564] [INFO] api : check_open_id
+[2018-06-25 16:53:07,987] [INFO] views : login
+[2018-06-25 16:53:07,991] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:53:09,534] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021cgz7h0vslxx1smZ7h0pAM7h0cgz7i&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 16:53:09,549] [INFO] views : check
+[2018-06-25 16:53:09,549] [INFO] api : check_open_id
+[2018-06-25 16:55:12,353] [INFO] views : login
+[2018-06-25 16:55:12,356] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:55:13,927] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001h48fA1kphzf0RmwdA1zGgfA1h48fB&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 16:55:13,941] [INFO] views : check
+[2018-06-25 16:55:13,941] [INFO] api : check_open_id
+[2018-06-25 16:55:56,540] [INFO] views : login
+[2018-06-25 16:55:56,544] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:55:58,108] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0219cYNo1oZXpq0zp0Ro1SeYNo19cYNG&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 16:55:58,126] [INFO] views : check
+[2018-06-25 16:55:58,127] [INFO] api : check_open_id
+[2018-06-25 16:56:27,785] [INFO] views : login
+[2018-06-25 16:56:27,788] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 16:56:29,360] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021LBUeQ1L8wia1uJ5cQ1B4IeQ1LBUeh&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 16:56:29,383] [INFO] views : check
+[2018-06-25 16:56:29,384] [INFO] api : check_open_id
+[2018-06-25 17:01:35,100] [INFO] views : login
+[2018-06-25 17:01:35,105] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:01:36,684] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081kyt5L00TYK520kA6L0Glo5L0kyt5C&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:01:36,698] [INFO] views : check
+[2018-06-25 17:01:36,698] [INFO] api : check_open_id
+[2018-06-25 17:01:56,026] [INFO] views : login
+[2018-06-25 17:01:56,030] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:01:57,601] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061sGKZG1tF6h80tI30H1oBQZG1sGKZb&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:01:57,623] [INFO] views : check
+[2018-06-25 17:01:57,623] [INFO] api : check_open_id
+[2018-06-25 17:04:43,769] [INFO] views : login
+[2018-06-25 17:04:43,773] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:04:45,332] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061YFGNE1ynBX10cj6ME1IDXNE1YFGN1&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 17:04:45,346] [INFO] views : check
+[2018-06-25 17:04:45,346] [INFO] api : check_open_id
+[2018-06-25 17:07:14,176] [INFO] views : login
+[2018-06-25 17:07:14,181] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:07:15,793] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011CuDIa0FRuov1yuuJa0PhtIa0CuDI3&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:07:15,806] [INFO] views : check
+[2018-06-25 17:07:15,806] [INFO] api : check_open_id
+[2018-06-25 17:08:57,773] [INFO] views : login
+[2018-06-25 17:08:57,776] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:08:59,335] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=00171wdw1hWw7b0bxZbw1Dlddw171wd5&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:08:59,348] [INFO] views : check
+[2018-06-25 17:08:59,349] [INFO] api : check_open_id
+[2018-06-25 17:09:19,967] [INFO] views : login
+[2018-06-25 17:09:19,970] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:09:21,558] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011HFTlO0AZ6Ab2jzwmO0ZZDlO0HFTlm&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:09:21,595] [INFO] views : check
+[2018-06-25 17:09:21,595] [INFO] api : check_open_id
+[2018-06-25 17:10:43,753] [INFO] views : login
+[2018-06-25 17:10:43,756] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:10:45,311] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081kxyN70gihEI1jKLJ70PyUN70kxyNK&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:10:45,327] [INFO] views : check
+[2018-06-25 17:10:45,327] [INFO] api : check_open_id
+[2018-06-25 17:11:01,350] [INFO] views : login
+[2018-06-25 17:11:01,353] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:11:02,890] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011Mirwv1EGQHa0CLguv1KLOwv1Mirwl&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:11:02,904] [INFO] views : check
+[2018-06-25 17:11:02,904] [INFO] api : check_open_id
+[2018-06-25 17:12:35,569] [INFO] views : login
+[2018-06-25 17:12:35,572] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:12:37,379] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061Zk5rU1bwctW0sUvoU1c9MqU1Zk5rJ&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 17:12:37,394] [INFO] views : check
+[2018-06-25 17:12:37,394] [INFO] api : check_open_id
+[2018-06-25 17:13:05,084] [INFO] views : login
+[2018-06-25 17:13:05,087] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:13:06,624] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0811Yfa52HbiLM08iS952u2wa521Yfav&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 17:13:06,656] [INFO] views : check
+[2018-06-25 17:13:06,656] [INFO] api : check_open_id
+[2018-06-25 17:14:47,826] [INFO] views : login
+[2018-06-25 17:14:47,829] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:14:49,434] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021ckWsH0PuFsi2xAWsH0bCTsH0ckWsI&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 17:14:49,449] [INFO] views : check
+[2018-06-25 17:14:49,449] [INFO] api : check_open_id
+[2018-06-25 17:15:24,376] [INFO] views : login
+[2018-06-25 17:15:24,380] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:15:25,888] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061VRAJZ1g6wl11ezgHZ1jszJZ1VRAJE&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 17:15:25,903] [INFO] views : check
+[2018-06-25 17:15:25,903] [INFO] api : check_open_id
+[2018-06-25 17:15:53,851] [INFO] views : login
+[2018-06-25 17:15:53,855] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:15:55,397] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001rJTOv0cMWQi1THZOv0DiQOv0rJTOS&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 17:15:55,416] [INFO] views : check
+[2018-06-25 17:15:55,416] [INFO] api : check_open_id
+[2018-06-25 17:16:00,334] [INFO] views : list
+[2018-06-25 17:16:00,334] [INFO] api : paice
+[2018-06-25 17:16:24,146] [INFO] views : login
+[2018-06-25 17:16:24,150] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:16:25,728] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001yj1nY1BdJAT0gkJlY1ap0nY1yj1ng&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 17:16:25,741] [INFO] views : check
+[2018-06-25 17:16:25,742] [INFO] api : check_open_id
+[2018-06-25 17:17:17,442] [INFO] views : login
+[2018-06-25 17:17:17,447] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:17:18,986] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081ctPHF1c73s00ELmKF18F5IF1ctPHu&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 17:17:19,001] [INFO] views : check
+[2018-06-25 17:17:19,001] [INFO] api : check_open_id
+[2018-06-25 17:17:48,349] [INFO] views : login
+[2018-06-25 17:17:48,352] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:17:49,921] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0711sHDa0u08Bv1RO0Ca0XGtDa01sHDO&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 17:17:49,956] [INFO] views : check
+[2018-06-25 17:17:49,956] [INFO] api : check_open_id
+[2018-06-25 17:18:13,033] [INFO] views : login
+[2018-06-25 17:18:13,035] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:18:14,604] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011ipZ5l00aZBl1BoM6l0xz26l0ipZ50&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 17:18:14,618] [INFO] views : check
+[2018-06-25 17:18:14,618] [INFO] api : check_open_id
+[2018-06-25 17:18:47,231] [INFO] views : login
+[2018-06-25 17:18:47,235] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:18:48,833] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061AhfvB1c0nhe0kyOvB125mvB1Ahfv1&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 17:18:48,858] [INFO] views : check
+[2018-06-25 17:18:48,859] [INFO] api : check_open_id
+[2018-06-25 17:18:55,205] [INFO] views : login
+[2018-06-25 17:18:55,208] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:18:56,735] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081g3mm80aXyWG1nQcl80CFBm80g3mm6&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 17:18:56,751] [INFO] views : check
+[2018-06-25 17:18:56,752] [INFO] api : check_open_id
+[2018-06-25 17:19:10,697] [INFO] views : login
+[2018-06-25 17:19:10,700] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:19:12,291] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081jJKYq0md2np1soR1r046NYq0jJKYc&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 17:19:12,308] [INFO] views : check
+[2018-06-25 17:19:12,309] [INFO] api : check_open_id
+[2018-06-25 17:19:28,181] [INFO] views : login
+[2018-06-25 17:19:28,184] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:19:29,782] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081W8pX60pgiFH1lHDY60SHgX60W8pXA&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:19:29,799] [INFO] views : check
+[2018-06-25 17:19:29,800] [INFO] api : check_open_id
+[2018-06-25 17:20:15,232] [INFO] views : login
+[2018-06-25 17:20:15,234] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:20:16,796] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001mMzy926zfSQ0XskA92L5ky92mMzyM&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:20:16,820] [INFO] views : check
+[2018-06-25 17:20:16,820] [INFO] api : check_open_id
+[2018-06-25 17:20:36,204] [INFO] views : login
+[2018-06-25 17:20:36,207] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:20:37,756] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021aZJ2M1ZrCX51JKp3M1eNK2M1aZJ2F&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:20:37,790] [INFO] views : check
+[2018-06-25 17:20:37,791] [INFO] api : check_open_id
+[2018-06-25 17:21:19,367] [INFO] views : login
+[2018-06-25 17:21:19,371] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:21:20,923] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0712hlN51UrEAL1A7sP51vmbN512hlNr&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:21:20,944] [INFO] views : check
+[2018-06-25 17:21:20,944] [INFO] api : check_open_id
+[2018-06-25 17:21:50,198] [INFO] views : login
+[2018-06-25 17:21:50,201] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:21:51,787] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081BKPdt0QoHyd1ZEPct0hRBdt0BKPdf&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 17:21:51,801] [INFO] views : check
+[2018-06-25 17:21:51,802] [INFO] api : check_open_id
+[2018-06-25 17:22:39,234] [INFO] views : login
+[2018-06-25 17:22:39,237] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:22:41,026] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0715UY2X1lRIoU0eS22X1GW33X15UY2P&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 17:22:41,040] [INFO] views : check
+[2018-06-25 17:22:41,040] [INFO] api : check_open_id
+[2018-06-25 17:23:07,808] [INFO] views : login
+[2018-06-25 17:23:07,813] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:23:09,393] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061fHqhz0banmf1sXtkz0kqFhz0fHqhm&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 17:23:09,421] [INFO] views : check
+[2018-06-25 17:23:09,421] [INFO] api : check_open_id
+[2018-06-25 17:23:31,308] [INFO] views : login
+[2018-06-25 17:23:31,311] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:23:32,952] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011WEZ5r1aDaao0RkW7r10UX5r1WEZ5c&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 17:23:32,965] [INFO] views : check
+[2018-06-25 17:23:32,965] [INFO] api : check_open_id
+[2018-06-25 17:24:03,715] [INFO] views : login
+[2018-06-25 17:24:03,717] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:24:05,298] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001IpCP80axwyH1W7xQ80E5vP80IpCPl&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 17:24:05,313] [INFO] views : check
+[2018-06-25 17:24:05,313] [INFO] api : check_open_id
+[2018-06-25 17:26:12,101] [INFO] views : login
+[2018-06-25 17:26:12,104] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:26:12,207] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081iR2xG0r2Vmj2n18xG0CdDwG0iR2xn&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:26:12,222] [INFO] views : check
+[2018-06-25 17:26:12,222] [INFO] api : check_open_id
+[2018-06-25 17:26:33,388] [INFO] views : login
+[2018-06-25 17:26:33,390] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:26:33,471] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001hIYAo11O7Dq0Q14Do13mcBo1hIYAA&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:26:33,490] [INFO] views : check
+[2018-06-25 17:26:33,490] [INFO] api : check_open_id
+[2018-06-25 17:26:58,210] [INFO] views : login
+[2018-06-25 17:26:58,214] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:26:58,299] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0219PAfh0YBwnx1I0ggh0qAEfh09PAfE&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:26:58,337] [INFO] views : check
+[2018-06-25 17:26:58,338] [INFO] api : check_open_id
+[2018-06-25 17:27:19,099] [INFO] views : login
+[2018-06-25 17:27:19,102] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:27:19,208] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061Z3FP1016qXE19zAO10cbPP10Z3FPo&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:27:19,227] [INFO] views : check
+[2018-06-25 17:27:19,227] [INFO] api : check_open_id
+[2018-06-25 17:27:24,549] [INFO] views : login
+[2018-06-25 17:27:24,552] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:27:24,700] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021CPpDq0tV5Bo1LDWFq0dwcDq0CPpDx&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:27:24,715] [INFO] views : check
+[2018-06-25 17:27:24,715] [INFO] api : check_open_id
+[2018-06-25 17:27:46,261] [INFO] views : login
+[2018-06-25 17:27:46,264] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:27:46,367] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021uJM0m1bJ1ml0n3kZl1TlQ0m1uJM05&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:27:46,388] [INFO] views : check
+[2018-06-25 17:27:46,389] [INFO] api : check_open_id
+[2018-06-25 17:28:08,444] [INFO] views : login
+[2018-06-25 17:28:08,448] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:28:08,542] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0810uQJu1BZe3c08HfHu1ZPxJu10uQJe&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:28:08,570] [INFO] views : check
+[2018-06-25 17:28:08,571] [INFO] api : check_open_id
+[2018-06-25 17:29:40,204] [INFO] views : login
+[2018-06-25 17:29:40,207] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:29:40,330] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011Il1Dc1n7h8u0DKBDc1a6TCc1Il1Dp&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:29:40,347] [INFO] views : check
+[2018-06-25 17:29:40,348] [INFO] api : check_open_id
+[2018-06-25 17:30:30,240] [INFO] views : login
+[2018-06-25 17:30:30,243] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:30:30,358] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0010o9hs0J2G1f1BeCfs0YWZgs00o9h0&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:30:30,376] [INFO] views : check
+[2018-06-25 17:30:30,376] [INFO] api : check_open_id
+[2018-06-25 17:30:51,972] [INFO] views : login
+[2018-06-25 17:30:51,975] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:30:52,072] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071EkJaV0XMNGV1zr9aV0iCXaV0EkJal&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:30:52,088] [INFO] views : check
+[2018-06-25 17:30:52,089] [INFO] api : check_open_id
+[2018-06-25 17:31:59,505] [INFO] views : login
+[2018-06-25 17:31:59,508] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 17:31:59,628] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071dV1sf1hSnez0lHKtf1nP2sf1dV1sC&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 17:31:59,644] [INFO] views : check
+[2018-06-25 17:31:59,644] [INFO] api : check_open_id
+[2018-06-25 17:32:04,626] [INFO] views : list
+[2018-06-25 17:32:04,626] [INFO] api : paice
+[2018-06-25 17:32:07,822] [INFO] views : alltokenviews
+[2018-06-25 17:32:07,822] [INFO] api : alltoken
+[2018-06-25 17:50:19,961] [INFO] server : Server initialized for gevent.
+[2018-06-25 17:51:02,007] [INFO] server : Server initialized for gevent.
+[2018-06-25 17:51:06,339] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 17:51:07,756] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 17:52:51,390] [INFO] server : Server initialized for gevent.
+[2018-06-25 17:52:58,660] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 17:53:01,038] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 17:54:16,167] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 17:54:16,914] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 17:54:25,465] [INFO] server : Server initialized for gevent.
+[2018-06-25 17:54:27,924] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 17:54:31,314] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 17:55:34,558] [INFO] server : Server initialized for gevent.
+[2018-06-25 17:55:37,335] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 17:55:38,758] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 17:56:24,060] [INFO] server : Server initialized for gevent.
+[2018-06-25 17:56:27,372] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 17:56:28,701] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 17:58:12,157] [INFO] server : Server initialized for gevent.
+[2018-06-25 17:58:36,566] [INFO] server : Server initialized for gevent.
+[2018-06-25 17:58:39,629] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 17:58:41,458] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 17:59:21,787] [INFO] server : Server initialized for gevent.
+[2018-06-25 17:59:23,842] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 17:59:26,073] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 17:59:57,046] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 17:59:58,532] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:00:06,896] [INFO] server : Server initialized for gevent.
+[2018-06-25 18:00:09,824] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:00:11,231] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:00:26,421] [INFO] server : Server initialized for gevent.
+[2018-06-25 18:00:28,933] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:00:30,393] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:00:58,886] [INFO] server : Server initialized for gevent.
+[2018-06-25 18:01:02,786] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:01:08,313] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:01:28,515] [INFO] server : Server initialized for gevent.
+[2018-06-25 18:01:32,112] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:01:33,898] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:02:25,186] [INFO] views : login
+[2018-06-25 18:02:25,190] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:02:25,316] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081X1Ndl1nJoZk00f6dl1WpTdl1X1Ndj&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 18:02:25,331] [INFO] views : check
+[2018-06-25 18:02:25,332] [INFO] api : check_open_id
+[2018-06-25 18:03:54,297] [INFO] views : list
+[2018-06-25 18:03:54,298] [INFO] api : paice
+[2018-06-25 18:04:28,129] [INFO] views : login
+[2018-06-25 18:04:28,133] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:04:28,237] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061h7diw0qN5Ui1Sufjw08TZhw0h7di3&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 18:04:28,252] [INFO] views : check
+[2018-06-25 18:04:28,252] [INFO] api : check_open_id
+[2018-06-25 18:09:17,531] [INFO] views : login
+[2018-06-25 18:09:17,535] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:09:17,631] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011SimOo1OEhqq0yA8Ro1pTlOo1SimOD&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 18:09:17,653] [INFO] views : check
+[2018-06-25 18:09:17,654] [INFO] api : check_open_id
+[2018-06-25 18:09:31,337] [INFO] views : login
+[2018-06-25 18:09:31,341] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:09:31,462] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011eOzkp0mBqZp1sGBip0Srxkp0eOzk5&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 18:09:31,476] [INFO] views : check
+[2018-06-25 18:09:31,477] [INFO] api : check_open_id
+[2018-06-25 18:09:35,376] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:09:36,712] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:09:55,399] [INFO] views : login
+[2018-06-25 18:09:55,401] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:09:55,496] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001BuRO10T2zWE1PGLM10iz2P10BuROC&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 18:09:55,513] [INFO] views : check
+[2018-06-25 18:09:55,513] [INFO] api : check_open_id
+[2018-06-25 18:09:59,100] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:09:59,938] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:11:37,893] [INFO] views : login
+[2018-06-25 18:11:37,895] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:11:38,035] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061KujDC05pPCd2k1ADC0YBaDC0KujD0&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 18:11:38,070] [INFO] views : check
+[2018-06-25 18:11:38,071] [INFO] api : check_open_id
+[2018-06-25 18:11:40,797] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:11:41,644] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:13:13,858] [INFO] views : login
+[2018-06-25 18:13:13,862] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:13:13,981] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011GmmHi27ACQH0BJlHi2ippHi2GmmHh&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 18:13:14,019] [INFO] views : check
+[2018-06-25 18:13:14,020] [INFO] api : check_open_id
+[2018-06-25 18:13:17,206] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:13:17,942] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:13:41,109] [INFO] views : login
+[2018-06-25 18:13:41,111] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:13:41,278] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081lrYM42vwH6M0b6WL42ow1N42lrYM4&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 18:13:41,314] [INFO] views : check
+[2018-06-25 18:13:41,315] [INFO] api : check_open_id
+[2018-06-25 18:13:44,515] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:13:45,771] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:16:03,404] [INFO] views : login
+[2018-06-25 18:16:03,409] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:16:03,520] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0711V9Rg0BSqxz1lVJOg0l78Rg01V9RS&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 18:16:03,535] [INFO] views : check
+[2018-06-25 18:16:03,536] [INFO] api : check_open_id
+[2018-06-25 18:16:07,034] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:16:10,881] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:16:27,076] [INFO] views : login
+[2018-06-25 18:16:27,078] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:16:27,176] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011Tprj72vqA5K0UlNi72TLdj72Tprjy&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 18:16:27,194] [INFO] views : check
+[2018-06-25 18:16:27,195] [INFO] api : check_open_id
+[2018-06-25 18:16:30,253] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:16:31,119] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:19:33,659] [INFO] views : login
+[2018-06-25 18:19:33,662] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:19:33,740] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011jBTZp1vv8Lp0TzD2q1UaPZp1jBTZX&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 18:19:33,876] [INFO] views : check
+[2018-06-25 18:19:33,877] [INFO] api : check_open_id
+[2018-06-25 18:19:34,213] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:19:35,394] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:19:55,334] [INFO] views : list
+[2018-06-25 18:19:55,335] [INFO] api : paice
+[2018-06-25 18:19:56,349] [INFO] views : alltokenviews
+[2018-06-25 18:19:56,349] [INFO] api : alltoken
+[2018-06-25 18:27:40,114] [INFO] views : list
+[2018-06-25 18:27:40,114] [INFO] api : paice
+[2018-06-25 18:27:42,860] [INFO] views : alltokenviews
+[2018-06-25 18:27:42,861] [INFO] api : alltoken
+[2018-06-25 18:43:34,305] [INFO] views : login
+[2018-06-25 18:43:34,335] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:43:34,516] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011iOx8617ixaT1QEW861oas861iOx8l&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 18:43:34,546] [INFO] views : check
+[2018-06-25 18:43:34,547] [INFO] api : check_open_id
+[2018-06-25 18:43:38,966] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:43:40,951] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:43:41,047] [INFO] views : list
+[2018-06-25 18:43:41,047] [INFO] api : paice
+[2018-06-25 18:43:44,821] [INFO] views : alltokenviews
+[2018-06-25 18:43:44,822] [INFO] api : alltoken
+[2018-06-25 18:44:15,803] [INFO] server : Server initialized for gevent.
+[2018-06-25 18:44:21,011] [INFO] views : login
+[2018-06-25 18:44:21,018] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:44:21,772] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061i7XC41sgUPM1GIiC41jJjD41i7XCP&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 18:44:21,785] [INFO] views : check
+[2018-06-25 18:44:21,786] [INFO] api : check_open_id
+[2018-06-25 18:44:25,783] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:44:26,660] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:44:28,110] [INFO] views : list
+[2018-06-25 18:44:28,111] [INFO] api : paice
+[2018-06-25 18:44:33,426] [INFO] views : alltokenviews
+[2018-06-25 18:44:33,426] [INFO] api : alltoken
+[2018-06-25 18:44:37,013] [INFO] views : deletetoken
+[2018-06-25 18:44:44,865] [INFO] views : login
+[2018-06-25 18:44:44,868] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:44:44,958] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081n6xKW1bkk6U0AICKW1jlCKW1n6xKV&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 18:44:44,984] [INFO] views : check
+[2018-06-25 18:44:44,985] [INFO] api : check_open_id
+[2018-06-25 18:44:48,097] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:44:51,932] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:44:51,939] [INFO] views : list
+[2018-06-25 18:44:51,939] [INFO] api : paice
+[2018-06-25 18:44:51,944] [INFO] views : alltokenviews
+[2018-06-25 18:44:51,945] [INFO] api : alltoken
+[2018-06-25 18:46:07,640] [INFO] views : login
+[2018-06-25 18:46:07,642] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:46:07,765] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071rnpb917MqfR1VEDe91rX6b91rnpbT&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 18:46:07,794] [INFO] views : check
+[2018-06-25 18:46:07,794] [INFO] api : check_open_id
+[2018-06-25 18:46:11,031] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:46:12,253] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:46:15,134] [INFO] views : list
+[2018-06-25 18:46:15,134] [INFO] api : paice
+[2018-06-25 18:46:17,038] [INFO] views : alltokenviews
+[2018-06-25 18:46:17,039] [INFO] api : alltoken
+[2018-06-25 18:46:18,655] [INFO] views : deletetoken
+[2018-06-25 18:47:02,663] [INFO] views : login
+[2018-06-25 18:47:02,668] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:47:02,840] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011YkM7n0Z8Jbs1bIE4n04S88n0YkM7P&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 18:47:02,893] [INFO] views : check
+[2018-06-25 18:47:02,894] [INFO] api : check_open_id
+[2018-06-25 18:47:05,941] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:47:12,649] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:47:12,653] [INFO] views : list
+[2018-06-25 18:47:12,653] [INFO] api : paice
+[2018-06-25 18:47:12,659] [INFO] views : alltokenviews
+[2018-06-25 18:47:12,660] [INFO] api : alltoken
+[2018-06-25 18:47:35,139] [INFO] views : login
+[2018-06-25 18:47:35,141] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:47:35,223] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0819XBn62XtWyL0v9im62Mgpn629XBna&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 18:47:35,254] [INFO] views : check
+[2018-06-25 18:47:35,255] [INFO] api : check_open_id
+[2018-06-25 18:47:38,222] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:47:38,960] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:50:05,852] [INFO] views : login
+[2018-06-25 18:50:05,856] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:50:05,981] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071ZMKJU1zb7DW0ioaMU1bzJJU1ZMKJ-&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 18:50:06,015] [INFO] views : check
+[2018-06-25 18:50:06,015] [INFO] api : check_open_id
+[2018-06-25 18:50:10,070] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:50:21,151] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:50:21,190] [INFO] views : list
+[2018-06-25 18:50:21,191] [INFO] api : paice
+[2018-06-25 18:50:21,195] [INFO] views : alltokenviews
+[2018-06-25 18:50:21,196] [INFO] api : alltoken
+[2018-06-25 18:50:26,511] [INFO] views : deletetoken
+[2018-06-25 18:50:48,447] [INFO] views : login
+[2018-06-25 18:50:48,450] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:50:48,525] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021Ug1LZ0pni802vbaNZ04lRKZ0Ug1LL&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 18:50:48,543] [INFO] views : check
+[2018-06-25 18:50:48,544] [INFO] api : check_open_id
+[2018-06-25 18:50:51,636] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:50:53,611] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:50:56,386] [INFO] views : list
+[2018-06-25 18:50:56,386] [INFO] api : paice
+[2018-06-25 18:51:00,425] [INFO] views : alltokenviews
+[2018-06-25 18:51:00,425] [INFO] api : alltoken
+[2018-06-25 18:51:14,595] [INFO] views : jointoken
+[2018-06-25 18:51:14,595] [INFO] api : jointoken
+[2018-06-25 18:51:22,210] [INFO] views : jointoken
+[2018-06-25 18:51:22,211] [INFO] api : jointoken
+[2018-06-25 18:51:29,543] [INFO] views : jointoken
+[2018-06-25 18:51:29,543] [INFO] api : jointoken
+[2018-06-25 18:52:47,071] [INFO] views : login
+[2018-06-25 18:52:47,074] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:52:47,155] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021bMGQM0zdnp32KPDQM00WRQM0bMGQC&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 18:52:47,174] [INFO] views : check
+[2018-06-25 18:52:47,175] [INFO] api : check_open_id
+[2018-06-25 18:52:50,138] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:52:51,424] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:53:15,974] [INFO] views : login
+[2018-06-25 18:53:15,977] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:53:16,063] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011JqcPl18P2sl07NOPl1t9vPl1JqcPm&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 18:53:16,079] [INFO] views : check
+[2018-06-25 18:53:16,080] [INFO] api : check_open_id
+[2018-06-25 18:53:18,984] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:53:20,332] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:53:28,032] [INFO] views : list
+[2018-06-25 18:53:28,033] [INFO] api : paice
+[2018-06-25 18:53:30,437] [INFO] views : alltokenviews
+[2018-06-25 18:53:30,437] [INFO] api : alltoken
+[2018-06-25 18:53:32,974] [INFO] views : deletetoken
+[2018-06-25 18:54:19,011] [INFO] views : login
+[2018-06-25 18:54:19,014] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:54:19,103] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021UIQRt0q6xmc1EMjRt0qwMRt0UIQR0&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 18:54:19,137] [INFO] views : check
+[2018-06-25 18:54:19,138] [INFO] api : check_open_id
+[2018-06-25 18:54:22,001] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:54:22,746] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:54:23,558] [INFO] views : list
+[2018-06-25 18:54:23,559] [INFO] api : paice
+[2018-06-25 18:54:26,249] [INFO] views : alltokenviews
+[2018-06-25 18:54:26,249] [INFO] api : alltoken
+[2018-06-25 18:54:27,891] [INFO] views : deletetoken
+[2018-06-25 18:54:41,607] [INFO] views : login
+[2018-06-25 18:54:41,609] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:54:41,698] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0012WaaK1Ebj350D2pbK1sJR9K12Waaa&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 18:54:41,716] [INFO] views : check
+[2018-06-25 18:54:41,717] [INFO] api : check_open_id
+[2018-06-25 18:54:44,571] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:54:48,401] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:54:48,406] [INFO] views : list
+[2018-06-25 18:54:48,406] [INFO] api : paice
+[2018-06-25 18:54:48,410] [INFO] views : alltokenviews
+[2018-06-25 18:54:48,411] [INFO] api : alltoken
+[2018-06-25 18:54:50,937] [INFO] views : deletetoken
+[2018-06-25 18:55:03,588] [INFO] views : login
+[2018-06-25 18:55:03,591] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:55:03,674] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081RhLxa1L5VtQ108IAa1EmDxa1RhLxW&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 18:55:03,697] [INFO] views : check
+[2018-06-25 18:55:03,697] [INFO] api : check_open_id
+[2018-06-25 18:55:06,542] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:55:07,289] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:55:51,134] [INFO] views : login
+[2018-06-25 18:55:51,136] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:55:51,270] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0712FZyt12S69d0Cg5Bt1SqNyt12FZyS&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 18:55:54,109] [INFO] views : check
+[2018-06-25 18:55:54,110] [INFO] api : check_open_id
+[2018-06-25 18:55:59,026] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:56:05,757] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:56:16,428] [INFO] views : list
+[2018-06-25 18:56:16,429] [INFO] api : paice
+[2018-06-25 18:56:20,256] [INFO] views : alltokenviews
+[2018-06-25 18:56:20,257] [INFO] api : alltoken
+[2018-06-25 18:56:37,627] [INFO] views : jointoken
+[2018-06-25 18:56:37,627] [INFO] api : jointoken
+[2018-06-25 18:57:00,364] [INFO] views : jointoken
+[2018-06-25 18:57:00,365] [INFO] api : jointoken
+[2018-06-25 18:57:20,231] [INFO] views : alltokenviews
+[2018-06-25 18:57:20,232] [INFO] api : alltoken
+[2018-06-25 18:57:40,276] [INFO] views : login
+[2018-06-25 18:57:40,279] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:57:40,369] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071iTsDY059xh12i0gCY0YBhDY0iTsDb&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 18:57:40,516] [INFO] views : check
+[2018-06-25 18:57:40,517] [INFO] api : check_open_id
+[2018-06-25 18:57:40,854] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:57:41,574] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:57:45,855] [INFO] views : list
+[2018-06-25 18:57:45,855] [INFO] api : paice
+[2018-06-25 18:57:46,839] [INFO] views : alltokenviews
+[2018-06-25 18:57:46,840] [INFO] api : alltoken
+[2018-06-25 18:57:51,341] [INFO] views : deletetoken
+[2018-06-25 18:58:03,216] [INFO] views : deletetoken
+[2018-06-25 18:58:06,197] [INFO] views : deletetoken
+[2018-06-25 18:58:21,637] [INFO] views : login
+[2018-06-25 18:58:21,640] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:58:21,723] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011WbwcE0StNDc2obnbE0NHycE0Wbwcj&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 18:58:21,738] [INFO] views : check
+[2018-06-25 18:58:21,738] [INFO] api : check_open_id
+[2018-06-25 18:58:24,784] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:58:25,921] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:58:35,940] [INFO] views : login
+[2018-06-25 18:58:35,943] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:58:36,033] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021ojWXN0yvBkb2V8z1O0iHHXN0ojWXk&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 18:58:36,187] [INFO] views : check
+[2018-06-25 18:58:36,188] [INFO] api : check_open_id
+[2018-06-25 18:58:36,506] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:58:37,973] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:58:40,562] [INFO] views : list
+[2018-06-25 18:58:40,563] [INFO] api : paice
+[2018-06-25 18:58:42,319] [INFO] views : alltokenviews
+[2018-06-25 18:58:42,320] [INFO] api : alltoken
+[2018-06-25 18:58:44,812] [INFO] views : deletetoken
+[2018-06-25 18:58:50,049] [INFO] views : alltokenviews
+[2018-06-25 18:58:50,050] [INFO] api : alltoken
+[2018-06-25 18:58:59,486] [INFO] views : jointoken
+[2018-06-25 18:58:59,486] [INFO] api : jointoken
+[2018-06-25 18:59:23,174] [INFO] views : login
+[2018-06-25 18:59:23,176] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:59:23,297] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061W5joe0O0ntB1melne0Souoe0W5joW&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 18:59:23,335] [INFO] views : check
+[2018-06-25 18:59:23,336] [INFO] api : check_open_id
+[2018-06-25 18:59:26,423] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:59:27,381] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:59:35,899] [INFO] views : login
+[2018-06-25 18:59:35,902] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 18:59:35,989] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071hQwmf1VRGhz07EZpf1EFnmf1hQwmr&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 18:59:36,234] [INFO] views : check
+[2018-06-25 18:59:36,236] [INFO] api : check_open_id
+[2018-06-25 18:59:36,558] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 18:59:40,393] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 18:59:40,921] [INFO] views : list
+[2018-06-25 18:59:40,921] [INFO] api : paice
+[2018-06-25 18:59:42,528] [INFO] views : alltokenviews
+[2018-06-25 18:59:42,529] [INFO] api : alltoken
+[2018-06-25 18:59:44,838] [INFO] views : deletetoken
+[2018-06-25 18:59:46,329] [INFO] views : alltokenviews
+[2018-06-25 18:59:46,330] [INFO] api : alltoken
+[2018-06-25 18:59:51,713] [INFO] views : jointoken
+[2018-06-25 18:59:51,713] [INFO] api : jointoken
+[2018-06-25 19:00:13,084] [INFO] views : login
+[2018-06-25 19:00:13,088] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 19:00:13,286] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021dGMVO0VyM9c2juOUO0IguVO0dGMVt&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 19:00:13,302] [INFO] views : check
+[2018-06-25 19:00:13,303] [INFO] api : check_open_id
+[2018-06-25 19:00:16,499] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 19:00:17,254] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 19:00:30,674] [INFO] views : login
+[2018-06-25 19:00:30,678] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 19:00:30,776] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021rSu7u1wP4rb0KVb9u1dJB7u1rSu7u&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 19:00:30,956] [INFO] views : check
+[2018-06-25 19:00:30,956] [INFO] api : check_open_id
+[2018-06-25 19:00:31,260] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 19:00:32,085] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 19:00:39,448] [INFO] views : list
+[2018-06-25 19:00:39,449] [INFO] api : paice
+[2018-06-25 19:00:40,707] [INFO] views : alltokenviews
+[2018-06-25 19:00:40,708] [INFO] api : alltoken
+[2018-06-25 19:00:43,481] [INFO] views : deletetoken
+[2018-06-25 19:00:45,111] [INFO] views : alltokenviews
+[2018-06-25 19:00:45,111] [INFO] api : alltoken
+[2018-06-25 19:00:50,992] [INFO] views : jointoken
+[2018-06-25 19:00:50,993] [INFO] api : jointoken
+[2018-06-25 19:01:08,579] [INFO] views : alltokenviews
+[2018-06-25 19:01:08,579] [INFO] api : alltoken
+[2018-06-25 19:11:37,841] [INFO] views : login
+[2018-06-25 19:11:37,859] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 19:11:38,003] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081OeSim1grJNj0vD0nm1pWVim1OeSi9&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 19:11:38,045] [INFO] views : check
+[2018-06-25 19:11:38,045] [INFO] api : check_open_id
+[2018-06-25 19:11:41,906] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 19:11:42,764] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 19:12:17,208] [INFO] views : login
+[2018-06-25 19:12:17,212] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 19:12:17,337] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071n9bxG01Ienj2JhpwG0gxcxG0n9bxD&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 19:12:17,357] [INFO] views : check
+[2018-06-25 19:12:17,357] [INFO] api : check_open_id
+[2018-06-25 19:12:21,078] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 19:12:22,924] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 19:13:34,544] [INFO] views : login
+[2018-06-25 19:13:34,546] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 19:13:34,621] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061Rq1Wv1KVRPa01JeTv1OLTVv1Rq1Wp&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 19:13:34,643] [INFO] views : check
+[2018-06-25 19:13:34,643] [INFO] api : check_open_id
+[2018-06-25 19:13:38,562] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 19:13:39,508] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 19:14:40,147] [INFO] views : list
+[2018-06-25 19:14:40,148] [INFO] api : paice
+[2018-06-25 19:15:43,576] [INFO] server : Server initialized for gevent.
+[2018-06-25 19:16:01,027] [INFO] views : login
+[2018-06-25 19:16:01,053] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 19:16:01,773] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081UPsVo1sVKXq0LM1Vo1twzVo1UPsV3&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 19:16:01,787] [INFO] views : check
+[2018-06-25 19:16:01,788] [INFO] api : check_open_id
+[2018-06-25 19:16:06,201] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 19:16:08,152] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 19:16:12,655] [INFO] views : deletetoken
+[2018-06-25 19:16:27,508] [INFO] views : login
+[2018-06-25 19:16:27,511] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 19:16:27,591] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021exePK1g7rz50xkuNK1Ey6PK1exePT&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 19:16:27,620] [INFO] views : check
+[2018-06-25 19:16:27,620] [INFO] api : check_open_id
+[2018-06-25 19:16:30,611] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 19:16:35,256] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 19:16:35,260] [INFO] views : deletetoken
+[2018-06-25 19:16:53,305] [INFO] views : login
+[2018-06-25 19:16:53,307] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 19:16:53,400] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061LNLIf11GIuz02jXIf1pdJIf1LNLIq&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 19:16:53,426] [INFO] views : check
+[2018-06-25 19:16:53,427] [INFO] api : check_open_id
+[2018-06-25 19:16:56,233] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 19:16:57,094] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 19:17:01,458] [INFO] views : deletetoken
+[2018-06-25 19:17:18,174] [INFO] views : login
+[2018-06-25 19:17:18,176] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 19:17:18,290] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=08192erh2WXd0J0YrDsh2Abhrh292er0&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-25 19:17:18,309] [INFO] views : check
+[2018-06-25 19:17:18,309] [INFO] api : check_open_id
+[2018-06-25 19:17:21,270] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 19:17:23,239] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 19:18:13,871] [INFO] views : login
+[2018-06-25 19:18:13,876] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 19:18:13,971] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021C5oUI1ZqAM50rQlUI1NGcUI1C5oU6&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 19:18:13,987] [INFO] views : check
+[2018-06-25 19:18:13,988] [INFO] api : check_open_id
+[2018-06-25 19:18:17,094] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 19:18:18,512] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 19:18:19,062] [INFO] views : deletetoken
+[2018-06-25 19:19:12,152] [INFO] views : login
+[2018-06-25 19:19:12,157] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 19:19:12,242] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071yBHsJ05BCP62sG4uJ0DRDsJ0yBHsb&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 19:19:12,280] [INFO] views : check
+[2018-06-25 19:19:12,280] [INFO] api : check_open_id
+[2018-06-25 19:19:15,884] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 19:19:16,729] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 19:19:17,411] [INFO] views : deletetoken
+[2018-06-25 19:19:38,460] [INFO] views : login
+[2018-06-25 19:19:38,463] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 19:19:38,561] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001YYUAB1Rk0ee0xgTCB19cGAB1YYUAF&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 19:19:38,577] [INFO] views : check
+[2018-06-25 19:19:38,578] [INFO] api : check_open_id
+[2018-06-25 19:19:41,484] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 19:19:43,372] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 19:19:44,164] [INFO] views : deletetoken
+[2018-06-25 19:20:11,082] [INFO] views : login
+[2018-06-25 19:20:11,085] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 19:20:11,289] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001Xn5yF0ljHWk2x7bzF0dAlyF0Xn5y6&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 19:20:11,326] [INFO] views : check
+[2018-06-25 19:20:11,326] [INFO] api : check_open_id
+[2018-06-25 19:20:14,665] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 19:20:16,319] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 19:20:19,416] [INFO] views : deletetoken
+[2018-06-25 19:20:27,960] [INFO] views : list
+[2018-06-25 19:20:27,961] [INFO] api : paice
+[2018-06-25 19:20:30,245] [INFO] views : alltokenviews
+[2018-06-25 19:20:30,246] [INFO] api : alltoken
+[2018-06-25 19:20:32,341] [INFO] views : deletetoken
+[2018-06-25 19:20:34,279] [INFO] views : alltokenviews
+[2018-06-25 19:20:34,280] [INFO] api : alltoken
+[2018-06-25 19:20:48,283] [INFO] views : jointoken
+[2018-06-25 19:20:48,283] [INFO] api : jointoken
+[2018-06-25 19:20:56,251] [INFO] views : alltokenviews
+[2018-06-25 19:20:56,251] [INFO] api : alltoken
+[2018-06-25 19:21:31,026] [INFO] views : login
+[2018-06-25 19:21:31,028] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 19:21:31,127] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0616OfOZ02hR2023KTOZ0kbeOZ06OfOD&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-25 19:21:31,147] [INFO] views : check
+[2018-06-25 19:21:31,147] [INFO] api : check_open_id
+[2018-06-25 19:21:34,038] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-25 19:21:34,903] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-25 19:21:55,186] [INFO] views : deletetoken
+[2018-06-25 19:21:57,649] [INFO] views : list
+[2018-06-25 19:21:57,649] [INFO] api : paice
+[2018-06-25 19:22:09,884] [INFO] views : alltokenviews
+[2018-06-25 19:22:09,885] [INFO] api : alltoken

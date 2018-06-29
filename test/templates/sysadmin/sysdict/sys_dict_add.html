@@ -1,0 +1,144 @@
+{% extends "layout.html" %}
+{% block js %}
+    <script src="{{ url_for('static', filename='libs/bootstrap/js/bootstrap-selectpicker.js') }}"></script>
+{% endblock %}
+{% block maincontent %}
+
+    <div class="content">
+
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="card card-wizard col-md-12">
+
+                        <div class="header text-center">
+                            <h3 class="title">添加字典</h3>
+                        </div>
+
+                        <div class="content">
+
+                            <form id="DictForm" method="post">
+                                {{ dict_form.hidden_tag() }}
+                                {{ dict_form.csrf_token }}
+                                <fieldset>
+
+                                    <div class="row">
+                                        <div class="col-md-5 col-md-offset-1">
+                                            <div class="form-group">
+                                                <label class="control-label">字典名称
+                                                    <star>*</star>
+                                                </label>
+                                                {{ dict_form.dict_name(placeholder="字典名称", class_="form-control") }}
+
+                                                {% for e in dict_form.dict_name.errors %}
+                                                    <span style="color: red">*{{ e }}</span>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="form-group">
+                                                <label class="control-label">字典id
+                                                    <star>*</star>
+                                                </label>
+                                                {{ dict_form.dict_id(placeholder="字典id", class_="form-control") }}
+
+                                                {% for e in dict_form.dict_id.errors %}
+                                                    <span style="color: red">*{{ e }}</span>
+                                                {% endfor %}</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-5 col-md-offset-1">
+                                            <div class="form-group">
+                                                <label class="control-label">字典类型
+                                                    <star>*</star>
+                                                </label>
+                                                {{ dict_form.dict_type(placeholder="字典类型", class_="form-control") }}
+
+                                                {% for e in dict_form.dict_type.errors %}
+                                                    <span style="color: red">*{{ e }}</span>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="form-group">
+                                                <label class="control-label">描述
+                                                    <star>*</star>
+                                                </label>
+                                                {{ dict_form.description(placeholder="描述", class_="form-control") }}
+
+                                                {% for e in dict_form.description.errors %}
+                                                    <span style="color: red">*{{ e }}</span>
+                                                {% endfor %}</div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row">
+                                        <div class="col-md-5 col-md-offset-1">
+                                            <div class="form-group">
+                                                <label class="control-label">排序
+                                                    <star>*</star>
+                                                </label>
+                                                {{ dict_form.sort(placeholder="排序", class_="form-control") }}
+
+                                                {% for e in dict_form.sort.errors %}
+                                                    <span style="color: red">*{{ e }}</span>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="form-group">
+                                                <label class="control-label">备注
+                                                </label>
+                                                {{ dict_form.remarks(placeholder="备注", class_="form-control") }}
+
+                                                {% for e in dict_form.remarks.errors %}
+                                                    <span style="color: red">*{{ e }}</span>
+                                                {% endfor %}</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-5 col-md-offset-1" style="padding-right: 6px">
+                                            <div class="form-group">
+                                                <label class="control-label">状态
+                                                    <star>*</star>
+                                                </label>
+                                                {{ dict_form.del_flag(placeholder="状态", class_="selectpicker show-tick form-control") }}
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                <div class="row">
+                                    <div class="col-md-10 col-md-offset-1">
+                                    <button class="btn btn-info btn-fill btn-wd"
+                                            style="margin:30px 0px 30px 0px; float:right" type="submit" name=""
+                                            id="save">完成
+                                    </button>
+                                    <a href="/sysdict/">
+                                        <button class="btn btn-info btn-fill btn-wd"
+                                                style="margin:30px 0px 30px 0px; float:left" type="button" name=""
+                                                id="save">返回
+                                        </button>
+                                    </a>
+                                    </div>
+                                </div>
+
+                                </fieldset>
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+{% endblock %}
+

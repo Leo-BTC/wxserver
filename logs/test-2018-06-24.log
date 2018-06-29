@@ -1,0 +1,102 @@
+[2018-06-24 22:58:10,494] [INFO] server : Server initialized for gevent.
+[2018-06-24 22:59:41,096] [INFO] server : Server initialized for gevent.
+[2018-06-24 22:59:54,412] [INFO] views : login
+[2018-06-24 22:59:54,438] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-24 22:59:55,191] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=01198WHD1Mfn630xCfHD19lUHD198WHb&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-24 22:59:55,221] [INFO] views : check
+[2018-06-24 22:59:55,221] [INFO] api : check_open_id
+[2018-06-24 23:00:02,248] [INFO] views : register
+[2018-06-24 23:00:02,248] [INFO] api : wx_register
+[2018-06-24 23:05:34,937] [INFO] server : Server initialized for gevent.
+[2018-06-24 23:05:43,794] [INFO] views : login
+[2018-06-24 23:05:43,821] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-24 23:05:44,636] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081etKlE1Yiwb10J4FoE1nsJlE1etKld&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-24 23:05:44,652] [INFO] views : check
+[2018-06-24 23:05:44,653] [INFO] api : check_open_id
+[2018-06-24 23:05:47,905] [INFO] views : register
+[2018-06-24 23:05:47,906] [INFO] api : wx_register
+[2018-06-24 23:05:47,906] [DEBUG] api : 'price' is an invalid keyword argument for UserInfo
+[2018-06-24 23:05:47,907] [DEBUG] views : 'price' is an invalid keyword argument for UserInfo
+[2018-06-24 23:07:53,888] [INFO] server : Server initialized for gevent.
+[2018-06-24 23:07:54,262] [INFO] views : login
+[2018-06-24 23:07:54,276] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-24 23:07:55,129] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061pxEf711utST1SG5c71ebYf71pxEfl&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-24 23:07:55,151] [INFO] views : check
+[2018-06-24 23:07:55,152] [INFO] api : check_open_id
+[2018-06-24 23:07:57,807] [INFO] views : register
+[2018-06-24 23:07:57,808] [INFO] api : wx_register
+[2018-06-24 23:27:18,904] [INFO] server : Server initialized for gevent.
+[2018-06-24 23:27:21,846] [INFO] views : login
+[2018-06-24 23:27:21,883] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-24 23:27:22,730] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071UAhjQ0MP6792wc8lQ0y0ojQ0UAhjN&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-24 23:27:22,747] [INFO] views : check
+[2018-06-24 23:27:22,748] [INFO] api : check_open_id
+[2018-06-24 23:27:24,852] [INFO] views : register
+[2018-06-24 23:27:24,853] [INFO] api : wx_register
+[2018-06-24 23:52:21,120] [INFO] server : Server initialized for gevent.
+[2018-06-24 23:52:21,320] [INFO] views : login
+[2018-06-24 23:52:21,345] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-24 23:52:22,212] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011Fkj432MeSUX0C8e532NAB432Fkj4D&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-24 23:52:22,257] [INFO] views : check
+[2018-06-24 23:52:22,258] [INFO] api : check_open_id
+[2018-06-24 23:52:33,737] [INFO] csrf : The CSRF token is missing.
+[2018-06-24 23:53:04,452] [INFO] server : Server initialized for gevent.
+[2018-06-24 23:53:19,397] [INFO] server : Server initialized for gevent.
+[2018-06-24 23:53:20,655] [INFO] views : login
+[2018-06-24 23:53:20,679] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-24 23:53:21,729] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001hLMFw0GeeEj11LbIw02CDFw0hLMFH&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-24 23:53:21,756] [INFO] views : check
+[2018-06-24 23:53:21,757] [INFO] api : check_open_id
+[2018-06-24 23:53:27,940] [INFO] views : list
+[2018-06-24 23:53:27,941] [INFO] api : paice
+[2018-06-24 23:58:18,297] [INFO] views : login
+[2018-06-24 23:58:18,306] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-24 23:58:18,456] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071J6aId0u2V2B19ZcJd09jWHd0J6aIv&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-24 23:58:18,479] [INFO] views : check
+[2018-06-24 23:58:18,480] [INFO] api : check_open_id
+[2018-06-24 23:58:37,477] [INFO] views : login
+[2018-06-24 23:58:37,484] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-24 23:58:37,620] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071i2Rkq1Sl1Zp0CVtkq1zmQkq1i2RkZ&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-24 23:58:37,661] [INFO] views : check
+[2018-06-24 23:58:37,661] [INFO] api : check_open_id
+[2018-06-24 23:58:43,457] [INFO] views : list
+[2018-06-24 23:58:43,459] [INFO] api : paice
+[2018-06-24 23:59:04,585] [INFO] views : login
+[2018-06-24 23:59:04,593] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-24 23:59:04,930] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021JyZW928c8bR0usFU92AMGW92JyZWu&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-24 23:59:04,954] [INFO] views : check
+[2018-06-24 23:59:04,954] [INFO] api : check_open_id
+[2018-06-24 23:59:07,696] [INFO] views : list
+[2018-06-24 23:59:07,697] [INFO] api : paice
+[2018-06-24 23:59:44,929] [INFO] views : login
+[2018-06-24 23:59:44,937] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-24 23:59:45,039] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=07137BEY1Mi8D01blMFY17exEY137BEh&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-24 23:59:45,064] [INFO] views : check
+[2018-06-24 23:59:45,064] [INFO] api : check_open_id
+[2018-06-24 23:59:46,979] [INFO] views : list
+[2018-06-24 23:59:46,980] [INFO] api : paice
+[2018-06-25 00:00:18,512] [INFO] views : login
+[2018-06-25 00:00:18,519] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-25 00:00:18,625] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081w7uW72NGYtR0JxIV72oCsW72w7uWm&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-25 00:00:18,656] [INFO] views : check
+[2018-06-25 00:00:18,657] [INFO] api : check_open_id
+[2018-06-25 00:00:20,577] [INFO] views : list
+[2018-06-25 00:00:20,577] [INFO] api : paice
+[2018-06-25 00:14:01,461] [INFO] views : home
+[2018-06-25 00:14:05,464] [INFO] views : login
+[2018-06-25 00:14:10,810] [INFO] views : login
+[2018-06-25 00:14:11,634] [INFO] forms : ÃÜÂë´íÎó£¡
+[2018-06-25 00:14:16,424] [INFO] views : login
+[2018-06-25 00:14:17,235] [INFO] forms : ÃÜÂë´íÎó£¡
+[2018-06-25 00:14:21,807] [INFO] views : login
+[2018-06-25 00:14:22,613] [INFO] forms : ÃÜÂë´íÎó£¡
+[2018-06-25 00:14:32,041] [INFO] views : login
+[2018-06-25 00:14:38,778] [INFO] views : login
+[2018-06-25 00:14:39,572] [INFO] forms : ÃÜÂë´íÎó£¡
+[2018-06-25 00:15:07,104] [INFO] views : login
+[2018-06-25 00:15:07,915] [INFO] forms : ÃÜÂë´íÎó£¡
+[2018-06-25 00:15:31,474] [INFO] views : login
+[2018-06-25 00:15:32,261] [INFO] forms : ÃÜÂë´íÎó£¡
+[2018-06-25 00:15:36,162] [INFO] views : login
+[2018-06-25 00:15:36,947] [INFO] forms : ÃÜÂë´íÎó£¡
+[2018-06-25 00:16:42,649] [INFO] views : home

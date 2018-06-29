@@ -1,0 +1,113 @@
+{% extends "layout.html" %}
+{% assets "select_css" %}
+    <link rel="stylesheet" href="{{ ASSET_URL }}">
+    <style>
+        .waiter-ul li a{padding-top: 8px;}
+    </style>
+{% endassets %}
+{% block js %}
+    <script src="{{ url_for('static', filename='libs/bootstrap/js/bootstrap-selectpicker.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/sysadmin/sys_role/sys_add_role.js') }}"></script>
+{% endblock %}
+
+{% block maincontent %}
+
+        <div class="content">
+
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="card card-wizard col-md-12">
+
+                            <div class="header text-center">
+                                <h3 class="title">添加角色</h3>
+                            </div>
+
+                            <div class="content">
+
+                                <form id="user_form" method="post" action="">
+                                    {{ role_form.hidden_tag() }}
+                                    {{ role_form.csrf_token }}
+                                    <fieldset>
+                                        <div class="row">
+                                            <div class="col-md-5 col-md-offset-1">
+                                                <div class="form-group">
+                                                    <label class="control-label">角色名称
+                                                        <star>*</star>
+                                                    </label>
+                                                    {{ role_form.name(id = "username", class="form-control", placeholder="角色名称" ) }}
+                                                    {% for e in role_form.name.errors %}
+                                                        <span style="color: red">*{{ e }}</span>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <div class="form-group">
+                                                    <label class="control-label">描述
+                                                        {#                                                    <star>*</star>#}
+                                                    </label>
+                                                    {{ role_form.desc(id = "desc", class="form-control", placeholder="描述") }}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5 col-md-offset-1" hidden='hidden'>
+                                                <div class="form-group">
+                                                    <label class="control-label">所属机构
+                                                        <star>*</star>
+                                                    </label>
+                                                    {{ role_form.org_id(id = "org_id", class="  form-control", placeholder="所属机构" ) }}
+                                                    {% for e in role_form.org_id.errors %}
+                                                        <span style="color: red">*{{ e }}</span>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-5 col-md-offset-1" style="padding-right: 6px">
+                                            <div class="form-group">
+                                                <label class="control-label">所属机构
+                                                    <star>*</star>
+                                                </label>
+                                                <select id="add_role_sel_menu" class="select2 form-control"
+                                                        style="width: 100%;height: 40px">
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                    </fieldset>
+
+                                    <div class="row">
+                                        <div class="col-md-10 col-md-offset-1">
+                                            <button class="btn btn-info btn-fill btn-wd"
+                                                    style="margin:30px  0px 30px 0px; float:right"
+                                                    type="submit" name="">完成
+                                            </button>
+                                            <a href="/sysrole/role">
+                                                <button class="btn btn-info btn-fill btn-wd"
+                                                        style="margin:30px 0px 30px 0px; float:left" type="button"
+                                                        id="back" name="">返回
+                                                </button>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </form>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    {% assets "select2_js" %}
+        <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+    {% endassets %}
+{% endblock %}
+

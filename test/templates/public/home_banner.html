@@ -1,0 +1,32 @@
+<div id="slider" class="spch">
+    <ul class="index-slider">
+        <li style="background-image: url({{ url_for('static', filename='images/banner/banner.jpg') }})"></li>
+    </ul>
+</div>
+{% block js %}
+    <script type="text/javascript" src="{{ url_for('static', filename='js/homebanner/main-script.min.js') }}"></script>
+    <script type="text/javascript">
+        $('.index-slider').bxSlider({
+            controls: false,
+            mode: "fade",
+            speed: 1000,
+            auto: true,
+            pause: 5000,
+
+        });
+
+        $('.xue-slider').bxSlider({
+            pager: false,
+            infiniteLoop: false,
+            responsive: true,
+            nextText: '<i class="fa fa-angle-right"></i>',
+            prevText: '<i class="fa fa-angle-left"></i>',
+        });
+        $('.box-slider').bxSlider({
+            controls: false,
+        });
+
+    </script>
+
+
+{% endblock %}

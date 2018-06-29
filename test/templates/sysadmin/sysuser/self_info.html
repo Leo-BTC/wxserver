@@ -1,0 +1,236 @@
+{% extends "layout.html" %}
+ {% block css %}
+     <style type="text/css">
+        .con4{
+             width: 250px;
+             height: auto;
+             overflow: hidden;
+             margin: 20px;
+             color: #FFFFFF;
+        }
+     </style>
+ {% endblock %}
+ {% block js %}
+     <script src="{{ url_for('static', filename='js/sysadmin/sys_user/sys_add_user.js') }}"></script>
+     <script src="{{ url_for('static', filename='libs/bootstrap/js/bootstrap-selectpicker.js') }}"></script>
+ {% endblock %}
+{% block maincontent %}
+    <div class="content">
+
+            <div class="container-fluid">
+
+                <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="card card-wizard col-md-12">
+
+                                <div class="header text-center">
+                                    <h3 class="title">个人信息</h3>
+                                </div>
+
+                                <div class="content">
+
+                                    <form id="userForm" method="post">
+{#                                        {{ person_form.hidden_tag() }}#}
+                                        {{ user_form.csrf_token }}
+                                        <fieldset>
+                                            <div class="row">
+                                                <div class="col-md-5 col-md-offset-4 text-center">
+                                                    <div class="form-group">
+{#                                                        <label class="control-label" style="float: left">头像设置</label>#}
+                                                            <div class="con4" style="flex-direction: row">
+                                                                 <img id="img" src="/static/images/avatar/{{ user_form.image.data }}" width="100" height="100" style="border-radius: 50px; border: 2px solid #dedede;"/>
+                                                                <input type="file" id="image_url" style="display: none">
+                                                                {{ user_form.image(id="image_data", style="display:none")}}
+
+{#		                                                        <canvas id="cvs" width="100" height="100"></canvas>#}
+{#		                                                        <span class="btn upload">上传头像<input type="file" class="upload_pic" id="upload" /></span>#}
+	                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-5 col-md-offset-1">
+                                                    <div class="form-group">
+                                                        <label class="control-label">账号<star>*</star></label>
+{#                                                        {% if user_form.is_hidden %}#}
+{#                                                          {{ user_form.username(id = "username", class="form-control", placeholder="账号") }}#}
+{#                                                        {% endif %}#}
+{#                                                        {% if not user_form.is_hidden %}#}
+                                                            {{ user_form.username(id = "username", class="form-control", placeholder="账号",readonly="readonly") }}
+{#                                                        {% endif %}#}
+{#                                                        {% for e in user_form.username.errors %}#}
+{#                                                            <span style="color: red">*{{ e }}</span>#}
+{#                                                        {% endfor %}#}
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <div class="form-group">
+                                                        <label class="control-label">姓名</label>
+
+                                                        {{ user_form.name(id = "name", class="form-control", placeholder="姓名") }}
+                                                         {% for e in user_form.name.errors %}
+                                                            <span style="color: red">*{{ e }}</span>
+                                                        {% endfor %}
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-5 col-md-offset-1">
+                                                    <div class="form-group">
+                                                        <label class="control-label">邮箱<star>*</star></label>
+
+                                                        {{ user_form.email(id = "email", class="form-control", placeholder="邮箱") }}
+                                                         {% for e in user_form.email.errors %}
+                                                            <span style="color: red">*{{ e }}</span>
+                                                        {% endfor %}
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <div class="form-group">
+                                                        <label class="control-label">手机号<star>*</star></label>
+
+                                                        {{ user_form.mobile(id = "mobile", class="form-control", placeholder="手机号",size=11) }}
+                                                        {% for e in user_form.mobile.errors %}
+                                                            <span style="color: red">*{{ e }}</span>
+                                                        {% endfor %}
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-5 col-md-offset-1">
+                                                    <div class="form-group">
+                                                        <label class="control-label">微信号</label>
+
+                                                        {{ user_form.chat_code(id = "chat_code", class="form-control", placeholder="微信号") }}
+                                                         {% for e in user_form.chat_code.errors %}
+                                                            <span style="color: red">*{{ e }}</span>
+                                                        {% endfor %}
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <div class="form-group">
+                                                        <label class="control-label">性别</label>
+
+                                                        {{ user_form.sex(id = "sex", class="selectpicker show-tick form-control") }}
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-5 col-md-offset-1">
+                                                   <div class="form-group">
+                                                        <label class="control-label">所属机构</label>
+{#                                                        {% if is_hidden %}#}
+{#                                                           {{ user_form.org(id = "org", class="selectpicker show-tick form-control") }}#}
+{#                                                        {% endif %}#}
+{#                                                        {% if not is_hidden %}#}
+{#                                                        <select id="user_org" class="selectpicker show-tick form-control" disabled="disabled"></select>#}
+                                                            <input type="text" value="{{ org_name }}" readonly="readonly" class="form-control">
+                                                            <a style="display: none">{{ user_form.org(id = "org", class="selectpicker show-tick form-control") }}</a>
+
+{#                                                        {% endif %}#}
+
+                                                    </div>
+                                                </div>
+                                                    <div class="col-md-5">
+                                                        <div class="form-group">
+                                                            <label class="control-label">角色</label>
+{#                                                            <select id="user_role" class="selectpicker show-tick form-control" disabled="disabled"></select>#}
+{#                                                            <a style="display: none">{{ user_form.role(id="role", class="selectpicker show-tick form-control")}}</a>#}
+                                                                <input type="text" value="{{ role_name }}" readonly="readonly" class="form-control">
+                                                                {{ user_form.role(id="role", dispaly=none) }}
+{#                                                          {% for e in user_form.role.errors %}#}
+{#                                                                <span style="color: red">*{{ e }}</span>#}
+{#                                                          {% endfor %}#}
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            <div class="row">
+                                                <div class="col-md-5 col-md-offset-1">
+                                                     <div class="form-group">
+                                                        <label class="control-label">状态<star>*</star></label>
+{#                                                        <select id="user_role" class="selectpicker show-tick form-control" disabled="disabled"></select>#}
+                                                         {% if user_form.is_active.data == "1" %}
+                                                            <input type="text" value="正常" readonly="readonly" class="form-control">
+                                                         {% endif %}
+                                                          {% if user_form.is_active.data == "0" %}
+                                                            <input type="text" value="停用" readonly="readonly" class="form-control">
+                                                          {% endif %}
+                                                         <a style="display: none">{{ user_form.is_active(id = "is_active", class="selectpicker show-tick form-control") }}</a>
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-md-5">
+                                                        <div class="form-group">
+                                                            <label class="control-label">微信用户授权ID（open_id）</label>
+                                                                {{ user_form.open_id(id = "open_id", class="form-control",readonly="readonly") }}
+                                                        </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-10 col-md-offset-1">
+                                                    <div class="form-group">
+                                                        <label class="control-label">简介</label>
+
+                                                        {{ user_form.desc(id = "desc", class="form-control", placeholder="简介") }}
+{#                                                        {% for e in user_form.mobile.errors %}#}
+{#                                                            <span style="color: red">*{{ e }}</span>#}
+{#                                                        {% endfor %}#}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-10 col-md-offset-1">
+                                                <a href="/sysuser/person/info">
+                                                    <button class="btn btn-info btn-fill btn-wd" style="margin:30px 0px 30px 0px; float:right" type="submit" name="" id="save">完成</button>
+                                                </a>
+                                                 <a href="/sysadmin/index">
+                                                    <button class="btn btn-info btn-fill btn-wd" style="margin:30px 0px 30px 0px; float:left" type="button" name="" id="back">返回</button>
+                                                </a>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+
+                                </div>
+
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+<script>
+
+
+
+ $('#img').on('click', function () {
+        document.getElementById("image_url").click();
+
+    })
+ $('#image_url').on('change',function () {
+        var file = document.getElementById('image_url').files[0]
+        var preview = document.getElementById('img')
+        var reader = new FileReader();
+        reader.onloadend = function (evt) {
+            preview.src = reader.result;
+            image3 = evt.target.result; //image 为图片base64字符串
+            $('#image_data').val(reader.result)
+        }
+        if (file) {
+            reader.readAsDataURL(file);
+        } else {
+            preview.src = "/static/images/default.jpg";
+        }
+ })
+
+</script>
+{% endblock %}
+

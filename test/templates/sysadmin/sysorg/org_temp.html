@@ -1,0 +1,999 @@
+{% assets "select_css" %}
+    <link rel="stylesheet" href="{{ ASSET_URL }}">
+{% endassets %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/zzsc.css') }}">
+<script src="{{ url_for('static', filename='js/sysadmin/sys_org/sys_org_add.js') }}"></script>
+<script src="{{ url_for('static', filename='libs/bootstrap/js/bootstrap-selectpicker.js') }}"></script>
+<style>
+
+    .container {
+        margin: 0 auto;
+    }
+
+    .content {
+    {#		  max-width: 100%;#} margin: 0 auto;
+    }
+
+    .content img {
+    {#		  max-width: 100%;#}
+    }
+
+    @media (max-width: 800px) {
+        .content {
+        {#			max-width: 100%;#} margin: 20px;
+        }
+    }
+
+    .zoom {
+        width: auto;
+    }
+
+</style>
+<script type="text/javascript" src="/static/js/sysadmin/sys_org/src/zooming.js"></script>
+
+<div class="row">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="card card-wizard col-md-12">
+
+            <div class="container-fluid">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" style="padding: 0px 15px">
+                            <h4 class="panel-title">
+                                <a data-target="#collapseOne" href="#" data-toggle="collapse">
+                                    基本详情
+
+                                    <b class="caret" style="margin-top: 7px;"></b>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="form-group col-sm-6  ">
+                                        <label class=" control-label "
+                                        ><span
+                                                style="color: red">*</span>
+                                            商户名
+                                        </label>
+
+                                        <div class="col-sm-12">
+                                            {{ forms.org_name(id = "org_name", class="form-control", placeholder="商户名") }}
+                                            {% for e in forms.org_name.errors %}
+                                                <span style="color: red">*{{ e }}</span>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-md-6  ">
+                                        <label class="control-label  "
+                                        ><span style="color: red">*</span>
+                                            机构简称</label>
+                                        <div class="col-md-12">
+                                            {{ forms.org_short(id = "org_short", class="form-control") }}
+                                            {% for e in forms.org_short.errors %}
+                                                <span style="color: red">*{{ e }}</span>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+
+                                    <div class="form-group col-md-6  ">
+                                        <label class="control-label  "
+                                        ><span style="color: red">*</span>
+                                            机构类型</label>
+                                        <div class="col-md-12">
+                                            {{ forms.org_type(id = "org_type", class="form-control selectpicker", placeholder="机构类型") }}
+                                            {% for e in forms.org_type.errors %}
+                                                <span style="color: red">*{{ e }}</span>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-md-6  ">
+                                        <label class="control-label  "
+                                        ><span style="color: red">*</span>
+                                            联系人</label>
+                                        <div class="col-md-12">
+                                            {{ forms.contact(id = "contact", class="form-control", placeholder="联系人") }}
+                                            {% for e in forms.contact.errors %}
+                                                <span style="color: red">*{{ e }}</span>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-md-6  ">
+                                        <label class="control-label  "
+                                        ><span style="color: red">*</span>
+                                            经营类型</label>
+                                        <div class="col-md-12">
+                                            {{ forms.mem_type_code(id = "mem_type_code", class="form-control selectpicker", placeholder="经营类型编码") }}
+                                            {% for e in forms.mem_type_code.errors %}
+                                                <span style="color: red">*{{ e }}</span>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col-md-6  ">
+                                        <label class=" control-label  ">
+                                            <span style="color: red">*</span>
+                                            机构所在区域
+                                        </label>
+
+                                        <div class="col-md-12">
+
+                                            <div class="col-md-4" style="padding-left:0px; ;">
+                                                {{ forms.org_area(id ="province", class="form-control selectpicker", placeholder="机构所在区域") }}
+                                            </div>
+
+                                            <div class="col-md-4">
+                                                <select class="form-control selectpicker" id="city"
+                                                        data-city="-- 选择市 --" style="width:100%"></select>
+
+                                                {{ forms.area_city(id ="area_city", class="form-control selectpicker", placeholder="选择市") }}
+                                            </div>
+                                            <div class="col-md-4" style="padding-right: 0px;">
+                                                <select class="form-control selectpicker" id="district"
+                                                        data-district="-- 选择区 --" style="width:100%">
+                                                    {{ forms.area_district(id ="area_district", class="form-control selectpicker", placeholder="选择区") }}</select>
+
+                                            </div>
+
+                                            {% for e in forms.area_district.errors %}
+                                                <span style="color: red">*{{ e }}</span>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="form-group col-md-6  ">
+                                        <label class="control-label  "
+                                        >
+                                            注册资金(万元)</label>
+                                        <div class="col-md-12">
+                                            {{ forms.sign_funds(id = "sign_funds", class="form-control", placeholder="注册资金") }}
+                                            {% for e in forms.sign_funds.errors %}
+                                                <span style="color: red">*{{ e }}</span>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-md-6  ">
+                                        <label class=" control-label  "
+                                        ><span
+                                                style="color: red">*</span>
+                                            法人名称
+                                        </label>
+
+                                        <div class="col-md-12">
+                                            {{ forms.master(id = "master", class="form-control", placeholder="法人名称") }}
+                                            {% for e in forms.master.errors %}
+                                                <span style="color: red">*{{ e }}</span>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-md-6  ">
+                                        <label class="control-label  "
+                                        ><span style="color: red">*</span>
+                                            身份证号码</label>
+                                        <div class="col-md-12">
+                                            {{ forms.idcard_number(id = "idcard_number", class="form-control", placeholder="身份证号码", minLength="13", maxLength="18") }}
+                                            {% for e in forms.idcard_number.errors %}
+                                                <span style="color: red">*{{ e }}</span>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-md-6  ">
+                                        <label class="  control-label "
+                                        ><span
+                                                style="color: red">*</span>
+                                            具体地址
+                                        </label>
+
+                                        <div class="col-md-12">
+                                            {{ forms.district(id = "district", class="form-control", placeholder="具体地址") }}
+                                            {% for e in forms.district.errors %}
+                                                <span style="color: red">*{{ e }}</span>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-md-6  ">
+                                        <label class="control-label  "
+                                        ><span style="color: red">*</span>
+                                            联系电话</label>
+                                        <div class="col-md-12">
+                                            {{ forms.tel(id = "tel", class="form-control", placeholder="联系电话", maxLength="13") }}
+                                            {% for e in forms.tel.errors %}
+                                                <span style="color: red">*{{ e }}</span>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col-md-6  ">
+                                        <label class="  control-label "
+                                        ><span
+                                                style="color: red">*</span>
+                                            经营地址
+                                        </label>
+
+                                        <div class="col-md-12">
+                                            {{ forms.bl_address(id = "bl_address", class="form-control", placeholder="经营地址") }}
+                                            {% for e in forms.bl_address.errors %}
+                                                <span style="color: red">*{{ e }}</span>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="row">
+
+
+                                    <div class="form-group col-md-6  ">
+                                        <label class="control-label "
+                                        >
+                                            邮箱</label>
+                                        <div class="col-md-12">
+                                            {{ forms.mail(id = "mail", class="form-control", placeholder="邮箱") }}
+                                            {% for e in forms.mail.errors %}
+                                                <span style="color: red">*{{ e }}</span>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label class=" control-label  "
+                                        ><span
+                                                style="color: red">*</span>
+                                            所属机构
+                                        </label>
+                                        <div class="col-md-12">
+                                            <select id="org_sel_menu"
+                                                    class="select2 form-control"
+                                                    style="width: 100%;height: 40px">
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="row">
+
+                                    <div class="form-group col-md-6  ">
+                                        <label class="  control-label "
+                                        >
+                                            网址
+                                        </label>
+
+                                        <div class="col-md-12">
+                                            {{ forms.website(id = "website", class="form-control", placeholder="网址") }}
+                                            {% for e in forms.website.errors %}
+                                                <span style="color: red">*{{ e }}</span>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group " hidden='hidden'>
+                                <label class="  control-label  "
+                                ><span
+                                        style="color: red">*</span>
+                                    所属机构
+                                </label>
+
+                                <div class="col-md-12">
+                                    {{ forms.parent_org(id = "parent_org", class="form-control", placeholder="所属机构") }}
+                                    {% for e in forms.parent_org.errors %}
+                                        <span style="color: red">*{{ e }}</span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading" style="padding: 0px 15px">
+                    <h4 class="panel-title">
+                        <a data-target="#collapseFo" href="#" data-toggle="collapse">
+                            银行资料信息
+
+                            <b class="caret" style="margin-top: 7px;"></b>
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseFo" class="panel-collapse collapse in">
+                    <div class="panel-body">
+
+
+                        <div class="row">
+                            <div class="form-group col-md-6  ">
+                                <label class="control-label  "
+                                ><span
+                                        style="color: red">*</span>
+                                    银行卡账号</label>
+                                <div class="col-md-12">
+                                    {{ forms.bank_account(id = "bank_account", class="form-control", placeholder="银行卡账号", maxLength="21") }}
+                                    {% for e in forms.bank_account.errors %}
+                                        <span style="color: red">*{{ e }}</span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            <div class="form-group col-md-6  ">
+                                <label class="  control-label  "
+                                ><span
+                                        style="color: red">*</span>
+                                    银行名
+                                </label>
+
+                                <div class="col-md-12">
+                                    {{ forms.bank_name(id = "bank_name", class="form-control", placeholder="银行名") }}
+                                    {% for e in forms.bank_name.errors %}
+                                        <span style="color: red">*{{ e }}</span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-6  ">
+                                <label class="  control-label  "
+                                ><span
+                                        style="color: red">*</span>
+                                    银行卡类型
+                                </label>
+
+                                <div class="col-md-12">
+                                    {{ forms.bank_card_type(id = "bank_card_type", class="form-control selectpicker", placeholder="银行卡类型") }}
+                                    {% for e in forms.bank_card_type.errors %}
+                                        <span style="color: red">*{{ e }}</span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            <div class="form-group col-md-6  ">
+                                <label class="control-label  "
+                                ><span
+                                        style="color: red">*</span>
+                                    开户银行地址</label>
+                                <div class="col-md-12">
+                                    {{ forms.bank_address(id = "bank_address", class="form-control", placeholder="开户银行地址") }}
+                                    {% for e in forms.bank_address.errors %}
+                                        <span style="color: red">*{{ e }}</span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-6  ">
+                                <label class="  control-label  "
+                                ><span
+                                        style="color: red">*</span>
+                                    银行绑定手机号码
+                                </label>
+
+                                <div class="col-md-12">
+                                    {{ forms.mobile(id = "mobile", class="form-control", placeholder="银行绑定手机号码", maxLength="11") }}
+                                    {% for e in forms.mobile.errors %}
+                                        <span style="color: red">*{{ e }}</span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            <div class="form-group col-md-6  ">
+                                <label class="control-label  "
+                                ><span
+                                        style="color: red">*</span>
+                                    银行卡用户名</label>
+                                <div class="col-md-12">
+                                    {{ forms.bank_owner(id = "bank_owner", class="form-control", placeholder="银行卡用户名") }}
+                                    {% for e in forms.bank_owner.errors %}
+                                        <span style="color: red">*{{ e }}</span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading" style="padding: 0px 15px">
+                    <h4 class="panel-title">
+                        <a data-target="#collapseTwo" href="#" data-toggle="collapse">
+                            证件信息
+
+                            <b class="caret" style="margin-top: 7px;"></b>
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <div class="col-xs-12 no-padding">
+                            <div class="form-group col-sm-6 no-padding">
+                                <label class="control-label col-sm-5 no-padding-right"
+                                       style="padding-top:11px; text-align:left;"><span
+                                        style="color: red">*</span>身份证正面图片</label>
+                                <div id='btn_img1' class="btn btn-xs btn-warning btn-fill"
+                                     style="margin-top:5px;float:left">上传
+                                </div>
+                                <div id='btn_img1_delete' class="btn btn-xs btn-warning btn-fill"
+                                     style="margin-top:5px;margin-left:5px;float:left">删除
+                                </div>
+                                <div class="col-sm-8">
+                                    {% if 'data:image/' in forms.cert_correct_img.data %}
+                                        <section class="content" style="float: left;">
+                                            <img style="float: left; width: 200px; height: 150px; cursor: -webkit-zoom-in;"
+                                                 id="img1"
+                                                 src="{{ forms.cert_correct_img.data }}"
+                                                 data-action="zoom"
+                                            />
+                                        </section>
+                                    {% else %}
+                                        <section class="content" style="float: left;">
+                                            <img style="float: left; width: 200px; height: 150px; cursor: -webkit-zoom-in;"
+                                                 id="img1"
+                                                 src="/static/images/org/{{ forms.cert_correct_img.data }}"
+                                                 data-action="zoom"
+                                            />
+                                        </section>
+                                    {% endif %}
+                                    <input type="file" id="image_file1"
+                                           accept="image/jpeg,image/jpg,image/png"
+                                           style="display: none">
+                                    {{ forms.cert_correct_img(id="cert_correct_img", style="display:none") }}
+                                    {% for e in forms.cert_correct_img.errors %}
+                                        <span style="color: red">*{{ e }}</span>
+                                    {% endfor %}
+                                    <script>
+                                        $('#btn_img1_delete').on('click', function () {
+                                            document.getElementById("img1").src = null
+                                            document.getElementById("cert_correct_img").value = null
+
+                                        })
+                                        $('#btn_img1').on('click', function () {
+                                            document.getElementById("image_file1").click();
+
+                                        })
+                                        $('#image_file1').on('change', function () {
+                                            var file = document.getElementById('image_file1').files[0]
+                                            var preview = document.getElementById('img1')
+                                            var reader = new FileReader();
+                                            reader.onloadend = function (evt) {
+                                                preview.src = reader.result;
+                                                image3 = evt.target.result; //image 为图片base64字符串
+                                                console.info(image3)
+                                                $('#cert_correct_img').val(reader.result)
+                                            }
+                                            if (file) {
+                                                reader.readAsDataURL(file);
+                                            } else {
+                                                preview.src = "/static/images/default.jpg";
+                                            }
+                                        })
+
+                                    </script>
+
+                                </div>
+                            </div>
+
+                            <div class="form-group col-sm-6 no-padding">
+                                <label class="control-label col-sm-5 no-padding-right"
+                                       style="padding-top:11px; text-align:left;"><span
+                                        style="color: red">*</span>身份证背面图片</label>
+                                <div id='btn_img2' class="btn btn-xs btn-warning btn-fill"
+                                     style="margin-top:5px;float:left">上传
+                                </div>
+                                <div id='btn_img2_delete' class="btn btn-xs btn-warning btn-fill"
+                                     style="margin-top:5px;margin-left:5px;float:left">删除
+                                </div>
+                                <div class="col-sm-8"
+                                >
+
+                                    {% if 'data:image/' in forms.cert_opposite_img.data %}
+                                        <section class="content" style="float: left;">
+                                            <img style="float: left; width: 200px; height: 150px; cursor: -webkit-zoom-in;"
+                                                 id="img2"
+                                                 src="{{ forms.cert_opposite_img.data }}"
+                                                 data-action="zoom"
+                                            />
+                                        </section>
+                                    {% else %}
+                                        <section class="content" style="float: left;">
+                                            <img style="float: left; width: 200px; height: 150px; cursor: -webkit-zoom-in;"
+                                                 id="img2"
+                                                 src="/static/images/org/{{ forms.cert_opposite_img.data }}"
+                                                 data-action="zoom"
+                                            />
+                                        </section>
+                                    {% endif %}
+                                    <input type="file" id="image_file2"
+                                           accept="image/jpeg,image/jpg,image/png"
+                                           style="display: none">
+                                    {{ forms.cert_opposite_img(id="cert_opposite_img", style="display:none") }}
+                                    {% for e in forms.cert_opposite_img.errors %}
+                                        <span style="color: red">*{{ e }}</span>
+                                    {% endfor %}
+                                    <script>
+                                        $('#btn_img2_delete').on('click', function () {
+                                            document.getElementById("img2").src = null
+                                            document.getElementById("cert_opposite_img").value = null
+
+                                        })
+                                        $('#btn_img2').on('click', function () {
+                                            document.getElementById("image_file2").click();
+
+                                        })
+                                        $('#image_file2').on('change', function () {
+                                            var file = document.getElementById('image_file2').files[0]
+                                            var preview = document.getElementById('img2')
+                                            var reader = new FileReader();
+                                            reader.onloadend = function (evt) {
+                                                preview.src = reader.result;
+                                                image3 = evt.target.result; //image 为图片base64字符串
+                                                console.info(image3)
+                                                $('#cert_opposite_img').val(reader.result)
+                                            }
+                                            if (file) {
+                                                reader.readAsDataURL(file);
+                                            } else {
+                                                preview.src = "/static/images/default.jpg";
+                                            }
+                                        })
+                                    </script>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 no-padding" style="margin-top: 5%">
+                            <div class="form-group col-sm-6 no-padding">
+                                <label class="control-label col-sm-5 no-padding-right"
+                                       style="padding-top:11px; text-align:left;"><span
+                                        style="color: red">*</span>银行卡正面图片</label>
+                                <div id='btn_img3' class="btn btn-xs btn-warning btn-fill"
+                                     style="margin-top:5px;float:left">上传
+                                </div>
+                                <div id='btn_img3_delete' class="btn btn-xs btn-warning btn-fill"
+                                     style="margin-top:5px;margin-left:5px;float:left">删除
+                                </div>
+                                <div class="col-sm-8"
+                                >
+                                    {% if 'data:image/' in forms.card_correct_img.data %}
+                                        <section class="content" style="float: left;">
+                                            <img style="float: left; width: 200px; height: 150px; cursor: -webkit-zoom-in;"
+                                                 id="img3"
+                                                 src="{{ forms.card_correct_img.data }}"
+                                                 data-action="zoom"
+                                            />
+                                        </section>
+                                    {% else %}
+                                        <section class="content" style="float: left;">
+                                            <img style="float: left; width: 200px; height: 150px; cursor: -webkit-zoom-in;"
+                                                 id="img3"
+                                                 src="/static/images/org/{{ forms.card_correct_img.data }}"
+                                                 data-action="zoom"
+                                            />
+                                        </section>
+                                    {% endif %}
+                                    <input type="file" id="image_file3"
+                                           accept="image/jpeg,image/jpg,image/png"
+                                           style="display: none">
+                                    {{ forms.card_correct_img(id="card_correct_img", style="display:none") }}
+                                    {% for e in forms.card_correct_img.errors %}
+                                        <span style="color: red">*{{ e }}</span>
+                                    {% endfor %}
+                                    <script>
+                                        $('#btn_img3_delete').on('click', function () {
+                                            document.getElementById("img3").src = null
+                                            document.getElementById("card_correct_img").value = null
+
+                                        })
+                                        $('#btn_img3').on('click', function () {
+                                            document.getElementById("image_file3").click();
+
+                                        })
+                                        $('#image_file3').on('change', function () {
+                                            var file = document.getElementById('image_file3').files[0]
+                                            var preview = document.getElementById('img3')
+                                            var reader = new FileReader();
+                                            reader.onloadend = function (evt) {
+                                                preview.src = reader.result;
+                                                image3 = evt.target.result; //image 为图片base64字符串
+                                                console.info(image3)
+                                                $('#card_correct_img').val(reader.result)
+                                            }
+                                            if (file) {
+                                                reader.readAsDataURL(file);
+                                            } else {
+                                                preview.src = "/static/images/default.jpg";
+                                            }
+                                        })
+                                    </script>
+                                </div>
+                            </div>
+                            <div class="form-group col-sm-6 no-padding">
+                                <label class="control-label col-sm-5 no-padding-right"
+                                       style="padding-top:11px; text-align:left;"><span
+                                        style="color: red">*</span>银行卡背面图片</label>
+                                <div id='btn_img4' class="btn btn-xs btn-warning btn-fill"
+                                     style="margin-top:5px;float:left">上传
+                                </div>
+                                <div id='btn_img4_delete' class="btn btn-xs btn-warning btn-fill"
+                                     style="margin-top:5px;margin-left:5px;float:left">删除
+                                </div>
+                                <div class="col-sm-8"
+                                >
+                                    {% if 'data:image/' in forms.card_opposite_img.data %}
+                                        <section class="content" style="float: left;">
+                                            <img style="float: left; width: 200px; height: 150px; cursor: -webkit-zoom-in;"
+                                                 id="img4"
+                                                 src="{{ forms.card_opposite_img.data }}"
+                                                 data-action="zoom"
+                                            />
+                                        </section>
+                                    {% else %}
+                                        <section class="content" style="float: left;">
+                                            <img style="float: left; width: 200px; height: 150px; cursor: -webkit-zoom-in;"
+                                                 id="img4"
+                                                 src="/static/images/org/{{ forms.card_opposite_img.data }}"
+                                                 data-action="zoom"
+                                            />
+                                        </section>
+                                    {% endif %}
+                                    <input type="file" id="image_file4"
+                                           accept="image/jpeg,image/jpg,image/png"
+                                           style="display: none">
+                                    {{ forms.card_opposite_img(id="card_opposite_img", style="display:none") }}
+                                    {% for e in forms.card_opposite_img.errors %}
+                                        <span style="color: red">*{{ e }}</span>
+                                    {% endfor %}
+                                    <script>
+                                        $('#btn_img4_delete').on('click', function () {
+                                            document.getElementById("img4").src = null
+                                            document.getElementById("card_opposite_img").value = null
+
+                                        })
+                                        $('#btn_img4').on('click', function () {
+                                            document.getElementById("image_file4").click();
+
+                                        })
+                                        $('#image_file4').on('change', function () {
+                                            var file = document.getElementById('image_file4').files[0]
+                                            var preview = document.getElementById('img4')
+                                            var reader = new FileReader();
+                                            reader.onloadend = function (evt) {
+                                                preview.src = reader.result;
+                                                image3 = evt.target.result; //image 为图片base64字符串
+                                                console.info(image3)
+                                                $('#card_opposite_img').val(reader.result)
+                                            }
+                                            if (file) {
+                                                reader.readAsDataURL(file);
+                                            } else {
+                                                preview.src = "/static/images/default.jpg";
+                                            }
+                                        })
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 no-padding" style="margin-top: 5%">
+                            <div class="form-group col-sm-6 no-padding">
+                                <label class="control-label col-sm-5 no-padding-right"
+                                       style="padding-top:11px; text-align:left;"><span
+                                        style="color: red">*</span>手持身份证图片</label>
+                                <div id='btn_img8' class="btn btn-xs btn-warning btn-fill"
+                                     style="margin-top:5px;float:left">上传
+                                </div>
+                                <div id='btn_img8_delete' class="btn btn-xs btn-warning btn-fill"
+                                     style="margin-top:5px;margin-left:5px;float:left">删除
+                                </div>
+                                <div class="col-sm-8"
+                                >
+                                    {% if 'data:image/' in forms.authorization_img.data %}
+                                        <section class="content" style="float: left;">
+                                            <img style="float: left; width: 200px; height: 150px; cursor: -webkit-zoom-in;"
+                                                 id="img8"
+                                                 src="{{ forms.authorization_img.data }}"
+                                                 data-action="zoom"
+                                            />
+                                        </section>
+                                    {% else %}
+                                        <section class="content" style="float: left;">
+                                            <img style="float: left; width: 200px; height: 150px; cursor: -webkit-zoom-in;"
+                                                 id="img8"
+                                                 src="/static/images/org/{{ forms.authorization_img.data }}"
+                                                 data-action="zoom"
+                                            />
+                                        </section>
+                                    {% endif %}
+                                    <input type="file" id="image_file8"
+                                           accept="image/jpeg,image/jpg,image/png"
+                                           style="display: none">
+                                    {{ forms.authorization_img(id="authorization_img", style="display:none") }}
+                                    {% for e in forms.authorization_img.errors %}
+                                        <span style="color: red">*{{ e }}</span>
+                                    {% endfor %}
+                                    <script>
+                                        $('#btn_img8_delete').on('click', function () {
+                                            document.getElementById("img8").src = null
+                                            document.getElementById("authorization_img").value = null
+
+                                        })
+                                        $('#btn_img8').on('click', function () {
+                                            document.getElementById("image_file8").click();
+
+                                        })
+                                        $('#image_file8').on('change', function () {
+                                            var file = document.getElementById('image_file8').files[0]
+                                            var preview = document.getElementById('img8')
+                                            var reader = new FileReader();
+                                            reader.onloadend = function (evt) {
+                                                preview.src = reader.result;
+                                                image3 = evt.target.result; //image 为图片base64字符串
+                                                console.info(image3)
+                                                $('#authorization_img').val(reader.result)
+                                            }
+                                            if (file) {
+                                                reader.readAsDataURL(file);
+                                            } else {
+                                                preview.src = "/static/images/default.jpg";
+                                            }
+                                        })
+                                    </script>
+                                </div>
+                            </div>
+                            <div class="form-group col-sm-6 no-padding">
+                                <label class="control-label col-sm-5 no-padding-right"
+                                       style="padding-top:11px; text-align:left;"><span
+                                        style="color: red">*</span>营业执照照片</label>
+                                <div id='btn_img5'
+                                     class="btn btn-xs btn-warning btn-fill"
+                                     style="margin-top:5px;float:left">上传
+                                </div>
+                                <div id='btn_img5_delete' class="btn btn-xs btn-warning btn-fill"
+                                     style="margin-top:5px;margin-left:5px;float:left">删除
+                                </div>
+                                <div class="col-sm-8">
+                                    {% if 'data:image/' in forms.bl_img.data %}
+                                        <section class="content" style="float: left;">
+                                            <img style="float: left; width: 200px; height: 150px; cursor: -webkit-zoom-in;"
+                                                 id="img5"
+                                                 src="{{ forms.bl_img.data }}"
+                                                 data-action="zoom"
+                                            />
+                                        </section>
+                                    {% else %}
+                                        <section class="content" style="float: left;">
+                                            <img style="float: left; width: 200px; height: 150px; cursor: -webkit-zoom-in;"
+                                                 id="img5"
+                                                 src="/static/images/org/{{ forms.bl_img.data }}"
+                                                 data-action="zoom"
+                                            />
+                                        </section>
+                                    {% endif %}
+                                    <input type="file" id="image_file5"
+                                           accept="image/jpeg,image/jpg,image/png"
+                                           style="display: none">
+                                    {{ forms.bl_img(id="bl_img", style="display:none") }}
+                                    {% for e in forms.bl_img.errors %}
+                                        <span style="color: red">*{{ e }}</span>
+                                    {% endfor %}
+                                    <script>
+                                        $('#btn_img5_delete').on('click', function () {
+                                            document.getElementById("img5").src = null
+                                            document.getElementById("bl_img").value = null
+
+                                        })
+                                        $('#btn_img5').on('click', function () {
+                                            document.getElementById("image_file5").click();
+
+                                        })
+                                        $('#image_file5').on('change', function () {
+                                            var file = document.getElementById('image_file5').files[0]
+                                            var preview = document.getElementById('img5')
+                                            var reader = new FileReader();
+                                            reader.onloadend = function (evt) {
+                                                preview.src = reader.result;
+                                                image3 = evt.target.result; //image 为图片base64字符串
+                                                console.info(image3)
+                                                $('#bl_img').val(reader.result)
+                                            }
+                                            if (file) {
+                                                reader.readAsDataURL(file);
+                                            } else {
+                                                preview.src = "/static/images/default.jpg";
+                                            }
+                                        })
+                                    </script>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-xs-12 no-padding" style="margin-top: 5%">
+                            <div class="form-group col-sm-6 no-padding">
+                                <label class="control-label col-sm-5 no-padding-right"
+                                       style="padding-top:11px; text-align:left;">门头照片</label>
+                                <div id='btn_img6' class="btn btn-xs btn-warning btn-fill"
+                                     style="margin-top:5px;float:left">上传
+                                </div>
+                                <div id='btn_img6_delete' class="btn btn-xs btn-warning btn-fill"
+                                     style="margin-top:5px;margin-left:5px;float:left">删除
+                                </div>
+                                <div class="col-sm-8"
+                                >
+                                    {% if 'data:image/' in forms.door_img.data %}
+                                        <section class="content" style="float: left;">
+                                            <img style="float: left; width: 200px; height: 150px; cursor: -webkit-zoom-in;"
+                                                 id="img6"
+                                                 src="{{ forms.door_img.data }}"
+                                                 data-action="zoom"
+                                            />
+                                        </section>
+                                    {% else %}
+                                        <section class="content" style="float: left;">
+                                            <img style="float: left; width: 200px; height: 150px; cursor: -webkit-zoom-in;"
+                                                 id="img6"
+                                                 src="/static/images/org/{{ forms.door_img.data }}"
+                                                 data-action="zoom"
+                                            />
+                                        </section>
+                                    {% endif %}
+                                    <input type="file" id="image_file6"
+                                           accept="image/jpeg,image/jpg,image/png"
+                                           style="display: none">
+                                    {{ forms.door_img(id="door_img", style="display:none") }}
+                                    {% for e in forms.door_img.errors %}
+                                        <span style="color: red">*{{ e }}</span>
+                                    {% endfor %}
+                                    <script>
+                                        $('#btn_img6_delete').on('click', function () {
+                                            document.getElementById("img6").src = null
+                                            document.getElementById("door_img").value = null
+
+                                        })
+                                        $('#btn_img6').on('click', function () {
+                                            document.getElementById("image_file6").click();
+
+                                        })
+                                        $('#image_file6').on('change', function () {
+                                            var file = document.getElementById('image_file6').files[0]
+                                            var preview = document.getElementById('img6')
+                                            var reader = new FileReader();
+                                            reader.onloadend = function (evt) {
+                                                preview.src = reader.result;
+                                                image3 = evt.target.result; //image 为图片base64字符串
+                                                console.info(image3)
+                                                $('#door_img').val(reader.result)
+                                            }
+                                            if (file) {
+                                                reader.readAsDataURL(file);
+                                            } else {
+                                                preview.src = "/static/images/default.jpg";
+                                            }
+                                        })
+                                    </script>
+                                </div>
+                            </div>
+                            <div class="form-group col-sm-6 no-padding">
+                                <label class="control-label col-sm-5 no-padding-right"
+                                       style="padding-top:11px; text-align:left;">收银台照片</label>
+                                <div id='btn_img7' class="btn btn-xs btn-warning btn-fill"
+                                     style="margin-top:5px;float:left">上传
+                                </div>
+                                <div id='btn_img7_delete' class="btn btn-xs btn-warning btn-fill"
+                                     style="margin-top:5px;margin-left:5px;float:left">删除
+                                </div>
+                                <div class="col-sm-8"
+                                >
+                                    {% if 'data:image/' in forms.cashier_img.data %}
+                                        <section class="content" style="float: left;">
+                                            <img style="float: left; width: 200px; height: 150px; cursor: -webkit-zoom-in;"
+                                                 id="img7"
+                                                 src="{{ forms.cashier_img.data }}"
+                                                 data-action="zoom"
+                                            />
+                                        </section>
+                                    {% else %}
+                                        <section class="content" style="float: left;">
+                                            <img style="float: left; width: 200px; height: 150px; cursor: -webkit-zoom-in;"
+                                                 id="img7"
+                                                 src="/static/images/org/{{ forms.cashier_img.data }}"
+                                                 data-action="zoom"
+                                            />
+                                        </section>
+                                    {% endif %}
+                                    <input type="file" id="image_file7"
+                                           accept="image/jpeg,image/jpg,image/png"
+                                           style="display: none">
+                                    {{ forms.cashier_img(id="cashier_img", style="display:none") }}
+                                    {% for e in forms.cashier_img.errors %}
+                                        <span style="color: red">*{{ e }}</span>
+                                    {% endfor %}
+                                    <script>
+                                        $('#btn_img7_delete').on('click', function () {
+                                            document.getElementById("img7").src = null
+                                            document.getElementById("cashier_img").value = null
+
+                                        })
+                                        $('#btn_img7').on('click', function () {
+                                            document.getElementById("image_file7").click();
+
+                                        })
+                                        $('#image_file7').on('change', function () {
+                                            var file = document.getElementById('image_file7').files[0]
+                                            var preview = document.getElementById('img7')
+                                            var reader = new FileReader();
+                                            reader.onloadend = function (evt) {
+                                                preview.src = reader.result;
+                                                image3 = evt.target.result; //image 为图片base64字符串
+                                                console.info(image3)
+                                                $('#cashier_img').val(reader.result)
+                                            }
+                                            if (file) {
+                                                reader.readAsDataURL(file);
+                                            } else {
+                                                preview.src = "/static/images/default.jpg";
+                                            }
+                                        })
+                                    </script>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading" style="padding: 0px 15px">
+                    <h4 class="panel-title">
+                        <a data-target="#collapseThree" href="#" data-toggle="collapse">
+                            备注
+
+                            <b class="caret" style="margin-top: 7px;"></b>
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <div class="col-sm-9" style=" width:100%;">
+                            {{ forms.remarks(id = "remarks", class="form-control", placeholder="备注") }}
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+{% assets "select2_js" %}
+    <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+{% endassets %}
+
+
+
+
+
+

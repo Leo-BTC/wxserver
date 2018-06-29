@@ -1,0 +1,334 @@
+[2018-06-22 09:57:04,346] [INFO] server : Server initialized for gevent.
+[2018-06-22 09:57:06,249] [INFO] socket : fd6e9e152bcf40fbae28745efa3d89b1: Sending packet OPEN data {'sid': 'fd6e9e152bcf40fbae28745efa3d89b1', 'upgrades': [], 'pingTimeout': 60000, 'pingInterval': 25000}
+[2018-06-22 09:57:06,250] [INFO] socket : fd6e9e152bcf40fbae28745efa3d89b1: Sending packet MESSAGE data 0
+[2018-06-22 09:57:06,285] [INFO] socket : fd6e9e152bcf40fbae28745efa3d89b1: Received packet MESSAGE data 0/msg,
+[2018-06-22 09:57:06,285] [INFO] socket : fd6e9e152bcf40fbae28745efa3d89b1: Sending packet MESSAGE data 0/msg
+[2018-06-22 09:57:31,305] [INFO] socket : fd6e9e152bcf40fbae28745efa3d89b1: Received packet PING data None
+[2018-06-22 09:57:31,305] [INFO] socket : fd6e9e152bcf40fbae28745efa3d89b1: Sending packet PONG data None
+[2018-06-22 09:57:56,321] [INFO] socket : fd6e9e152bcf40fbae28745efa3d89b1: Received packet PING data None
+[2018-06-22 09:57:56,322] [INFO] socket : fd6e9e152bcf40fbae28745efa3d89b1: Sending packet PONG data None
+[2018-06-22 09:58:16,556] [INFO] user_view : test
+[2018-06-22 09:58:17,213] [INFO] views : load_user
+[2018-06-22 10:00:06,630] [INFO] user_view : test
+[2018-06-22 10:49:38,937] [INFO] user_view : test
+[2018-06-22 11:13:07,834] [INFO] server : Server initialized for gevent.
+[2018-06-22 12:05:53,895] [INFO] views : home
+[2018-06-22 12:05:53,924] [INFO] views : load_user
+[2018-06-22 12:05:54,573] [INFO] views : load_user
+[2018-06-22 12:05:54,616] [INFO] views : load_user
+[2018-06-22 12:05:55,454] [INFO] views : load_user
+[2018-06-22 12:05:55,558] [INFO] views : load_user
+[2018-06-22 12:06:01,233] [INFO] views : login
+[2018-06-22 12:06:01,262] [INFO] views : load_user
+[2018-06-22 12:06:01,484] [INFO] views : load_user
+[2018-06-22 12:06:01,520] [INFO] views : load_user
+[2018-06-22 12:06:01,836] [INFO] views : load_user
+[2018-06-22 12:06:01,917] [INFO] views : load_user
+[2018-06-22 12:51:11,996] [INFO] views : home
+[2018-06-22 12:51:12,012] [INFO] views : load_user
+[2018-06-22 12:51:12,191] [INFO] views : load_user
+[2018-06-22 12:51:12,226] [INFO] views : load_user
+[2018-06-22 12:51:12,686] [INFO] views : load_user
+[2018-06-22 12:51:12,801] [INFO] views : load_user
+[2018-06-22 12:51:32,320] [INFO] views : load_user
+[2018-06-22 12:51:32,458] [INFO] views : load_user
+[2018-06-22 12:51:32,480] [INFO] views : load_user
+[2018-06-22 12:51:32,520] [INFO] views : load_user
+[2018-06-22 12:51:32,545] [INFO] views : load_user
+[2018-06-22 12:51:36,762] [INFO] views : home
+[2018-06-22 12:51:36,763] [INFO] views : load_user
+[2018-06-22 12:51:36,900] [INFO] views : load_user
+[2018-06-22 12:51:36,921] [INFO] views : load_user
+[2018-06-22 12:51:36,950] [INFO] views : load_user
+[2018-06-22 12:51:36,974] [INFO] views : load_user
+[2018-06-22 12:51:38,596] [INFO] views : load_user
+[2018-06-22 12:51:38,670] [INFO] views : load_user
+[2018-06-22 12:51:38,694] [INFO] views : load_user
+[2018-06-22 12:51:38,805] [INFO] views : load_user
+[2018-06-22 12:51:38,830] [INFO] views : load_user
+[2018-06-22 12:51:40,052] [INFO] views : login
+[2018-06-22 12:51:40,062] [INFO] views : load_user
+[2018-06-22 12:51:40,135] [INFO] views : load_user
+[2018-06-22 12:51:40,158] [INFO] views : load_user
+[2018-06-22 12:51:40,282] [INFO] views : load_user
+[2018-06-22 12:51:40,313] [INFO] views : load_user
+[2018-06-22 12:51:53,648] [INFO] views : login
+[2018-06-22 12:51:54,497] [INFO] permission_view : get_user_menu
+[2018-06-22 12:51:54,497] [INFO] permission_view : session_user_is_admin
+[2018-06-22 12:51:54,509] [INFO] permission_view : db_get_permission_with_type_ignore_status
+[2018-06-22 12:51:54,509] [INFO] permission_view : session_user_is_admin
+[2018-06-22 12:51:54,599] [INFO] views : load_user
+[2018-06-22 12:51:54,603] [INFO] index_views : home
+[2018-06-22 12:51:54,858] [INFO] views : load_user
+[2018-06-22 12:51:55,037] [INFO] views : load_user
+[2018-06-22 12:51:55,094] [INFO] socket : aff6525b6c4b4e2da8130a63b7e48215: Sending packet OPEN data {'sid': 'aff6525b6c4b4e2da8130a63b7e48215', 'upgrades': [], 'pingTimeout': 60000, 'pingInterval': 25000}
+[2018-06-22 12:51:55,095] [INFO] socket : aff6525b6c4b4e2da8130a63b7e48215: Sending packet MESSAGE data 0
+[2018-06-22 12:51:55,161] [INFO] views : load_user
+[2018-06-22 12:51:55,167] [INFO] message_view : get_msg_not_read_url
+[2018-06-22 12:51:55,210] [INFO] socket : aff6525b6c4b4e2da8130a63b7e48215: Received packet MESSAGE data 0/msg,
+[2018-06-22 12:51:55,211] [INFO] socket : aff6525b6c4b4e2da8130a63b7e48215: Sending packet MESSAGE data 0/msg
+[2018-06-22 12:52:02,813] [INFO] views : load_user
+[2018-06-22 12:52:02,821] [INFO] views : home
+[2018-06-22 12:52:02,870] [INFO] views : load_user
+[2018-06-22 12:52:03,032] [INFO] socket : a69c152f08d346dd9f37256ba07c9bbc: Sending packet OPEN data {'sid': 'a69c152f08d346dd9f37256ba07c9bbc', 'upgrades': [], 'pingTimeout': 60000, 'pingInterval': 25000}
+[2018-06-22 12:52:03,033] [INFO] socket : a69c152f08d346dd9f37256ba07c9bbc: Sending packet MESSAGE data 0
+[2018-06-22 12:52:03,043] [INFO] views : load_user
+[2018-06-22 12:52:03,062] [INFO] views : load_user
+[2018-06-22 12:52:03,067] [INFO] message_view : get_msg_not_read_url
+[2018-06-22 12:52:03,078] [INFO] socket : a69c152f08d346dd9f37256ba07c9bbc: Received packet MESSAGE data 0/msg,
+[2018-06-22 12:52:03,079] [INFO] socket : a69c152f08d346dd9f37256ba07c9bbc: Sending packet MESSAGE data 0/msg
+[2018-06-22 12:52:09,043] [INFO] views : load_user
+[2018-06-22 12:52:09,050] [INFO] models : path_url:/sysmsg/msg_received
+[2018-06-22 12:52:09,050] [INFO] permission_view : get_user_permission_all_url_list
+[2018-06-22 12:52:09,051] [INFO] permission_view : db_get_user_permission_all_list
+[2018-06-22 12:52:09,051] [INFO] permission_view : session_user_is_admin
+[2018-06-22 12:52:09,119] [INFO] views : load_user
+[2018-06-22 12:52:09,297] [INFO] socket : d0bdc779acad4825aecd241828e72125: Sending packet OPEN data {'sid': 'd0bdc779acad4825aecd241828e72125', 'upgrades': [], 'pingTimeout': 60000, 'pingInterval': 25000}
+[2018-06-22 12:52:09,298] [INFO] socket : d0bdc779acad4825aecd241828e72125: Sending packet MESSAGE data 0
+[2018-06-22 12:52:09,305] [INFO] views : load_user
+[2018-06-22 12:52:09,331] [INFO] views : load_user
+[2018-06-22 12:52:09,336] [INFO] message_view : get_msg_not_read_url
+[2018-06-22 12:52:09,380] [INFO] views : load_user
+[2018-06-22 12:52:09,385] [INFO] message_view : get_received_list
+[2018-06-22 12:52:09,404] [INFO] message_view : is_valid_date
+[2018-06-22 12:52:09,427] [INFO] message_view : sort_in_sysuser
+[2018-06-22 12:52:09,507] [INFO] socket : d0bdc779acad4825aecd241828e72125: Received packet MESSAGE data 0/msg,
+[2018-06-22 12:52:09,507] [INFO] socket : d0bdc779acad4825aecd241828e72125: Sending packet MESSAGE data 0/msg
+[2018-06-22 12:52:12,567] [INFO] views : load_user
+[2018-06-22 12:52:12,574] [INFO] models : path_url:/sysmsg/get_detail/<id>/<page>
+[2018-06-22 12:52:12,574] [INFO] permission_view : get_user_permission_all_url_list
+[2018-06-22 12:52:12,574] [INFO] permission_view : db_get_user_permission_all_list
+[2018-06-22 12:52:12,574] [INFO] permission_view : session_user_is_admin
+[2018-06-22 12:52:12,581] [INFO] message_view : msg_get_detail
+[2018-06-22 12:52:12,708] [INFO] views : load_user
+[2018-06-22 12:52:12,821] [INFO] views : load_user
+[2018-06-22 12:52:12,841] [INFO] socket : 179a378848684ddea0782dcf73b2d76c: Sending packet OPEN data {'sid': '179a378848684ddea0782dcf73b2d76c', 'upgrades': [], 'pingTimeout': 60000, 'pingInterval': 25000}
+[2018-06-22 12:52:12,842] [INFO] socket : 179a378848684ddea0782dcf73b2d76c: Sending packet MESSAGE data 0
+[2018-06-22 12:52:12,873] [INFO] socket : 179a378848684ddea0782dcf73b2d76c: Received packet MESSAGE data 0/msg,
+[2018-06-22 12:52:12,874] [INFO] socket : 179a378848684ddea0782dcf73b2d76c: Sending packet MESSAGE data 0/msg
+[2018-06-22 12:52:12,927] [INFO] views : load_user
+[2018-06-22 12:52:12,932] [INFO] message_view : get_msg_not_read_url
+[2018-06-22 12:52:12,943] [INFO] views : load_user
+[2018-06-22 12:52:20,262] [INFO] views : load_user
+[2018-06-22 12:52:20,268] [INFO] models : path_url:/sysuser/person/info
+[2018-06-22 12:52:20,268] [INFO] permission_view : get_user_permission_all_url_list
+[2018-06-22 12:52:20,269] [INFO] permission_view : db_get_user_permission_all_list
+[2018-06-22 12:52:20,269] [INFO] permission_view : session_user_is_admin
+[2018-06-22 12:52:20,276] [INFO] user_view : person_info
+[2018-06-22 12:52:20,406] [INFO] views : load_user
+[2018-06-22 12:52:20,576] [INFO] socket : 74f6ca2e7fe04d9fb384cd3f3cdefab7: Sending packet OPEN data {'sid': '74f6ca2e7fe04d9fb384cd3f3cdefab7', 'upgrades': [], 'pingTimeout': 60000, 'pingInterval': 25000}
+[2018-06-22 12:52:20,576] [INFO] socket : 74f6ca2e7fe04d9fb384cd3f3cdefab7: Sending packet MESSAGE data 0
+[2018-06-22 12:52:20,580] [INFO] views : load_user
+[2018-06-22 12:52:20,601] [INFO] views : load_user
+[2018-06-22 12:52:20,642] [INFO] views : load_user
+[2018-06-22 12:52:20,646] [INFO] message_view : get_msg_not_read_url
+[2018-06-22 12:52:20,668] [INFO] socket : 74f6ca2e7fe04d9fb384cd3f3cdefab7: Received packet MESSAGE data 0/msg,
+[2018-06-22 12:52:20,669] [INFO] socket : 74f6ca2e7fe04d9fb384cd3f3cdefab7: Sending packet MESSAGE data 0/msg
+[2018-06-22 12:52:37,363] [INFO] views : load_user
+[2018-06-22 12:52:37,369] [INFO] models : path_url:/sysmsg/msg_received
+[2018-06-22 12:52:37,369] [INFO] permission_view : get_user_permission_all_url_list
+[2018-06-22 12:52:37,369] [INFO] permission_view : db_get_user_permission_all_list
+[2018-06-22 12:52:37,369] [INFO] permission_view : session_user_is_admin
+[2018-06-22 12:52:37,426] [INFO] views : load_user
+[2018-06-22 12:52:37,752] [INFO] socket : db52d38dbbcc4f928178033c3cf1360d: Sending packet OPEN data {'sid': 'db52d38dbbcc4f928178033c3cf1360d', 'upgrades': [], 'pingTimeout': 60000, 'pingInterval': 25000}
+[2018-06-22 12:52:37,752] [INFO] socket : db52d38dbbcc4f928178033c3cf1360d: Sending packet MESSAGE data 0
+[2018-06-22 12:52:37,764] [INFO] views : load_user
+[2018-06-22 12:52:37,790] [INFO] views : load_user
+[2018-06-22 12:52:37,794] [INFO] message_view : get_msg_not_read_url
+[2018-06-22 12:52:37,830] [INFO] views : load_user
+[2018-06-22 12:52:37,834] [INFO] message_view : get_received_list
+[2018-06-22 12:52:37,842] [INFO] message_view : is_valid_date
+[2018-06-22 12:52:37,843] [INFO] message_view : sort_in_sysuser
+[2018-06-22 12:52:37,877] [INFO] socket : db52d38dbbcc4f928178033c3cf1360d: Received packet MESSAGE data 0/msg,
+[2018-06-22 12:52:37,877] [INFO] socket : db52d38dbbcc4f928178033c3cf1360d: Sending packet MESSAGE data 0/msg
+[2018-06-22 12:52:40,206] [INFO] views : load_user
+[2018-06-22 12:52:40,211] [INFO] models : path_url:/sysorg/org
+[2018-06-22 12:52:40,211] [INFO] permission_view : get_user_permission_all_url_list
+[2018-06-22 12:52:40,212] [INFO] permission_view : db_get_user_permission_all_list
+[2018-06-22 12:52:40,212] [INFO] permission_view : session_user_is_admin
+[2018-06-22 12:52:40,223] [INFO] org_view : org
+[2018-06-22 12:52:40,281] [INFO] views : load_user
+[2018-06-22 12:52:40,440] [INFO] socket : ffc4645c4f4546128fee84040f663a43: Sending packet OPEN data {'sid': 'ffc4645c4f4546128fee84040f663a43', 'upgrades': [], 'pingTimeout': 60000, 'pingInterval': 25000}
+[2018-06-22 12:52:40,441] [INFO] socket : ffc4645c4f4546128fee84040f663a43: Sending packet MESSAGE data 0
+[2018-06-22 12:52:40,451] [INFO] views : load_user
+[2018-06-22 12:52:40,479] [INFO] views : load_user
+[2018-06-22 12:52:40,484] [INFO] message_view : get_msg_not_read_url
+[2018-06-22 12:52:40,514] [INFO] views : load_user
+[2018-06-22 12:52:40,519] [INFO] models : path_url:/sysorg/org/get/list
+[2018-06-22 12:52:40,519] [INFO] permission_view : get_user_permission_all_url_list
+[2018-06-22 12:52:40,520] [INFO] permission_view : db_get_user_permission_all_list
+[2018-06-22 12:52:40,520] [INFO] permission_view : session_user_is_admin
+[2018-06-22 12:52:40,528] [INFO] org_view : org_get_list
+[2018-06-22 12:52:40,528] [INFO] org_view : get_org_list_by
+[2018-06-22 12:52:40,534] [INFO] org_view : sort_in_sysuser
+[2018-06-22 12:52:40,587] [INFO] socket : ffc4645c4f4546128fee84040f663a43: Received packet MESSAGE data 0/msg,
+[2018-06-22 12:52:40,587] [INFO] socket : ffc4645c4f4546128fee84040f663a43: Sending packet MESSAGE data 0/msg
+[2018-06-22 12:52:43,010] [INFO] views : load_user
+[2018-06-22 12:52:43,018] [INFO] models : path_url:/sysuser/
+[2018-06-22 12:52:43,018] [INFO] permission_view : get_user_permission_all_url_list
+[2018-06-22 12:52:43,018] [INFO] permission_view : db_get_user_permission_all_list
+[2018-06-22 12:52:43,018] [INFO] permission_view : session_user_is_admin
+[2018-06-22 12:52:43,027] [INFO] user_view : user
+[2018-06-22 12:52:43,093] [INFO] views : load_user
+[2018-06-22 12:52:43,288] [INFO] socket : 3c85f2fe48ea4773b549a642498e671c: Sending packet OPEN data {'sid': '3c85f2fe48ea4773b549a642498e671c', 'upgrades': [], 'pingTimeout': 60000, 'pingInterval': 25000}
+[2018-06-22 12:52:43,288] [INFO] socket : 3c85f2fe48ea4773b549a642498e671c: Sending packet MESSAGE data 0
+[2018-06-22 12:52:43,300] [INFO] views : load_user
+[2018-06-22 12:52:43,328] [INFO] views : load_user
+[2018-06-22 12:52:43,334] [INFO] message_view : get_msg_not_read_url
+[2018-06-22 12:52:43,361] [INFO] views : load_user
+[2018-06-22 12:52:43,366] [INFO] user_view : get_user_list
+[2018-06-22 12:52:43,367] [INFO] user_view : search_data:%sNone
+[2018-06-22 12:52:43,368] [INFO] user_view : get_org_id_by_user_id
+[2018-06-22 12:52:43,375] [INFO] user_view : get_all_child_org_by_org_id
+[2018-06-22 12:52:43,389] [INFO] user_view : get_user_by_org_id
+[2018-06-22 12:52:43,390] [INFO] user_view : is_statu
+[2018-06-22 12:52:43,392] [INFO] user_view : sort_in_sysuser
+[2018-06-22 12:52:43,401] [INFO] user_view : get_user_all_count_by_org_id
+[2018-06-22 12:52:43,402] [INFO] user_view : is_statu
+[2018-06-22 12:52:43,413] [INFO] user_view : get_role_by_user_id
+[2018-06-22 12:52:43,425] [INFO] socket : 3c85f2fe48ea4773b549a642498e671c: Received packet MESSAGE data 0/msg,
+[2018-06-22 12:52:43,426] [INFO] socket : 3c85f2fe48ea4773b549a642498e671c: Sending packet MESSAGE data 0/msg
+[2018-06-22 12:52:55,229] [INFO] socket : aff6525b6c4b4e2da8130a63b7e48215: Client is gone, closing socket
+[2018-06-22 12:52:55,951] [INFO] views : load_user
+[2018-06-22 12:52:55,955] [INFO] models : path_url:/sysuser/reset/password/<id>
+[2018-06-22 12:52:55,955] [INFO] permission_view : get_user_permission_all_url_list
+[2018-06-22 12:52:55,956] [INFO] permission_view : db_get_user_permission_all_list
+[2018-06-22 12:52:55,956] [INFO] permission_view : session_user_is_admin
+[2018-06-22 12:52:55,973] [INFO] user_view : reset_password
+[2018-06-22 12:52:58,414] [INFO] models : set_password
+[2018-06-22 12:52:59,352] [INFO] message_view : add_option_message
+[2018-06-22 12:52:59,377] [INFO] server : emitting event "sys_msg" to all [/msg]
+[2018-06-22 12:52:59,378] [INFO] socket : a69c152f08d346dd9f37256ba07c9bbc: Sending packet MESSAGE data 2/msg,["sys_msg",{"data":{"msg_id":"M1529643179","msg_title":"\u65b0\u7684\u901a\u77e5\u6d88\u606f","msg_type":"3","msg_sender":"2","msg_receiver":"[['2', '0', '0']]"}}]
+[2018-06-22 12:52:59,378] [INFO] socket : d0bdc779acad4825aecd241828e72125: Sending packet MESSAGE data 2/msg,["sys_msg",{"data":{"msg_id":"M1529643179","msg_title":"\u65b0\u7684\u901a\u77e5\u6d88\u606f","msg_type":"3","msg_sender":"2","msg_receiver":"[['2', '0', '0']]"}}]
+[2018-06-22 12:52:59,378] [INFO] socket : 179a378848684ddea0782dcf73b2d76c: Sending packet MESSAGE data 2/msg,["sys_msg",{"data":{"msg_id":"M1529643179","msg_title":"\u65b0\u7684\u901a\u77e5\u6d88\u606f","msg_type":"3","msg_sender":"2","msg_receiver":"[['2', '0', '0']]"}}]
+[2018-06-22 12:52:59,378] [INFO] socket : 74f6ca2e7fe04d9fb384cd3f3cdefab7: Sending packet MESSAGE data 2/msg,["sys_msg",{"data":{"msg_id":"M1529643179","msg_title":"\u65b0\u7684\u901a\u77e5\u6d88\u606f","msg_type":"3","msg_sender":"2","msg_receiver":"[['2', '0', '0']]"}}]
+[2018-06-22 12:52:59,378] [INFO] socket : db52d38dbbcc4f928178033c3cf1360d: Sending packet MESSAGE data 2/msg,["sys_msg",{"data":{"msg_id":"M1529643179","msg_title":"\u65b0\u7684\u901a\u77e5\u6d88\u606f","msg_type":"3","msg_sender":"2","msg_receiver":"[['2', '0', '0']]"}}]
+[2018-06-22 12:52:59,379] [INFO] socket : ffc4645c4f4546128fee84040f663a43: Sending packet MESSAGE data 2/msg,["sys_msg",{"data":{"msg_id":"M1529643179","msg_title":"\u65b0\u7684\u901a\u77e5\u6d88\u606f","msg_type":"3","msg_sender":"2","msg_receiver":"[['2', '0', '0']]"}}]
+[2018-06-22 12:52:59,379] [INFO] socket : 3c85f2fe48ea4773b549a642498e671c: Sending packet MESSAGE data 2/msg,["sys_msg",{"data":{"msg_id":"M1529643179","msg_title":"\u65b0\u7684\u901a\u77e5\u6d88\u606f","msg_type":"3","msg_sender":"2","msg_receiver":"[['2', '0', '0']]"}}]
+[2018-06-22 12:52:59,390] [INFO] views : load_user
+[2018-06-22 12:52:59,394] [INFO] models : path_url:/sysuser/reset/password/<id>
+[2018-06-22 12:52:59,395] [INFO] permission_view : get_user_permission_all_url_list
+[2018-06-22 12:52:59,395] [INFO] permission_view : db_get_user_permission_all_list
+[2018-06-22 12:52:59,395] [INFO] permission_view : session_user_is_admin
+[2018-06-22 12:52:59,403] [INFO] user_view : reset_password
+[2018-06-22 12:53:01,576] [INFO] models : set_password
+[2018-06-22 12:53:02,471] [INFO] message_view : add_option_message
+[2018-06-22 12:53:02,488] [INFO] server : emitting event "sys_msg" to all [/msg]
+[2018-06-22 12:53:02,488] [INFO] socket : a69c152f08d346dd9f37256ba07c9bbc: Sending packet MESSAGE data 2/msg,["sys_msg",{"data":{"msg_id":"M1529643182","msg_title":"\u65b0\u7684\u901a\u77e5\u6d88\u606f","msg_type":"3","msg_sender":"2","msg_receiver":"[['2', '0', '0']]"}}]
+[2018-06-22 12:53:02,489] [INFO] socket : d0bdc779acad4825aecd241828e72125: Sending packet MESSAGE data 2/msg,["sys_msg",{"data":{"msg_id":"M1529643182","msg_title":"\u65b0\u7684\u901a\u77e5\u6d88\u606f","msg_type":"3","msg_sender":"2","msg_receiver":"[['2', '0', '0']]"}}]
+[2018-06-22 12:53:02,489] [INFO] socket : 179a378848684ddea0782dcf73b2d76c: Sending packet MESSAGE data 2/msg,["sys_msg",{"data":{"msg_id":"M1529643182","msg_title":"\u65b0\u7684\u901a\u77e5\u6d88\u606f","msg_type":"3","msg_sender":"2","msg_receiver":"[['2', '0', '0']]"}}]
+[2018-06-22 12:53:02,489] [INFO] socket : 74f6ca2e7fe04d9fb384cd3f3cdefab7: Sending packet MESSAGE data 2/msg,["sys_msg",{"data":{"msg_id":"M1529643182","msg_title":"\u65b0\u7684\u901a\u77e5\u6d88\u606f","msg_type":"3","msg_sender":"2","msg_receiver":"[['2', '0', '0']]"}}]
+[2018-06-22 12:53:02,489] [INFO] socket : db52d38dbbcc4f928178033c3cf1360d: Sending packet MESSAGE data 2/msg,["sys_msg",{"data":{"msg_id":"M1529643182","msg_title":"\u65b0\u7684\u901a\u77e5\u6d88\u606f","msg_type":"3","msg_sender":"2","msg_receiver":"[['2', '0', '0']]"}}]
+[2018-06-22 12:53:02,490] [INFO] socket : ffc4645c4f4546128fee84040f663a43: Sending packet MESSAGE data 2/msg,["sys_msg",{"data":{"msg_id":"M1529643182","msg_title":"\u65b0\u7684\u901a\u77e5\u6d88\u606f","msg_type":"3","msg_sender":"2","msg_receiver":"[['2', '0', '0']]"}}]
+[2018-06-22 12:53:02,490] [INFO] socket : 3c85f2fe48ea4773b549a642498e671c: Sending packet MESSAGE data 2/msg,["sys_msg",{"data":{"msg_id":"M1529643182","msg_title":"\u65b0\u7684\u901a\u77e5\u6d88\u606f","msg_type":"3","msg_sender":"2","msg_receiver":"[['2', '0', '0']]"}}]
+[2018-06-22 12:53:02,493] [INFO] views : load_user
+[2018-06-22 12:53:02,497] [INFO] message_view : get_msg_not_read_url
+[2018-06-22 12:53:02,509] [INFO] views : load_user
+[2018-06-22 12:53:02,514] [INFO] models : path_url:/sysuser/reset/password/<id>
+[2018-06-22 12:53:02,514] [INFO] permission_view : get_user_permission_all_url_list
+[2018-06-22 12:53:02,515] [INFO] permission_view : db_get_user_permission_all_list
+[2018-06-22 12:53:02,515] [INFO] permission_view : session_user_is_admin
+[2018-06-22 12:53:02,523] [INFO] user_view : reset_password
+[2018-06-22 12:53:03,604] [INFO] models : set_password
+[2018-06-22 12:53:04,535] [INFO] message_view : add_option_message
+[2018-06-22 12:53:04,555] [INFO] server : emitting event "sys_msg" to all [/msg]
+[2018-06-22 12:53:04,556] [INFO] socket : a69c152f08d346dd9f37256ba07c9bbc: Client is gone, closing socket
+[2018-06-22 12:53:04,556] [INFO] socket : d0bdc779acad4825aecd241828e72125: Sending packet MESSAGE data 2/msg,["sys_msg",{"data":{"msg_id":"M1529643184","msg_title":"\u65b0\u7684\u901a\u77e5\u6d88\u606f","msg_type":"3","msg_sender":"2","msg_receiver":"[['2', '0', '0']]"}}]
+[2018-06-22 12:53:04,556] [INFO] socket : 179a378848684ddea0782dcf73b2d76c: Sending packet MESSAGE data 2/msg,["sys_msg",{"data":{"msg_id":"M1529643184","msg_title":"\u65b0\u7684\u901a\u77e5\u6d88\u606f","msg_type":"3","msg_sender":"2","msg_receiver":"[['2', '0', '0']]"}}]
+[2018-06-22 12:53:04,557] [INFO] socket : 74f6ca2e7fe04d9fb384cd3f3cdefab7: Sending packet MESSAGE data 2/msg,["sys_msg",{"data":{"msg_id":"M1529643184","msg_title":"\u65b0\u7684\u901a\u77e5\u6d88\u606f","msg_type":"3","msg_sender":"2","msg_receiver":"[['2', '0', '0']]"}}]
+[2018-06-22 12:53:04,557] [INFO] socket : db52d38dbbcc4f928178033c3cf1360d: Sending packet MESSAGE data 2/msg,["sys_msg",{"data":{"msg_id":"M1529643184","msg_title":"\u65b0\u7684\u901a\u77e5\u6d88\u606f","msg_type":"3","msg_sender":"2","msg_receiver":"[['2', '0', '0']]"}}]
+[2018-06-22 12:53:04,557] [INFO] socket : ffc4645c4f4546128fee84040f663a43: Sending packet MESSAGE data 2/msg,["sys_msg",{"data":{"msg_id":"M1529643184","msg_title":"\u65b0\u7684\u901a\u77e5\u6d88\u606f","msg_type":"3","msg_sender":"2","msg_receiver":"[['2', '0', '0']]"}}]
+[2018-06-22 12:53:04,557] [INFO] socket : 3c85f2fe48ea4773b549a642498e671c: Sending packet MESSAGE data 2/msg,["sys_msg",{"data":{"msg_id":"M1529643184","msg_title":"\u65b0\u7684\u901a\u77e5\u6d88\u606f","msg_type":"3","msg_sender":"2","msg_receiver":"[['2', '0', '0']]"}}]
+[2018-06-22 12:53:04,561] [INFO] views : load_user
+[2018-06-22 12:53:04,565] [INFO] message_view : get_msg_not_read_url
+[2018-06-22 12:53:04,577] [INFO] views : load_user
+[2018-06-22 12:53:04,581] [INFO] message_view : get_msg_not_read_url
+[2018-06-22 12:53:08,366] [INFO] socket : 3c85f2fe48ea4773b549a642498e671c: Received packet PING data None
+[2018-06-22 12:53:08,367] [INFO] socket : 3c85f2fe48ea4773b549a642498e671c: Sending packet PONG data None
+[2018-06-22 12:53:10,119] [INFO] views : load_user
+[2018-06-22 12:53:10,124] [INFO] models : path_url:/sysuser/update/user/<id>
+[2018-06-22 12:53:10,124] [INFO] permission_view : get_user_permission_all_url_list
+[2018-06-22 12:53:10,124] [INFO] permission_view : db_get_user_permission_all_list
+[2018-06-22 12:53:10,124] [INFO] permission_view : session_user_is_admin
+[2018-06-22 12:53:10,138] [INFO] user_view : add_user
+[2018-06-22 12:53:10,365] [INFO] views : load_user
+[2018-06-22 12:53:10,642] [INFO] socket : f0b5a03edd4946db9bac9f3989711164: Sending packet OPEN data {'sid': 'f0b5a03edd4946db9bac9f3989711164', 'upgrades': [], 'pingTimeout': 60000, 'pingInterval': 25000}
+[2018-06-22 12:53:10,642] [INFO] socket : f0b5a03edd4946db9bac9f3989711164: Sending packet MESSAGE data 0
+[2018-06-22 12:53:10,647] [INFO] views : load_user
+[2018-06-22 12:53:10,668] [INFO] views : load_user
+[2018-06-22 12:53:10,788] [INFO] views : load_user
+[2018-06-22 12:53:10,793] [INFO] message_view : get_msg_not_read_url
+[2018-06-22 12:53:10,836] [INFO] views : load_user
+[2018-06-22 12:53:10,840] [INFO] user_view : get_edit_user_one_org_data
+[2018-06-22 12:53:10,841] [DEBUG] user_view : name 'report_edit_user_get_org_data' is not defined
+[2018-06-22 12:53:10,871] [INFO] socket : f0b5a03edd4946db9bac9f3989711164: Received packet MESSAGE data 0/msg,
+[2018-06-22 12:53:10,872] [INFO] socket : f0b5a03edd4946db9bac9f3989711164: Sending packet MESSAGE data 0/msg
+[2018-06-22 12:53:20,221] [INFO] views : load_user
+[2018-06-22 12:53:20,226] [INFO] models : path_url:/permission/
+[2018-06-22 12:53:20,226] [INFO] permission_view : get_user_permission_all_url_list
+[2018-06-22 12:53:20,227] [INFO] permission_view : db_get_user_permission_all_list
+[2018-06-22 12:53:20,227] [INFO] permission_view : session_user_is_admin
+[2018-06-22 12:53:20,293] [INFO] views : load_user
+[2018-06-22 12:53:20,604] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet OPEN data {'sid': '9e70a7d8b90348769a863f6ed67523e5', 'upgrades': [], 'pingTimeout': 60000, 'pingInterval': 25000}
+[2018-06-22 12:53:20,605] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet MESSAGE data 0
+[2018-06-22 12:53:20,618] [INFO] views : load_user
+[2018-06-22 12:53:20,648] [INFO] views : load_user
+[2018-06-22 12:53:20,653] [INFO] message_view : get_msg_not_read_url
+[2018-06-22 12:53:20,696] [INFO] views : load_user
+[2018-06-22 12:53:20,700] [INFO] models : path_url:/permission/get_list
+[2018-06-22 12:53:20,700] [INFO] permission_view : get_user_permission_all_url_list
+[2018-06-22 12:53:20,700] [INFO] permission_view : db_get_user_permission_all_list
+[2018-06-22 12:53:20,700] [INFO] permission_view : session_user_is_admin
+[2018-06-22 12:53:20,709] [INFO] permission_view : permission_get_list
+[2018-06-22 12:53:20,709] [INFO] permission_view : get_permission_table_data
+[2018-06-22 12:53:20,709] [INFO] permission_view : is_valid_date
+[2018-06-22 12:53:20,711] [INFO] permission_view : is_status
+[2018-06-22 12:53:20,711] [INFO] permission_view : sort_in_permission_list
+[2018-06-22 12:53:20,721] [INFO] permission_view : get_sys_dict_list
+[2018-06-22 12:53:20,739] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet MESSAGE data 0/msg,
+[2018-06-22 12:53:20,739] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet MESSAGE data 0/msg
+[2018-06-22 12:53:45,707] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 12:53:45,707] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 12:54:08,373] [INFO] socket : 3c85f2fe48ea4773b549a642498e671c: Client is gone, closing socket
+[2018-06-22 12:54:10,727] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 12:54:10,728] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 12:54:10,911] [INFO] socket : f0b5a03edd4946db9bac9f3989711164: Client is gone, closing socket
+[2018-06-22 12:54:35,780] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 12:54:35,780] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 12:55:00,791] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 12:55:00,791] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 12:55:26,794] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 12:55:26,794] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 12:55:52,793] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 12:55:52,793] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 12:56:18,793] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 12:56:18,793] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 12:56:44,793] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 12:56:44,794] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 12:57:10,792] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 12:57:10,793] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 12:57:36,792] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 12:57:36,792] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 12:58:02,793] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 12:58:02,793] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 12:58:28,792] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 12:58:28,792] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 12:58:54,793] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 12:58:54,793] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 12:59:20,792] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 12:59:20,792] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 12:59:46,793] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 12:59:46,793] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 13:00:12,792] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 13:00:12,793] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 13:00:38,793] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 13:00:38,793] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 13:01:04,792] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 13:01:04,793] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 13:01:30,792] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 13:01:30,792] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 13:01:56,793] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 13:01:56,793] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 13:02:22,794] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Received packet PING data None
+[2018-06-22 13:02:22,795] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Sending packet PONG data None
+[2018-06-22 13:03:22,805] [INFO] socket : 9e70a7d8b90348769a863f6ed67523e5: Client is gone, closing socket

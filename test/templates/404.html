@@ -1,0 +1,17 @@
+
+{% extends "public/base.html" %}
+{% block banner %}
+{% endblock %}
+
+{% block page_title %}Page Not Found{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <div class="text-center">
+        <h1>404</h1>
+        <p>很抱歉！没有找到您要访问的页面！</p>
+        <p>Want to <a href="{{ url_for('public.home') }}">go home</a> instead?</p>
+    </div>
+</div>
+{% endblock %}
+
