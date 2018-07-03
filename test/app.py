@@ -9,8 +9,8 @@
 
 from flask import Flask, render_template
 from .assets import env
-from test  import (public, sysadmin, index)
-from test import apis
+from . import (public, sysadmin, index)
+from . import apis
 # from test  import (mol())
 from .extensions import (
     bcrypt, csrf_protect, db,

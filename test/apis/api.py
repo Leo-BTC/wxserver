@@ -3,6 +3,7 @@ from test.responsecode import ResponseCode
 import sqlalchemy
 from test.apis.models import UserInfo,TokenItem
 from sqlalchemy import distinct
+from test.extensions import db
 def check_open_id(open_id):
     """
     根据open_id查询数据库
@@ -104,16 +105,22 @@ def alltoken(open_id):
     except Exception as e:
         logging.debug(e)
         raise e
-def deletetoken(tokenname,open_id):
-    token = TokenItem.query.filter_by(tokenname=tokenname,open_id=open_id).all()
-    if token:
-        TokenItem.delete(
-            token
-        )
+def deletetoken(tokenname,open_id,length):
+    try:
+        db.session.query(TokenItem).filter(TokenItem.tokenname == tokenname, TokenItem.open_id == open_id).delete()
+        db.session.commit()
+        print(length)
+        print('表的长度')
+        res = UserInfo.query.filter(UserInfo.open_id == open_id).first()
+        UserInfo.update(res,
+                        number=length
+                        )
         res = {'code': ResponseCode.SUCCESS, 'msg': '删除成功'}
         return res
-    else:
-        return {'code': ResponseCode.ERROR, 'msg': 'token不存在，需要加入组合'}
+    except Exception as e:
+        logging.info(e)
+        res = {'code': ResponseCode.ERROR, 'msg': '删除失败'}
+        return res
 def userinfo(open_id):
     try:
         user_obj = UserInfo.query.filter(UserInfo.open_id == open_id).first()

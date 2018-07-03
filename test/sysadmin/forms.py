@@ -19,8 +19,6 @@ from test.sysadmin import permission_view
 from test.sysadmin.models import SysDict, SysDictType, Rolelist, SysUser, SysOrg, SysUserRole, Permissionlist, \
     OrgStatus
 import logging
-
-
 class DictForm(Form):
     """字典表单"""
     dict_name = StringField('dict_name')
@@ -30,7 +28,6 @@ class DictForm(Form):
     sort = StringField('sort')
     remarks = StringField('remarks')
     del_flag = SelectField('del_flag')
-
     def __init__(self, *args, **kwargs):
         """Create instance."""
         super(DictForm, self).__init__(*args, **kwargs)

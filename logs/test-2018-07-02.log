@@ -1,0 +1,10 @@
+[2018-07-02 12:58:33,099] [INFO] server : Server initialized for gevent.
+[2018-07-02 13:01:17,486] [INFO] views : home
+[2018-07-02 17:26:54,018] [INFO] views : login
+[2018-07-02 17:26:54,248] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-02 17:26:55,581] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001OEF431K9NJN17kt531H7O431OEF4L&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-07-02 17:26:55,643] [INFO] views : check
+[2018-07-02 17:26:55,654] [INFO] api : check_open_id
+[2018-07-02 17:26:58,768] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-07-02 17:26:59,643] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-07-02 18:04:16,629] [INFO] server : Server initialized for gevent.

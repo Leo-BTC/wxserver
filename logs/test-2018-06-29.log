@@ -1,0 +1,372 @@
+[2018-06-29 16:07:13,791] [INFO] server : Server initialized for gevent.
+[2018-06-29 16:23:41,683] [INFO] views : login
+[2018-06-29 16:23:41,728] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-29 16:23:42,405] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061xBaOn1yZaUi0ToxNn12M7On1xBaOt&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-29 16:23:42,436] [INFO] views : check
+[2018-06-29 16:23:42,436] [INFO] api : check_open_id
+[2018-06-29 16:23:47,045] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 16:23:58,038] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 16:24:21,023] [INFO] server : Server initialized for gevent.
+[2018-06-29 16:24:28,096] [INFO] views : login
+[2018-06-29 16:24:28,101] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-29 16:24:28,851] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061aqylJ11fmw60XW1jJ1udFlJ1aqylp&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-06-29 16:24:28,881] [INFO] views : check
+[2018-06-29 16:24:28,881] [INFO] api : check_open_id
+[2018-06-29 16:24:32,929] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 16:24:34,099] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 16:24:40,997] [INFO] views : list
+[2018-06-29 16:24:40,998] [INFO] api : paice
+[2018-06-29 16:24:44,320] [INFO] views : alltokenviews
+[2018-06-29 16:24:44,321] [INFO] api : alltoken
+[2018-06-29 16:24:44,334] [INFO] views : list
+[2018-06-29 16:24:44,334] [INFO] api : paice
+[2018-06-29 16:24:54,247] [INFO] views : list
+[2018-06-29 16:24:54,247] [INFO] api : paice
+[2018-06-29 16:24:54,269] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 16:24:55,099] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 16:24:56,069] [INFO] views : edittoken
+[2018-06-29 16:25:12,797] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 16:25:13,612] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 16:25:19,450] [INFO] views : alltokenviews
+[2018-06-29 16:25:19,450] [INFO] api : alltoken
+[2018-06-29 16:25:19,464] [INFO] views : list
+[2018-06-29 16:25:19,465] [INFO] api : paice
+[2018-06-29 16:25:21,386] [INFO] views : alltokenviews
+[2018-06-29 16:25:21,386] [INFO] api : alltoken
+[2018-06-29 16:25:23,891] [INFO] views : alltokenviews
+[2018-06-29 16:25:23,891] [INFO] api : alltoken
+[2018-06-29 16:25:26,142] [INFO] views : alltokenviews
+[2018-06-29 16:25:26,142] [INFO] api : alltoken
+[2018-06-29 16:25:36,464] [INFO] views : list
+[2018-06-29 16:25:36,464] [INFO] api : paice
+[2018-06-29 16:25:36,485] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 16:25:40,323] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 16:25:42,999] [INFO] views : edittoken
+[2018-06-29 16:25:59,971] [INFO] views : alltokenviews
+[2018-06-29 16:25:59,971] [INFO] api : alltoken
+[2018-06-29 16:25:59,984] [INFO] views : list
+[2018-06-29 16:25:59,984] [INFO] api : paice
+[2018-06-29 16:26:06,966] [INFO] views : login
+[2018-06-29 16:26:06,968] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-29 16:26:07,056] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071ys2Cp1yGr7p0jJ3Dp1pc4Cp1ys2Cn&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-29 16:26:07,070] [INFO] views : check
+[2018-06-29 16:26:07,071] [INFO] api : check_open_id
+[2018-06-29 16:26:10,392] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 16:26:11,240] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 16:26:15,747] [INFO] views : list
+[2018-06-29 16:26:15,748] [INFO] api : paice
+[2018-06-29 16:26:21,224] [INFO] views : alltokenviews
+[2018-06-29 16:26:21,224] [INFO] api : alltoken
+[2018-06-29 16:26:21,238] [INFO] views : list
+[2018-06-29 16:26:21,239] [INFO] api : paice
+[2018-06-29 16:26:33,311] [INFO] views : jointoken
+[2018-06-29 16:26:33,311] [INFO] api : jointoken
+[2018-06-29 16:26:48,775] [INFO] views : alltokenviews
+[2018-06-29 16:26:48,776] [INFO] api : alltoken
+[2018-06-29 16:26:48,790] [INFO] views : list
+[2018-06-29 16:26:48,790] [INFO] api : paice
+[2018-06-29 16:26:54,925] [INFO] views : list
+[2018-06-29 16:26:54,925] [INFO] api : paice
+[2018-06-29 16:26:54,970] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 16:26:59,699] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 16:27:00,477] [INFO] views : edittoken
+[2018-06-29 16:28:47,180] [INFO] views : login
+[2018-06-29 16:28:47,184] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-29 16:28:47,261] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061OAsiY08Tk612wzKfY0eZsiY0OAsiX&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-29 16:28:47,276] [INFO] views : check
+[2018-06-29 16:28:47,276] [INFO] api : check_open_id
+[2018-06-29 16:28:51,501] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 16:28:52,457] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 16:35:36,312] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 16:35:40,631] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 16:35:40,637] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 16:35:42,493] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 16:35:47,620] [INFO] views : list
+[2018-06-29 16:35:47,621] [INFO] api : paice
+[2018-06-29 16:35:50,810] [INFO] views : alltokenviews
+[2018-06-29 16:35:50,810] [INFO] api : alltoken
+[2018-06-29 16:35:50,823] [INFO] views : list
+[2018-06-29 16:35:50,824] [INFO] api : paice
+[2018-06-29 16:35:57,168] [INFO] views : list
+[2018-06-29 16:35:57,168] [INFO] api : paice
+[2018-06-29 16:35:57,194] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 16:35:57,934] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 16:35:59,993] [INFO] views : edittoken
+[2018-06-29 16:36:00,026] [INFO] views : editcash。。。
+[2018-06-29 16:36:00,027] [INFO] api : editcash
+[2018-06-29 16:36:15,147] [INFO] views : alltokenviews
+[2018-06-29 16:36:15,147] [INFO] api : alltoken
+[2018-06-29 16:36:15,158] [INFO] views : list
+[2018-06-29 16:36:15,159] [INFO] api : paice
+[2018-06-29 16:37:04,673] [INFO] views : alltokenviews
+[2018-06-29 16:37:04,673] [INFO] api : alltoken
+[2018-06-29 16:37:04,687] [INFO] views : list
+[2018-06-29 16:37:04,688] [INFO] api : paice
+[2018-06-29 16:37:07,619] [INFO] views : deletetoken
+[2018-06-29 16:37:07,626] [DEBUG] views : Class 'builtins.list' is not mapped
+[2018-06-29 16:37:15,701] [INFO] views : deletetoken
+[2018-06-29 16:37:15,707] [DEBUG] views : Class 'builtins.list' is not mapped
+[2018-06-29 16:37:15,917] [INFO] views : deletetoken
+[2018-06-29 16:37:15,925] [DEBUG] views : Class 'builtins.list' is not mapped
+[2018-06-29 16:37:16,116] [INFO] views : deletetoken
+[2018-06-29 16:37:16,119] [DEBUG] views : Class 'builtins.list' is not mapped
+[2018-06-29 16:37:16,317] [INFO] views : deletetoken
+[2018-06-29 16:37:16,325] [DEBUG] views : Class 'builtins.list' is not mapped
+[2018-06-29 16:37:16,517] [INFO] views : deletetoken
+[2018-06-29 16:37:16,523] [DEBUG] views : Class 'builtins.list' is not mapped
+[2018-06-29 16:37:16,729] [INFO] views : deletetoken
+[2018-06-29 16:37:16,736] [DEBUG] views : Class 'builtins.list' is not mapped
+[2018-06-29 16:37:16,936] [INFO] views : deletetoken
+[2018-06-29 16:37:16,943] [DEBUG] views : Class 'builtins.list' is not mapped
+[2018-06-29 16:37:17,129] [INFO] views : deletetoken
+[2018-06-29 16:37:17,136] [DEBUG] views : Class 'builtins.list' is not mapped
+[2018-06-29 16:37:20,557] [INFO] views : alltokenviews
+[2018-06-29 16:37:20,557] [INFO] api : alltoken
+[2018-06-29 16:37:20,572] [INFO] views : list
+[2018-06-29 16:37:20,572] [INFO] api : paice
+[2018-06-29 16:37:23,018] [INFO] views : deletetoken
+[2018-06-29 16:37:23,021] [DEBUG] views : Class 'builtins.list' is not mapped
+[2018-06-29 16:37:25,492] [INFO] views : deletetoken
+[2018-06-29 16:37:25,499] [DEBUG] views : Class 'builtins.list' is not mapped
+[2018-06-29 16:37:25,723] [INFO] views : deletetoken
+[2018-06-29 16:37:25,731] [DEBUG] views : Class 'builtins.list' is not mapped
+[2018-06-29 16:37:25,955] [INFO] views : deletetoken
+[2018-06-29 16:37:25,961] [DEBUG] views : Class 'builtins.list' is not mapped
+[2018-06-29 16:37:26,151] [INFO] views : deletetoken
+[2018-06-29 16:37:26,158] [DEBUG] views : Class 'builtins.list' is not mapped
+[2018-06-29 16:37:26,356] [INFO] views : deletetoken
+[2018-06-29 16:37:26,365] [DEBUG] views : Class 'builtins.list' is not mapped
+[2018-06-29 16:37:26,568] [INFO] views : deletetoken
+[2018-06-29 16:37:26,575] [DEBUG] views : Class 'builtins.list' is not mapped
+[2018-06-29 16:37:32,833] [INFO] views : login
+[2018-06-29 16:37:32,837] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-29 16:37:32,921] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061PacXr0vfwPe1pRgWr0p93Xr0PacXd&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-29 16:37:32,965] [INFO] views : check
+[2018-06-29 16:37:32,966] [INFO] api : check_open_id
+[2018-06-29 16:37:35,783] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 16:37:36,630] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 16:37:44,363] [INFO] views : list
+[2018-06-29 16:37:44,363] [INFO] api : paice
+[2018-06-29 16:37:46,033] [INFO] views : alltokenviews
+[2018-06-29 16:37:46,033] [INFO] api : alltoken
+[2018-06-29 16:37:46,052] [INFO] views : list
+[2018-06-29 16:37:46,053] [INFO] api : paice
+[2018-06-29 16:37:48,449] [INFO] views : deletetoken
+[2018-06-29 16:37:48,453] [DEBUG] views : Class 'builtins.list' is not mapped
+[2018-06-29 16:38:38,365] [INFO] server : Server initialized for gevent.
+[2018-06-29 16:44:35,528] [INFO] server : Server initialized for gevent.
+[2018-06-29 17:06:40,782] [INFO] server : Server initialized for gevent.
+[2018-06-29 17:06:53,191] [INFO] views : login
+[2018-06-29 17:06:53,199] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-29 17:06:53,787] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001nangp1DdJar0ofIdp1dK3gp1nang6&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-29 17:06:53,808] [INFO] views : check
+[2018-06-29 17:06:53,809] [INFO] api : check_open_id
+[2018-06-29 17:06:58,551] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 17:06:59,405] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 17:07:06,797] [INFO] views : list
+[2018-06-29 17:07:06,797] [INFO] api : paice
+[2018-06-29 17:07:09,735] [INFO] views : alltokenviews
+[2018-06-29 17:07:09,736] [INFO] api : alltoken
+[2018-06-29 17:07:09,751] [INFO] views : list
+[2018-06-29 17:07:09,751] [INFO] api : paice
+[2018-06-29 17:07:14,077] [INFO] views : list
+[2018-06-29 17:07:14,078] [INFO] api : paice
+[2018-06-29 17:07:14,100] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 17:07:15,545] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 17:07:20,512] [INFO] views : edittoken
+[2018-06-29 17:07:20,550] [INFO] views : editcash。。。
+[2018-06-29 17:07:20,551] [INFO] api : editcash
+[2018-06-29 17:07:30,526] [INFO] views : deletetoken
+[2018-06-29 17:07:30,530] [DEBUG] views : type object 'TokenItem' has no attribute 'db'
+[2018-06-29 17:08:11,840] [INFO] server : Server initialized for gevent.
+[2018-06-29 17:08:26,552] [INFO] views : login
+[2018-06-29 17:08:26,558] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-29 17:08:27,147] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071bpYwR0hukM72gEzwR0bf0xR0bpYwk&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-29 17:08:27,171] [INFO] views : check
+[2018-06-29 17:08:27,171] [INFO] api : check_open_id
+[2018-06-29 17:08:30,383] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 17:08:31,328] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 17:08:35,978] [INFO] views : list
+[2018-06-29 17:08:35,978] [INFO] api : paice
+[2018-06-29 17:08:39,066] [INFO] views : alltokenviews
+[2018-06-29 17:08:39,066] [INFO] api : alltoken
+[2018-06-29 17:08:39,080] [INFO] views : list
+[2018-06-29 17:08:39,080] [INFO] api : paice
+[2018-06-29 17:08:41,842] [INFO] views : deletetoken
+[2018-06-29 17:08:41,846] [DEBUG] views : 'BaseQuery' object has no attribute 'db'
+[2018-06-29 17:09:25,866] [INFO] server : Server initialized for gevent.
+[2018-06-29 17:09:40,081] [INFO] views : login
+[2018-06-29 17:09:40,086] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-29 17:09:40,680] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001fxptY0mRcq127VrvY0iYvtY0fxptI&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-29 17:09:40,693] [INFO] views : check
+[2018-06-29 17:09:40,694] [INFO] api : check_open_id
+[2018-06-29 17:09:44,480] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 17:09:45,215] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 17:09:51,277] [INFO] views : list
+[2018-06-29 17:09:51,278] [INFO] api : paice
+[2018-06-29 17:09:55,057] [INFO] views : alltokenviews
+[2018-06-29 17:09:55,057] [INFO] api : alltoken
+[2018-06-29 17:09:55,072] [INFO] views : list
+[2018-06-29 17:09:55,072] [INFO] api : paice
+[2018-06-29 17:09:57,353] [INFO] views : deletetoken
+[2018-06-29 17:09:57,356] [DEBUG] views : type object 'TokenItem' has no attribute 'db'
+[2018-06-29 17:16:00,342] [INFO] server : Server initialized for gevent.
+[2018-06-29 17:16:16,844] [INFO] views : login
+[2018-06-29 17:16:16,858] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-29 17:16:17,549] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061kh7e51cW10L1rqyc51KM2e51kh7eP&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-29 17:16:17,564] [INFO] views : check
+[2018-06-29 17:16:17,564] [INFO] api : check_open_id
+[2018-06-29 17:16:22,476] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 17:16:23,291] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 17:16:30,786] [INFO] views : list
+[2018-06-29 17:16:30,787] [INFO] api : paice
+[2018-06-29 17:16:33,638] [INFO] views : alltokenviews
+[2018-06-29 17:16:33,639] [INFO] api : alltoken
+[2018-06-29 17:16:33,654] [INFO] views : list
+[2018-06-29 17:16:33,655] [INFO] api : paice
+[2018-06-29 17:16:37,592] [INFO] views : deletetoken
+[2018-06-29 17:16:37,596] [DEBUG] views : Class 'builtins.list' is not mapped
+[2018-06-29 17:48:42,393] [INFO] server : Server initialized for gevent.
+[2018-06-29 17:48:59,655] [INFO] views : login
+[2018-06-29 17:48:59,671] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-29 17:49:00,333] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0013Imzd1GoHct0QBHyd1aO9zd13ImzH&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-29 17:49:00,387] [INFO] views : check
+[2018-06-29 17:49:00,387] [INFO] api : check_open_id
+[2018-06-29 17:49:04,515] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 17:49:05,351] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 17:49:06,621] [INFO] views : list
+[2018-06-29 17:49:06,621] [INFO] api : paice
+[2018-06-29 17:49:09,803] [INFO] views : alltokenviews
+[2018-06-29 17:49:09,804] [INFO] api : alltoken
+[2018-06-29 17:49:09,818] [INFO] views : list
+[2018-06-29 17:49:09,819] [INFO] api : paice
+[2018-06-29 17:49:12,809] [INFO] views : deletetoken
+[2018-06-29 17:49:17,014] [INFO] views : alltokenviews
+[2018-06-29 17:49:17,014] [INFO] api : alltoken
+[2018-06-29 17:49:17,025] [INFO] views : list
+[2018-06-29 17:49:17,025] [INFO] api : paice
+[2018-06-29 17:52:19,208] [INFO] views : alltokenviews
+[2018-06-29 17:52:19,209] [INFO] api : alltoken
+[2018-06-29 17:52:22,117] [INFO] views : alltokenviews
+[2018-06-29 17:52:22,117] [INFO] api : alltoken
+[2018-06-29 17:52:51,340] [INFO] views : login
+[2018-06-29 17:52:51,343] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-29 17:52:51,448] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011x0Oc50T5EAK1xDAd50OJCc50x0Oct&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-29 17:52:51,476] [INFO] views : check
+[2018-06-29 17:52:51,477] [INFO] api : check_open_id
+[2018-06-29 17:52:54,182] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 17:52:55,111] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 17:52:59,176] [INFO] views : list
+[2018-06-29 17:52:59,176] [INFO] api : paice
+[2018-06-29 17:53:03,199] [INFO] views : alltokenviews
+[2018-06-29 17:53:03,199] [INFO] api : alltoken
+[2018-06-29 17:53:03,212] [INFO] views : list
+[2018-06-29 17:53:03,212] [INFO] api : paice
+[2018-06-29 17:53:13,080] [INFO] views : deletetoken
+[2018-06-29 17:53:29,087] [INFO] views : alltokenviews
+[2018-06-29 17:53:29,088] [INFO] api : alltoken
+[2018-06-29 17:53:29,100] [INFO] views : list
+[2018-06-29 17:53:29,100] [INFO] api : paice
+[2018-06-29 17:57:03,092] [INFO] views : login
+[2018-06-29 17:57:03,097] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-29 17:57:03,190] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0118Qk9k12hk3m0MJj7k1y6l9k18Qk9J&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-29 17:57:03,220] [INFO] views : check
+[2018-06-29 17:57:03,220] [INFO] api : check_open_id
+[2018-06-29 17:57:06,120] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 17:57:07,625] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 17:57:07,724] [INFO] views : list
+[2018-06-29 17:57:07,725] [INFO] api : paice
+[2018-06-29 18:09:12,863] [INFO] server : Server initialized for gevent.
+[2018-06-29 18:09:30,206] [INFO] views : login
+[2018-06-29 18:09:30,240] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-29 18:09:31,254] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=08123E0h2B7ujI0lV63h2Vhi0h223E0j&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-29 18:09:31,272] [INFO] views : check
+[2018-06-29 18:09:31,273] [INFO] api : check_open_id
+[2018-06-29 18:09:36,102] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 18:09:36,968] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 18:09:46,328] [INFO] views : list
+[2018-06-29 18:09:46,328] [INFO] api : paice
+[2018-06-29 18:14:08,968] [INFO] views : alltokenviews
+[2018-06-29 18:14:08,969] [INFO] api : alltoken
+[2018-06-29 18:14:08,982] [INFO] views : list
+[2018-06-29 18:14:08,983] [INFO] api : paice
+[2018-06-29 18:14:12,277] [INFO] views : deletetoken
+[2018-06-29 18:14:12,301] [INFO] api : (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') WHERE user_info.id = 4' at line 1") [SQL: 'UPDATE user_info SET number=%(number)s WHERE user_info.id = %(user_info_id)s'] [parameters: {'number': [], 'user_info_id': 4}]
+[2018-06-29 18:34:07,308] [INFO] server : Server initialized for gevent.
+[2018-06-29 18:34:17,551] [INFO] views : login
+[2018-06-29 18:34:17,566] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-29 18:34:18,269] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021FmML71gRk7S1bq0M71QbyL71FmMLF&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-29 18:34:18,283] [INFO] views : check
+[2018-06-29 18:34:18,284] [INFO] api : check_open_id
+[2018-06-29 18:34:22,740] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 18:34:23,556] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 18:34:30,196] [INFO] views : list
+[2018-06-29 18:34:30,196] [INFO] api : paice
+[2018-06-29 18:34:33,704] [INFO] views : alltokenviews
+[2018-06-29 18:34:33,705] [INFO] api : alltoken
+[2018-06-29 18:34:33,721] [INFO] views : list
+[2018-06-29 18:34:33,722] [INFO] api : paice
+[2018-06-29 18:34:41,519] [INFO] views : alltokenviews
+[2018-06-29 18:34:41,519] [INFO] api : alltoken
+[2018-06-29 18:34:41,529] [INFO] views : list
+[2018-06-29 18:34:41,529] [INFO] api : paice
+[2018-06-29 18:34:51,300] [INFO] views : jointoken
+[2018-06-29 18:34:51,300] [INFO] api : jointoken
+[2018-06-29 18:34:56,251] [INFO] views : alltokenviews
+[2018-06-29 18:34:56,251] [INFO] api : alltoken
+[2018-06-29 18:34:56,261] [INFO] views : list
+[2018-06-29 18:34:56,262] [INFO] api : paice
+[2018-06-29 18:35:03,661] [INFO] views : login
+[2018-06-29 18:35:03,666] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-29 18:35:03,795] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061y6niL07gb562CEChL0DibiL0y6niH&grant_type=authorization_code HTTP/1.1" 200 83
+[2018-06-29 18:35:03,808] [INFO] views : check
+[2018-06-29 18:35:03,809] [INFO] api : check_open_id
+[2018-06-29 18:35:06,549] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 18:35:13,341] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 18:35:18,002] [INFO] views : list
+[2018-06-29 18:35:18,003] [INFO] api : paice
+[2018-06-29 18:36:21,904] [INFO] views : alltokenviews
+[2018-06-29 18:36:21,905] [INFO] api : alltoken
+[2018-06-29 18:36:21,919] [INFO] views : list
+[2018-06-29 18:36:21,919] [INFO] api : paice
+[2018-06-29 18:37:03,857] [INFO] views : deletetoken
+[2018-06-29 18:37:03,878] [INFO] api : (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') WHERE user_info.id = 4' at line 1") [SQL: 'UPDATE user_info SET number=%(number)s WHERE user_info.id = %(user_info_id)s'] [parameters: {'number': [], 'user_info_id': 4}]
+[2018-06-29 18:50:44,535] [INFO] views : alltokenviews
+[2018-06-29 18:50:44,535] [INFO] api : alltoken
+[2018-06-29 18:50:44,547] [INFO] views : list
+[2018-06-29 18:50:44,547] [INFO] api : paice
+[2018-06-29 18:53:36,641] [INFO] views : login
+[2018-06-29 18:53:36,648] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-29 18:53:36,747] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0818W67E0URyGc2LwD7E0TBb7E08W671&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-29 18:53:36,762] [INFO] views : check
+[2018-06-29 18:53:36,762] [INFO] api : check_open_id
+[2018-06-29 18:53:39,593] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 18:53:40,435] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 18:53:45,388] [INFO] views : list
+[2018-06-29 18:53:45,389] [INFO] api : paice
+[2018-06-29 18:53:47,185] [INFO] views : alltokenviews
+[2018-06-29 18:53:47,185] [INFO] api : alltoken
+[2018-06-29 18:53:47,195] [INFO] views : list
+[2018-06-29 18:53:47,196] [INFO] api : paice
+[2018-06-29 18:54:59,161] [INFO] views : login
+[2018-06-29 18:54:59,165] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-29 18:54:59,264] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081M5N9o0QJR3r1C1nbo0JzV9o0M5N9G&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-29 18:54:59,295] [INFO] views : check
+[2018-06-29 18:54:59,296] [INFO] api : check_open_id
+[2018-06-29 18:55:02,087] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 18:55:19,001] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 18:55:19,252] [INFO] views : list
+[2018-06-29 18:55:19,252] [INFO] api : paice
+[2018-06-29 18:55:36,085] [INFO] views : login
+[2018-06-29 18:55:36,088] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-06-29 18:55:36,171] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0019LJb71A9dPT1jhae71rMPb719LJbH&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-06-29 18:55:36,200] [INFO] views : check
+[2018-06-29 18:55:36,201] [INFO] api : check_open_id
+[2018-06-29 18:55:38,873] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-06-29 18:55:44,805] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-06-29 18:55:54,601] [INFO] views : list
+[2018-06-29 18:55:54,601] [INFO] api : paice
+[2018-06-29 18:55:56,912] [INFO] views : alltokenviews
+[2018-06-29 18:55:56,913] [INFO] api : alltoken
+[2018-06-29 18:55:56,932] [INFO] views : list
+[2018-06-29 18:55:56,932] [INFO] api : paice

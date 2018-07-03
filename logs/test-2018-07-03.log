@@ -1,0 +1,13 @@
+[2018-07-03 10:49:00,887] [INFO] server : Server initialized for gevent.
+[2018-07-03 10:49:00,937] [INFO] _internal :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-07-03 10:49:24,069] [INFO] views : home
+[2018-07-03 10:49:24,213] [INFO] _internal : 127.0.0.1 - - [03/Jul/2018 10:49:24] "GET / HTTP/1.1" 200 -
+[2018-07-03 10:49:24,254] [INFO] _internal : 127.0.0.1 - - [03/Jul/2018 10:49:24] "GET /static/css/home.css?78faa7b0 HTTP/1.1" 200 -
+[2018-07-03 10:49:24,262] [INFO] _internal : 127.0.0.1 - - [03/Jul/2018 10:49:24] "GET /static/js/home.js?4bd2de00 HTTP/1.1" 200 -
+[2018-07-03 10:49:24,302] [INFO] _internal : 127.0.0.1 - - [03/Jul/2018 10:49:24] "GET /js/html5shiv.min.js HTTP/1.1" 404 -
+[2018-07-03 10:49:24,317] [INFO] _internal : 127.0.0.1 - - [03/Jul/2018 10:49:24] "GET /js/respond.min.js HTTP/1.1" 404 -
+[2018-07-03 10:49:24,323] [INFO] _internal : 127.0.0.1 - - [03/Jul/2018 10:49:24] "GET /static/images/logo.png HTTP/1.1" 200 -
+[2018-07-03 10:49:24,534] [INFO] _internal : 127.0.0.1 - - [03/Jul/2018 10:49:24] "GET /js/html5shiv.min.js HTTP/1.1" 404 -
+[2018-07-03 10:49:24,663] [INFO] _internal : 127.0.0.1 - - [03/Jul/2018 10:49:24] "GET /js/respond.min.js HTTP/1.1" 404 -
+[2018-07-03 10:49:24,674] [INFO] _internal : 127.0.0.1 - - [03/Jul/2018 10:49:24] "GET /static/images/banner/banner.jpg HTTP/1.1" 200 -
+[2018-07-03 10:49:25,687] [INFO] _internal : 127.0.0.1 - - [03/Jul/2018 10:49:25] "GET /static/static/images/favicon.ico HTTP/1.1" 404 -

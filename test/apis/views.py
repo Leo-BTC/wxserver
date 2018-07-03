@@ -142,7 +142,8 @@ def deletetoken():
             tokenname = param.get('name')
             tokenname = tokenname['name']
             open_id = param.get('open_id')
-            res = api.deletetoken(tokenname=tokenname,open_id=open_id)
+            length = param.get('length')
+            res = api.deletetoken(tokenname=tokenname,open_id=open_id,length=length)
             return jsonify(res)
         except Exception as e:
             logging.debug(e)
