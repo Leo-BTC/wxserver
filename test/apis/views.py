@@ -22,6 +22,9 @@ def login():
         code = data['code']
         app_id = data['app_id']
         secret = data['secret']
+        print('这是微信唯一标识')
+        print(app_id)
+        print(secret)
         params = {
             'appid': app_id,
             'secret': secret,
@@ -199,3 +202,15 @@ def editcash():
     except Exception as e:
         logging.info(e)
         return {'code': ResponseCode.ERROR, 'msg': '修改现金失败，请联系管理员'}
+@csrf_protect.exempt
+@blueprint.route('/paihang', methods=['POST'])
+def paihang():
+    logging.info("paihang")
+    try:
+        param = request.get_json()
+        open_id = param.get('open_id')  # 获取open_id
+        res = api.paihang(open_id=open_id)
+        return jsonify(res)
+    except Exception as e:
+        logging.debug(e)
+        return jsonify({'code': ResponseCode.ERROR, 'msg': '系统内部异常，请联系管理员'})

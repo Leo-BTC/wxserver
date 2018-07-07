@@ -41,7 +41,7 @@ def wx_register(username,uid,address,open_id,avatar):
             avatar=avatar,
             price=int(1000000),
             number = int(0),
-            paihang = '--'
+            paihang = int(0)
         )
         return {'code':ResponseCode.SUCCESS,'msg':'注册成功'}
     except Exception as e:
@@ -52,12 +52,9 @@ def price(open_id):
     logging.info('paice')
     try:
         user_obj = UserInfo.query.filter(UserInfo.open_id == open_id).first()
-        token_obj = TokenItem.query.order_by(TokenItem.id.desc()).distinct(TokenItem.tokenname).filter(
-            TokenItem.open_id == open_id).all()
-        length = len(token_obj)
         if user_obj:
             return {'code': ResponseCode.SUCCESS,
-                    'data': {'price': user_obj.price, 'number': user_obj.number, 'paihang': user_obj.paihang,'cash':user_obj.cash},
+                    'data': {'price': user_obj.price, 'number': user_obj.number, 'paihang': user_obj.paihang,'cash':user_obj.cash,'avatar':user_obj.avatar,'username':user_obj.username},
                     'msg': '查询成功!'}
         else:
             return {'code': ResponseCode.ERROR, 'msg': '用户不存在，需要注册'}
@@ -126,7 +123,7 @@ def userinfo(open_id):
         user_obj = UserInfo.query.filter(UserInfo.open_id == open_id).first()
         if user_obj:
             return {'code': ResponseCode.SUCCESS,
-                    'data': {'uid': user_obj.uid, 'address': user_obj.address},
+                    'data': {'price': user_obj.price, 'id': user_obj.id,'avator':user_obj.avatar},
                     'msg': '查询成功!'}
         else:
             return {'code': ResponseCode.ERROR, 'msg': '用户不存在，需要注册'}
@@ -176,3 +173,38 @@ def editcash( open_id,cash,price,length):
                     'msg': '修改现金成功!'}
     except Exception as e:
         return {'code': ResponseCode.ERROR, 'msg': '修改现金失败，请联系管理员'}
+#获取用户排行信息
+def paihang(open_id):
+    logging.info('paihang...')
+    try:
+        user_obj = UserInfo.query.order_by(UserInfo.price.desc()).filter(UserInfo.open_id == open_id).first()
+        all = UserInfo.query.order_by(UserInfo.price.desc()).filter().all()
+        length = len(all)
+        print(all)
+        print(length)
+        if all:
+            data = []
+            number = 0
+            for i in all:
+                print(i.username)
+                if 500000 <=i.price <= 1000000:
+                    level = '币圈小白'
+                elif i.price <500000:
+                    level = '币圈菜鸟'
+                elif 1000000<i.price<2000000:
+                    level = '币圈大佬'
+                else:
+                    level = '币圈神话'
+                number =number+1
+                i.price = i.price/10000
+                i.price = "%.2f" % i.price
+                data.append({'username':i.username,'price':i.price,'avatar':i.avatar,'level':level,'number':number})
+            print(data)
+            return {'code': ResponseCode.SUCCESS,
+                    'data': {'data': data},
+                    'msg': '查询成功!'}
+        else:
+            return {'code': ResponseCode.ERROR, 'msg': '用户不存在，需要注册'}
+    except Exception as e:
+        logging.debug(e)
+        raise e
