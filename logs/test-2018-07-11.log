@@ -1,0 +1,638 @@
+[2018-07-11 10:07:37,202] [INFO] server : Server initialized for gevent.
+[2018-07-11 10:07:37,331] [INFO] _internal :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-07-11 10:13:58,536] [INFO] views : login
+[2018-07-11 10:13:58,545] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:13:59,681] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021XbCfH0cR8ii2K8yhH0C5dfH0XbCfi&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:13:59,685] [DEBUG] views : 'openid'
+[2018-07-11 10:13:59,693] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:13:59] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:13:59,719] [INFO] views : check
+[2018-07-11 10:13:59,720] [INFO] api : check_open_id
+[2018-07-11 10:14:00,021] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:14:00] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:14:01,102] [INFO] views : deletetoken
+[2018-07-11 10:14:01,108] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:14:01] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:15:40,446] [INFO] views : login
+[2018-07-11 10:15:40,451] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:15:40,570] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0211KjmQ0OrIe92WZ2kQ0T4rmQ01Kjm9&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:15:40,573] [DEBUG] views : 'openid'
+[2018-07-11 10:15:40,574] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:15:40] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:15:40,591] [INFO] views : check
+[2018-07-11 10:15:40,592] [INFO] api : check_open_id
+[2018-07-11 10:15:40,597] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:15:40] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:15:44,933] [INFO] views : deletetoken
+[2018-07-11 10:15:44,939] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:15:44] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:16:32,173] [INFO] views : list
+[2018-07-11 10:16:32,174] [INFO] api : paice
+[2018-07-11 10:16:32,179] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:16:32] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:16:36,044] [INFO] views : alltokenviews
+[2018-07-11 10:16:36,044] [INFO] api : alltoken
+[2018-07-11 10:16:36,055] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:16:36] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:16:36,061] [INFO] views : list
+[2018-07-11 10:16:36,062] [INFO] api : paice
+[2018-07-11 10:16:36,067] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:16:36] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:16:36,069] [INFO] views : alltokenviews
+[2018-07-11 10:16:36,070] [INFO] api : alltoken
+[2018-07-11 10:16:36,076] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:16:36] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:16:36,078] [INFO] views : list
+[2018-07-11 10:16:36,078] [INFO] api : paice
+[2018-07-11 10:16:36,082] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:16:36] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:16:38,548] [INFO] views : deletetoken
+[2018-07-11 10:16:38,598] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:16:38] "POST /wx/deletetoken HTTP/1.1" 200 -
+[2018-07-11 10:16:51,024] [INFO] views : list
+[2018-07-11 10:16:51,025] [INFO] api : paice
+[2018-07-11 10:16:51,031] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:16:51] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:19:41,078] [INFO] views : alltokenviews
+[2018-07-11 10:19:41,078] [INFO] api : alltoken
+[2018-07-11 10:19:41,087] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:19:41] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:19:41,089] [INFO] views : list
+[2018-07-11 10:19:41,089] [INFO] api : paice
+[2018-07-11 10:19:41,094] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:19:41] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:19:41,096] [INFO] views : alltokenviews
+[2018-07-11 10:19:41,096] [INFO] api : alltoken
+[2018-07-11 10:19:41,106] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:19:41] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:19:41,108] [INFO] views : list
+[2018-07-11 10:19:41,108] [INFO] api : paice
+[2018-07-11 10:19:41,113] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:19:41] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:20:24,575] [INFO] views : login
+[2018-07-11 10:20:24,581] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:20:24,685] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0116DWQa2dm0FP0s5OTa222QQa26DWQZ&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:20:24,690] [DEBUG] views : 'openid'
+[2018-07-11 10:20:24,691] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:20:24] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:20:24,715] [INFO] views : check
+[2018-07-11 10:20:24,716] [INFO] api : check_open_id
+[2018-07-11 10:20:24,722] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:20:24] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:20:29,535] [INFO] views : deletetoken
+[2018-07-11 10:20:29,539] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:20:29] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:20:36,691] [INFO] views : list
+[2018-07-11 10:20:36,692] [INFO] api : paice
+[2018-07-11 10:20:36,697] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:20:36] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:20:49,467] [INFO] views : alltokenviews
+[2018-07-11 10:20:49,467] [INFO] api : alltoken
+[2018-07-11 10:20:49,475] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:20:49] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:20:49,494] [INFO] views : list
+[2018-07-11 10:20:49,495] [INFO] api : paice
+[2018-07-11 10:20:49,500] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:20:49] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:20:49,514] [INFO] views : alltokenviews
+[2018-07-11 10:20:49,514] [INFO] api : alltoken
+[2018-07-11 10:20:49,521] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:20:49] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:20:49,522] [INFO] views : list
+[2018-07-11 10:20:49,522] [INFO] api : paice
+[2018-07-11 10:20:49,529] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:20:49] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:20:59,013] [INFO] views : jointoken
+[2018-07-11 10:20:59,013] [INFO] api : jointoken
+[2018-07-11 10:20:59,031] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:20:59] "POST /wx/jointoken HTTP/1.1" 200 -
+[2018-07-11 10:22:33,333] [INFO] views : login
+[2018-07-11 10:22:33,339] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:22:33,451] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0710it5L0Qr1I52HDX6L01FI5L00it5S&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:22:33,454] [DEBUG] views : 'openid'
+[2018-07-11 10:22:33,455] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:22:33] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:22:33,473] [INFO] views : check
+[2018-07-11 10:22:33,474] [INFO] api : check_open_id
+[2018-07-11 10:22:33,479] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:22:33] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:22:36,725] [INFO] views : deletetoken
+[2018-07-11 10:22:36,729] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:22:36] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:22:42,448] [INFO] views : list
+[2018-07-11 10:22:42,448] [INFO] api : paice
+[2018-07-11 10:22:42,454] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:22:42] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:22:45,986] [INFO] views : alltokenviews
+[2018-07-11 10:22:45,986] [INFO] api : alltoken
+[2018-07-11 10:22:45,992] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:22:45] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:22:45,994] [INFO] views : list
+[2018-07-11 10:22:45,995] [INFO] api : paice
+[2018-07-11 10:22:45,999] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:22:45] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:22:46,001] [INFO] views : alltokenviews
+[2018-07-11 10:22:46,001] [INFO] api : alltoken
+[2018-07-11 10:22:46,008] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:22:46] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:22:46,010] [INFO] views : list
+[2018-07-11 10:22:46,010] [INFO] api : paice
+[2018-07-11 10:22:46,015] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:22:46] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:23:09,251] [INFO] views : login
+[2018-07-11 10:23:09,256] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:23:09,357] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001NCEDt0vu0ec1A1cEt0L7rDt0NCEDg&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:23:09,362] [DEBUG] views : 'openid'
+[2018-07-11 10:23:09,363] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:23:09] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:23:09,378] [INFO] views : check
+[2018-07-11 10:23:09,379] [INFO] api : check_open_id
+[2018-07-11 10:23:09,383] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:23:09] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:23:14,250] [INFO] views : deletetoken
+[2018-07-11 10:23:14,255] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:23:14] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:23:18,935] [INFO] views : list
+[2018-07-11 10:23:18,936] [INFO] api : paice
+[2018-07-11 10:23:18,941] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:23:18] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:23:22,879] [INFO] views : alltokenviews
+[2018-07-11 10:23:22,880] [INFO] api : alltoken
+[2018-07-11 10:23:22,888] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:23:22] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:23:22,890] [INFO] views : list
+[2018-07-11 10:23:22,891] [INFO] api : paice
+[2018-07-11 10:23:22,896] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:23:22] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:23:22,900] [INFO] views : alltokenviews
+[2018-07-11 10:23:22,901] [INFO] api : alltoken
+[2018-07-11 10:23:22,909] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:23:22] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:23:22,911] [INFO] views : list
+[2018-07-11 10:23:22,912] [INFO] api : paice
+[2018-07-11 10:23:22,916] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:23:22] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:23:45,323] [INFO] views : login
+[2018-07-11 10:23:45,327] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:23:45,427] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071Lb2IO0dheac2cerJO0e26IO0Lb2I5&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:23:45,431] [DEBUG] views : 'openid'
+[2018-07-11 10:23:45,432] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:23:45] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:23:45,450] [INFO] views : check
+[2018-07-11 10:23:45,451] [INFO] api : check_open_id
+[2018-07-11 10:23:45,456] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:23:45] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:23:50,630] [INFO] views : deletetoken
+[2018-07-11 10:23:50,635] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:23:50] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:23:55,012] [INFO] views : list
+[2018-07-11 10:23:55,012] [INFO] api : paice
+[2018-07-11 10:23:55,019] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:23:55] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:23:59,502] [INFO] views : alltokenviews
+[2018-07-11 10:23:59,502] [INFO] api : alltoken
+[2018-07-11 10:23:59,509] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:23:59] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:23:59,511] [INFO] views : list
+[2018-07-11 10:23:59,511] [INFO] api : paice
+[2018-07-11 10:23:59,516] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:23:59] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:23:59,519] [INFO] views : alltokenviews
+[2018-07-11 10:23:59,519] [INFO] api : alltoken
+[2018-07-11 10:23:59,526] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:23:59] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:23:59,528] [INFO] views : list
+[2018-07-11 10:23:59,528] [INFO] api : paice
+[2018-07-11 10:23:59,534] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:23:59] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:24:30,447] [INFO] views : login
+[2018-07-11 10:24:30,451] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:24:30,541] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0010Jqk92j7ppQ0t7ai92XJjk920Jqkf&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:24:30,543] [DEBUG] views : 'openid'
+[2018-07-11 10:24:30,545] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:24:30] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:24:30,560] [INFO] views : check
+[2018-07-11 10:24:30,560] [INFO] api : check_open_id
+[2018-07-11 10:24:30,564] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:24:30] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:24:35,294] [INFO] views : deletetoken
+[2018-07-11 10:24:35,299] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:24:35] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:24:38,990] [INFO] views : list
+[2018-07-11 10:24:38,990] [INFO] api : paice
+[2018-07-11 10:24:38,995] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:24:38] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:24:43,037] [INFO] views : alltokenviews
+[2018-07-11 10:24:43,038] [INFO] api : alltoken
+[2018-07-11 10:24:43,046] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:24:43] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:24:43,048] [INFO] views : list
+[2018-07-11 10:24:43,048] [INFO] api : paice
+[2018-07-11 10:24:43,053] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:24:43] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:24:43,055] [INFO] views : alltokenviews
+[2018-07-11 10:24:43,055] [INFO] api : alltoken
+[2018-07-11 10:24:43,063] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:24:43] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:24:43,065] [INFO] views : list
+[2018-07-11 10:24:43,066] [INFO] api : paice
+[2018-07-11 10:24:43,070] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:24:43] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:24:59,882] [INFO] views : login
+[2018-07-11 10:24:59,884] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:24:59,988] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011upaiQ0yDVa92OmneQ0AmmiQ0upaiL&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:24:59,995] [DEBUG] views : 'openid'
+[2018-07-11 10:24:59,997] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:24:59] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:25:00,038] [INFO] views : check
+[2018-07-11 10:25:00,039] [INFO] api : check_open_id
+[2018-07-11 10:25:00,053] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:25:00] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:25:04,043] [INFO] views : deletetoken
+[2018-07-11 10:25:04,049] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:25:04] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:25:07,113] [INFO] views : list
+[2018-07-11 10:25:07,113] [INFO] api : paice
+[2018-07-11 10:25:07,118] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:25:07] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:25:10,261] [INFO] views : alltokenviews
+[2018-07-11 10:25:10,261] [INFO] api : alltoken
+[2018-07-11 10:25:10,268] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:25:10] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:25:10,276] [INFO] views : list
+[2018-07-11 10:25:10,277] [INFO] api : paice
+[2018-07-11 10:25:10,282] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:25:10] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:25:10,284] [INFO] views : alltokenviews
+[2018-07-11 10:25:10,284] [INFO] api : alltoken
+[2018-07-11 10:25:10,292] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:25:10] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:25:10,294] [INFO] views : list
+[2018-07-11 10:25:10,295] [INFO] api : paice
+[2018-07-11 10:25:10,299] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:25:10] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:25:29,536] [INFO] views : alltokenviews
+[2018-07-11 10:25:29,536] [INFO] api : alltoken
+[2018-07-11 10:25:29,543] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:25:29] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:25:29,546] [INFO] views : list
+[2018-07-11 10:25:29,546] [INFO] api : paice
+[2018-07-11 10:25:29,550] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:25:29] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:25:36,056] [INFO] views : login
+[2018-07-11 10:25:36,061] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:25:36,249] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061baARv0sXsZi1ShgSv0xJwRv0baAR9&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:25:36,251] [DEBUG] views : 'openid'
+[2018-07-11 10:25:36,252] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:25:36] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:25:36,272] [INFO] views : check
+[2018-07-11 10:25:36,273] [INFO] api : check_open_id
+[2018-07-11 10:25:36,280] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:25:36] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:25:42,939] [INFO] views : deletetoken
+[2018-07-11 10:25:42,945] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:25:42] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:25:46,627] [INFO] views : list
+[2018-07-11 10:25:46,627] [INFO] api : paice
+[2018-07-11 10:25:46,633] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:25:46] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:25:52,450] [INFO] views : alltokenviews
+[2018-07-11 10:25:52,450] [INFO] api : alltoken
+[2018-07-11 10:25:52,459] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:25:52] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:25:52,469] [INFO] views : list
+[2018-07-11 10:25:52,469] [INFO] api : paice
+[2018-07-11 10:25:52,475] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:25:52] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:25:52,477] [INFO] views : alltokenviews
+[2018-07-11 10:25:52,478] [INFO] api : alltoken
+[2018-07-11 10:25:52,488] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:25:52] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:25:52,498] [INFO] views : list
+[2018-07-11 10:25:52,498] [INFO] api : paice
+[2018-07-11 10:25:52,504] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:25:52] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:26:26,209] [INFO] views : alltokenviews
+[2018-07-11 10:26:26,209] [INFO] api : alltoken
+[2018-07-11 10:26:26,219] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:26:26] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:26:26,221] [INFO] views : list
+[2018-07-11 10:26:26,221] [INFO] api : paice
+[2018-07-11 10:26:26,227] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:26:26] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:26:30,820] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-07-11 10:26:36,864] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-07-11 10:26:36,874] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:26:36] "GET /wx/gate HTTP/1.1" 200 -
+[2018-07-11 10:27:31,928] [INFO] views : login
+[2018-07-11 10:27:31,933] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:27:32,024] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021yASB71dtdRR12wDB71UcWB71yASBd&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:27:32,027] [DEBUG] views : 'openid'
+[2018-07-11 10:27:32,028] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:27:32] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:27:32,047] [INFO] views : check
+[2018-07-11 10:27:32,047] [INFO] api : check_open_id
+[2018-07-11 10:27:32,054] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:27:32] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:27:37,978] [INFO] views : deletetoken
+[2018-07-11 10:27:37,984] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:27:37] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:27:41,586] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-07-11 10:27:42,431] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-07-11 10:27:42,434] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:27:42] "GET /wx/gate HTTP/1.1" 200 -
+[2018-07-11 10:27:55,498] [INFO] views : list
+[2018-07-11 10:27:55,499] [INFO] api : paice
+[2018-07-11 10:27:55,504] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:27:55] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:28:00,418] [INFO] views : alltokenviews
+[2018-07-11 10:28:00,418] [INFO] api : alltoken
+[2018-07-11 10:28:00,427] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:28:00] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:28:00,430] [INFO] views : list
+[2018-07-11 10:28:00,430] [INFO] api : paice
+[2018-07-11 10:28:00,435] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:28:00] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:28:00,438] [INFO] views : alltokenviews
+[2018-07-11 10:28:00,438] [INFO] api : alltoken
+[2018-07-11 10:28:00,449] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:28:00] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:28:00,451] [INFO] views : list
+[2018-07-11 10:28:00,451] [INFO] api : paice
+[2018-07-11 10:28:00,456] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:28:00] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:28:31,392] [INFO] views : login
+[2018-07-11 10:28:31,396] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:28:31,488] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011Lk85K1ZBx350Dhg7K1H5d5K1Lk85d&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:28:31,491] [DEBUG] views : 'openid'
+[2018-07-11 10:28:31,492] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:28:31] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:28:31,506] [INFO] views : check
+[2018-07-11 10:28:31,507] [INFO] api : check_open_id
+[2018-07-11 10:28:31,511] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:28:31] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:28:34,546] [INFO] views : deletetoken
+[2018-07-11 10:28:34,552] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:28:34] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:28:37,630] [DEBUG] connectionpool : Starting new HTTPS connection (1): data.gateio.io
+[2018-07-11 10:28:41,841] [DEBUG] connectionpool : https://data.gateio.io:443 "GET /api2/1/ticker/usdt_cny HTTP/1.1" 200 None
+[2018-07-11 10:28:41,850] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:28:41] "GET /wx/gate HTTP/1.1" 200 -
+[2018-07-11 10:28:43,412] [INFO] views : list
+[2018-07-11 10:28:43,412] [INFO] api : paice
+[2018-07-11 10:28:43,417] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:28:43] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:28:47,425] [INFO] views : alltokenviews
+[2018-07-11 10:28:47,425] [INFO] api : alltoken
+[2018-07-11 10:28:47,435] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:28:47] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:28:47,450] [INFO] views : list
+[2018-07-11 10:28:47,451] [INFO] api : paice
+[2018-07-11 10:28:47,456] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:28:47] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:28:47,458] [INFO] views : alltokenviews
+[2018-07-11 10:28:47,458] [INFO] api : alltoken
+[2018-07-11 10:28:47,466] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:28:47] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:28:47,486] [INFO] views : list
+[2018-07-11 10:28:47,487] [INFO] api : paice
+[2018-07-11 10:28:47,493] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:28:47] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:29:10,622] [INFO] views : login
+[2018-07-11 10:29:10,626] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:29:10,773] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081ch16U0BOmyW1rNQ4U0C0h6U0ch16k&grant_type=authorization_code HTTP/1.1" 200 73
+[2018-07-11 10:29:10,777] [DEBUG] views : 'openid'
+[2018-07-11 10:29:10,777] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:29:10] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:29:10,791] [INFO] views : check
+[2018-07-11 10:29:10,791] [INFO] api : check_open_id
+[2018-07-11 10:29:10,796] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:29:10] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:29:17,026] [INFO] views : deletetoken
+[2018-07-11 10:29:17,033] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:29:17] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:29:20,656] [INFO] views : list
+[2018-07-11 10:29:20,656] [INFO] api : paice
+[2018-07-11 10:29:20,661] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:29:20] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:29:25,170] [INFO] views : alltokenviews
+[2018-07-11 10:29:25,170] [INFO] api : alltoken
+[2018-07-11 10:29:25,178] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:29:25] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:29:25,214] [INFO] views : list
+[2018-07-11 10:29:25,214] [INFO] api : paice
+[2018-07-11 10:29:25,219] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:29:25] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:29:25,257] [INFO] views : alltokenviews
+[2018-07-11 10:29:25,257] [INFO] api : alltoken
+[2018-07-11 10:29:25,266] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:29:25] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:29:25,268] [INFO] views : list
+[2018-07-11 10:29:25,269] [INFO] api : paice
+[2018-07-11 10:29:25,274] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:29:25] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:32:06,585] [INFO] views : login
+[2018-07-11 10:32:06,590] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:32:06,723] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001W5ZE30FtVsC1iftD300nYE30W5ZEt&grant_type=authorization_code HTTP/1.1" 200 75
+[2018-07-11 10:32:06,726] [DEBUG] views : 'openid'
+[2018-07-11 10:32:06,727] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:32:06] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:32:06,750] [INFO] views : check
+[2018-07-11 10:32:06,750] [INFO] api : check_open_id
+[2018-07-11 10:32:06,758] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:32:06] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:32:09,651] [INFO] views : deletetoken
+[2018-07-11 10:32:09,656] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:32:09] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:32:11,730] [INFO] views : list
+[2018-07-11 10:32:11,731] [INFO] api : paice
+[2018-07-11 10:32:11,736] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:32:11] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:32:14,226] [INFO] views : alltokenviews
+[2018-07-11 10:32:14,226] [INFO] api : alltoken
+[2018-07-11 10:32:14,234] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:32:14] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:32:14,243] [INFO] views : list
+[2018-07-11 10:32:14,243] [INFO] api : paice
+[2018-07-11 10:32:14,248] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:32:14] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:32:14,250] [INFO] views : alltokenviews
+[2018-07-11 10:32:14,250] [INFO] api : alltoken
+[2018-07-11 10:32:14,257] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:32:14] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:32:14,259] [INFO] views : list
+[2018-07-11 10:32:14,259] [INFO] api : paice
+[2018-07-11 10:32:14,264] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:32:14] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:33:34,958] [INFO] views : login
+[2018-07-11 10:33:34,960] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:33:35,147] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0115znNX0b0I532xzJNX0QrvNX05znNW&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:33:35,149] [DEBUG] views : 'openid'
+[2018-07-11 10:33:35,150] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:33:35] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:33:35,161] [INFO] views : check
+[2018-07-11 10:33:35,161] [INFO] api : check_open_id
+[2018-07-11 10:33:35,164] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:33:35] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:33:37,746] [INFO] views : deletetoken
+[2018-07-11 10:33:37,752] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:33:37] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:33:39,886] [INFO] views : list
+[2018-07-11 10:33:39,886] [INFO] api : paice
+[2018-07-11 10:33:39,894] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:33:39] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:33:43,071] [INFO] views : alltokenviews
+[2018-07-11 10:33:43,072] [INFO] api : alltoken
+[2018-07-11 10:33:43,079] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:33:43] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:33:43,082] [INFO] views : list
+[2018-07-11 10:33:43,082] [INFO] api : paice
+[2018-07-11 10:33:43,087] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:33:43] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:33:43,094] [INFO] views : alltokenviews
+[2018-07-11 10:33:43,095] [INFO] api : alltoken
+[2018-07-11 10:33:43,103] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:33:43] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:33:43,105] [INFO] views : list
+[2018-07-11 10:33:43,105] [INFO] api : paice
+[2018-07-11 10:33:43,109] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:33:43] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:34:40,240] [INFO] views : login
+[2018-07-11 10:34:40,242] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:34:40,421] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081SLBkw071KSi1zeblw0saokw0SLBkV&grant_type=authorization_code HTTP/1.1" 200 72
+[2018-07-11 10:34:40,423] [DEBUG] views : 'openid'
+[2018-07-11 10:34:40,423] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:34:40] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:34:40,435] [INFO] views : check
+[2018-07-11 10:34:40,436] [INFO] api : check_open_id
+[2018-07-11 10:34:40,439] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:34:40] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:34:43,058] [INFO] views : deletetoken
+[2018-07-11 10:34:43,063] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:34:43] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:34:44,984] [INFO] views : list
+[2018-07-11 10:34:44,985] [INFO] api : paice
+[2018-07-11 10:34:44,989] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:34:44] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:34:47,642] [INFO] views : alltokenviews
+[2018-07-11 10:34:47,642] [INFO] api : alltoken
+[2018-07-11 10:34:47,650] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:34:47] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:34:47,652] [INFO] views : list
+[2018-07-11 10:34:47,653] [INFO] api : paice
+[2018-07-11 10:34:47,659] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:34:47] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:34:47,661] [INFO] views : alltokenviews
+[2018-07-11 10:34:47,661] [INFO] api : alltoken
+[2018-07-11 10:34:47,669] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:34:47] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:34:47,671] [INFO] views : list
+[2018-07-11 10:34:47,671] [INFO] api : paice
+[2018-07-11 10:34:47,675] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:34:47] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:35:07,301] [INFO] views : login
+[2018-07-11 10:35:07,303] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:35:07,382] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021kO3of2ev84C0mvwof22sZnf2kO3on&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:35:07,384] [DEBUG] views : 'openid'
+[2018-07-11 10:35:07,385] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:35:07] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:35:07,397] [INFO] views : check
+[2018-07-11 10:35:07,397] [INFO] api : check_open_id
+[2018-07-11 10:35:07,401] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:35:07] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:35:10,036] [INFO] views : deletetoken
+[2018-07-11 10:35:10,042] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:35:10] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:35:12,638] [INFO] views : list
+[2018-07-11 10:35:12,639] [INFO] api : paice
+[2018-07-11 10:35:12,643] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:35:12] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:35:20,456] [INFO] views : alltokenviews
+[2018-07-11 10:35:20,456] [INFO] api : alltoken
+[2018-07-11 10:35:20,464] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:35:20] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:35:20,466] [INFO] views : list
+[2018-07-11 10:35:20,466] [INFO] api : paice
+[2018-07-11 10:35:20,470] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:35:20] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:35:20,476] [INFO] views : alltokenviews
+[2018-07-11 10:35:20,477] [INFO] api : alltoken
+[2018-07-11 10:35:20,485] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:35:20] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:35:20,487] [INFO] views : list
+[2018-07-11 10:35:20,487] [INFO] api : paice
+[2018-07-11 10:35:20,492] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:35:20] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:38:05,580] [INFO] views : login
+[2018-07-11 10:38:05,582] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:38:05,684] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071Xyh2j1XrgUv0fwvZi1X4n2j1Xyh2H&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:38:05,692] [DEBUG] views : 'openid'
+[2018-07-11 10:38:05,694] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:38:05] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:38:05,712] [INFO] views : check
+[2018-07-11 10:38:05,713] [INFO] api : check_open_id
+[2018-07-11 10:38:05,716] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:38:05] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:38:10,128] [INFO] views : deletetoken
+[2018-07-11 10:38:10,133] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:38:10] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:38:15,994] [INFO] views : list
+[2018-07-11 10:38:15,995] [INFO] api : paice
+[2018-07-11 10:38:16,000] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:38:16] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:38:19,648] [INFO] views : alltokenviews
+[2018-07-11 10:38:19,649] [INFO] api : alltoken
+[2018-07-11 10:38:19,657] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:38:19] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:38:19,659] [INFO] views : list
+[2018-07-11 10:38:19,660] [INFO] api : paice
+[2018-07-11 10:38:19,664] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:38:19] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:38:19,666] [INFO] views : alltokenviews
+[2018-07-11 10:38:19,667] [INFO] api : alltoken
+[2018-07-11 10:38:19,674] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:38:19] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:38:19,675] [INFO] views : list
+[2018-07-11 10:38:19,676] [INFO] api : paice
+[2018-07-11 10:38:19,681] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:38:19] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:41:14,583] [INFO] views : login
+[2018-07-11 10:41:14,587] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:41:14,671] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=081hHaT01axoNY16eCU01xH0T01hHaTY&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:41:14,682] [DEBUG] views : 'openid'
+[2018-07-11 10:41:14,684] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:41:14] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:41:14,710] [INFO] views : check
+[2018-07-11 10:41:14,711] [INFO] api : check_open_id
+[2018-07-11 10:41:14,716] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:41:14] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:41:18,764] [INFO] views : deletetoken
+[2018-07-11 10:41:18,770] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:41:18] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:41:21,912] [INFO] views : list
+[2018-07-11 10:41:21,912] [INFO] api : paice
+[2018-07-11 10:41:21,918] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:41:21] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:41:25,633] [INFO] views : alltokenviews
+[2018-07-11 10:41:25,633] [INFO] api : alltoken
+[2018-07-11 10:41:25,641] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:41:25] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:41:25,643] [INFO] views : list
+[2018-07-11 10:41:25,643] [INFO] api : paice
+[2018-07-11 10:41:25,648] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:41:25] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:41:25,652] [INFO] views : alltokenviews
+[2018-07-11 10:41:25,653] [INFO] api : alltoken
+[2018-07-11 10:41:25,660] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:41:25] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:41:25,662] [INFO] views : list
+[2018-07-11 10:41:25,663] [INFO] api : paice
+[2018-07-11 10:41:25,668] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:41:25] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:42:00,589] [INFO] views : login
+[2018-07-11 10:42:00,592] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:42:00,747] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011Abewr0DKXBe1VvLur0yRfwr0AbewA&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:42:00,750] [DEBUG] views : 'openid'
+[2018-07-11 10:42:00,751] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:42:00] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:42:00,763] [INFO] views : check
+[2018-07-11 10:42:00,764] [INFO] api : check_open_id
+[2018-07-11 10:42:00,767] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:42:00] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:42:05,195] [INFO] views : deletetoken
+[2018-07-11 10:42:05,200] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:42:05] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:42:13,723] [INFO] views : list
+[2018-07-11 10:42:13,723] [INFO] api : paice
+[2018-07-11 10:42:13,728] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:42:13] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:42:22,832] [INFO] views : alltokenviews
+[2018-07-11 10:42:22,833] [INFO] api : alltoken
+[2018-07-11 10:42:22,840] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:42:22] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:42:22,848] [INFO] views : list
+[2018-07-11 10:42:22,848] [INFO] api : paice
+[2018-07-11 10:42:22,853] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:42:22] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:42:22,855] [INFO] views : alltokenviews
+[2018-07-11 10:42:22,855] [INFO] api : alltoken
+[2018-07-11 10:42:22,863] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:42:22] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:42:22,865] [INFO] views : list
+[2018-07-11 10:42:22,866] [INFO] api : paice
+[2018-07-11 10:42:22,870] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:42:22] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:42:41,868] [INFO] views : login
+[2018-07-11 10:42:41,874] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:42:41,954] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0818bAAW0jzx4V1txDAW0NwUAW08bAAy&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:42:41,956] [DEBUG] views : 'openid'
+[2018-07-11 10:42:41,957] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:42:41] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:42:41,970] [INFO] views : check
+[2018-07-11 10:42:41,970] [INFO] api : check_open_id
+[2018-07-11 10:42:41,973] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:42:41] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:42:45,301] [INFO] views : deletetoken
+[2018-07-11 10:42:45,307] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:42:45] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:42:47,735] [INFO] views : list
+[2018-07-11 10:42:47,735] [INFO] api : paice
+[2018-07-11 10:42:47,740] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:42:47] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:42:50,563] [INFO] views : alltokenviews
+[2018-07-11 10:42:50,564] [INFO] api : alltoken
+[2018-07-11 10:42:50,571] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:42:50] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:42:50,573] [INFO] views : list
+[2018-07-11 10:42:50,573] [INFO] api : paice
+[2018-07-11 10:42:50,577] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:42:50] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:42:50,578] [INFO] views : alltokenviews
+[2018-07-11 10:42:50,579] [INFO] api : alltoken
+[2018-07-11 10:42:50,587] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:42:50] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:42:50,588] [INFO] views : list
+[2018-07-11 10:42:50,589] [INFO] api : paice
+[2018-07-11 10:42:50,593] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:42:50] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:43:10,884] [INFO] views : login
+[2018-07-11 10:43:10,886] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:43:10,971] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071yAXAr1mgGBo0vo4Br1qL1Br1yAXA-&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:43:10,972] [DEBUG] views : 'openid'
+[2018-07-11 10:43:10,973] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:43:10] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:43:10,987] [INFO] views : check
+[2018-07-11 10:43:10,988] [INFO] api : check_open_id
+[2018-07-11 10:43:10,990] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:43:10] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:43:13,735] [INFO] views : deletetoken
+[2018-07-11 10:43:13,740] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:43:13] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:43:17,181] [INFO] views : list
+[2018-07-11 10:43:17,181] [INFO] api : paice
+[2018-07-11 10:43:17,186] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:43:17] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:43:20,682] [INFO] views : alltokenviews
+[2018-07-11 10:43:20,682] [INFO] api : alltoken
+[2018-07-11 10:43:20,690] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:43:20] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:43:20,691] [INFO] views : list
+[2018-07-11 10:43:20,692] [INFO] api : paice
+[2018-07-11 10:43:20,696] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:43:20] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:43:20,711] [INFO] views : alltokenviews
+[2018-07-11 10:43:20,711] [INFO] api : alltoken
+[2018-07-11 10:43:20,720] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:43:20] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:43:20,722] [INFO] views : list
+[2018-07-11 10:43:20,722] [INFO] api : paice
+[2018-07-11 10:43:20,727] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:43:20] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:44:23,910] [INFO] views : login
+[2018-07-11 10:44:23,913] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:44:24,062] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011D7V8b2EO0gO0ZDP8b247d9b2D7V8q&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:44:24,068] [DEBUG] views : 'openid'
+[2018-07-11 10:44:24,070] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:44:24] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:44:24,101] [INFO] views : check
+[2018-07-11 10:44:24,102] [INFO] api : check_open_id
+[2018-07-11 10:44:24,108] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:44:24] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:44:28,193] [INFO] views : deletetoken
+[2018-07-11 10:44:28,198] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:44:28] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:44:30,958] [INFO] views : list
+[2018-07-11 10:44:30,959] [INFO] api : paice
+[2018-07-11 10:44:30,963] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:44:30] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:44:34,616] [INFO] views : alltokenviews
+[2018-07-11 10:44:34,616] [INFO] api : alltoken
+[2018-07-11 10:44:34,623] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:44:34] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:44:34,631] [INFO] views : list
+[2018-07-11 10:44:34,631] [INFO] api : paice
+[2018-07-11 10:44:34,635] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:44:34] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:44:34,637] [INFO] views : alltokenviews
+[2018-07-11 10:44:34,637] [INFO] api : alltoken
+[2018-07-11 10:44:34,647] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:44:34] "POST /wx/alltoken HTTP/1.1" 200 -
+[2018-07-11 10:44:34,649] [INFO] views : list
+[2018-07-11 10:44:34,649] [INFO] api : paice
+[2018-07-11 10:44:34,654] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:44:34] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:45:37,379] [INFO] views : login
+[2018-07-11 10:45:37,383] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:45:37,460] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001Hmzd72FgimK03lRe728igd72HmzdB&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:45:37,467] [DEBUG] views : 'openid'
+[2018-07-11 10:45:37,469] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:45:37] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:45:37,499] [INFO] views : check
+[2018-07-11 10:45:37,500] [INFO] api : check_open_id
+[2018-07-11 10:45:37,505] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:45:37] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:45:41,409] [INFO] views : deletetoken
+[2018-07-11 10:45:41,414] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:45:41] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:46:58,257] [INFO] views : login
+[2018-07-11 10:46:58,260] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:46:58,348] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011ifpHx07Smwi1YSFGx0aEzHx0ifpHZ&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:46:58,350] [DEBUG] views : 'openid'
+[2018-07-11 10:46:58,350] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:46:58] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:46:58,363] [INFO] views : check
+[2018-07-11 10:46:58,363] [INFO] api : check_open_id
+[2018-07-11 10:46:58,368] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:46:58] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:47:01,705] [INFO] views : deletetoken
+[2018-07-11 10:47:01,711] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:47:01] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:47:09,921] [INFO] views : list
+[2018-07-11 10:47:09,922] [INFO] api : paice
+[2018-07-11 10:47:09,927] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:47:09] "POST /wx/list HTTP/1.1" 200 -
+[2018-07-11 10:47:29,843] [INFO] views : login
+[2018-07-11 10:47:29,845] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:47:29,970] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=071wsriY1OqQzT0FP6jY1ustiY1wsriA&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:47:29,977] [DEBUG] views : 'openid'
+[2018-07-11 10:47:29,978] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:47:29] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:47:29,995] [INFO] views : check
+[2018-07-11 10:47:29,995] [INFO] api : check_open_id
+[2018-07-11 10:47:29,999] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:47:29] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:47:33,326] [INFO] views : deletetoken
+[2018-07-11 10:47:33,331] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:47:33] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:48:05,977] [INFO] views : home
+[2018-07-11 10:48:06,055] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:48:06] "GET / HTTP/1.1" 200 -
+[2018-07-11 10:48:06,594] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:48:06] "GET /favicon.ico HTTP/1.1" 404 -
+[2018-07-11 10:48:19,729] [INFO] server : Server initialized for gevent.
+[2018-07-11 10:48:19,766] [INFO] _internal :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-07-11 10:49:16,125] [INFO] views : login
+[2018-07-11 10:49:16,134] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:49:16,808] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=001FJaeU1qc6mW0QjefU1FupeU1FJaee&grant_type=authorization_code HTTP/1.1" 200 72
+[2018-07-11 10:49:16,810] [DEBUG] views : 'openid'
+[2018-07-11 10:49:16,811] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:49:16] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:49:16,822] [INFO] views : check
+[2018-07-11 10:49:16,823] [INFO] api : check_open_id
+[2018-07-11 10:49:16,878] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:49:16] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:49:20,665] [INFO] views : deletetoken
+[2018-07-11 10:49:20,670] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:49:20] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:50:28,058] [INFO] server : Server initialized for gevent.
+[2018-07-11 10:50:28,092] [INFO] _internal :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-07-11 10:50:35,966] [INFO] views : login
+[2018-07-11 10:50:35,972] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:50:36,819] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0112xTMs17Zfvn0tegNs1WbbNs12xTM3&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:50:36,822] [DEBUG] views : 'openid'
+[2018-07-11 10:50:36,822] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:50:36] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:50:36,836] [INFO] views : check
+[2018-07-11 10:50:36,836] [INFO] api : check_open_id
+[2018-07-11 10:50:36,887] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:50:36] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:50:41,105] [INFO] views : deletetoken
+[2018-07-11 10:50:41,110] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:50:41] "POST /wx/userinfo HTTP/1.1" 200 -

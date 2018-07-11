@@ -13,7 +13,9 @@ def check_open_id(open_id):
     logging.info("check_open_id")
     try:
         user_obj = UserInfo.query.filter(UserInfo.open_id == open_id).first()
+        print('查询用户数据')
         if user_obj:
+            print('查询用户数据')
             return {'code':ResponseCode.SUCCESS,'data':{'username':user_obj.username,'uid':user_obj.uid,'avatar':user_obj.avatar,'address':user_obj.address},'msg':'查询成功!'}
         else:
             return {'code':ResponseCode.ERROR,'msg':'用户不存在，需要注册'}
@@ -52,6 +54,8 @@ def price(open_id):
     logging.info('paice')
     try:
         user_obj = UserInfo.query.filter(UserInfo.open_id == open_id).first()
+        print(user_obj.number)
+        print('用户币种个数')
         if user_obj:
             return {'code': ResponseCode.SUCCESS,
                     'data': {'price': user_obj.price, 'number': user_obj.number, 'paihang': user_obj.paihang,'cash':user_obj.cash,'avatar':user_obj.avatar,'username':user_obj.username},
@@ -72,6 +76,12 @@ def jointoken(tokenname,open_id,dui):
             numbers = int(0),
             zhanbi = int(0),
         )
+        user_obj = UserInfo.query.filter(UserInfo.open_id==open_id).first()
+        number = user_obj.number+1
+        UserInfo.update(user_obj,
+            number=number
+        )
+        print(user_obj.number)
         return {'code': ResponseCode.SUCCESS, 'msg': '加入组合成功'}
     except Exception as e:
         logging.debug(e)
@@ -81,6 +91,10 @@ def alltoken(open_id):
     logging.info('alltoken')
     try:
         token_obj = TokenItem.query.order_by(TokenItem.id.desc()).distinct(TokenItem.tokenname).filter(TokenItem.open_id == open_id).all()
+        user_obj = UserInfo.query.filter(UserInfo.open_id == open_id).first()
+        price = user_obj.price
+        print(price)
+        print('总价格')
         length = len(token_obj)
         if token_obj:
             data = []
@@ -92,10 +106,10 @@ def alltoken(open_id):
                 else:
                     data.append({'tokenname': i.tokenname, 'numbers': i.numbers, 'zhanbi': i.zhanbi,'dui':i.dui})
                     name.append(i.tokenname)
-            print(data)
             return {'code': ResponseCode.SUCCESS,
                     'data': data,
                      'length':length,
+                    'price':price,
                     'msg': '查询成功!'}
         else:
             return {'code': ResponseCode.ERROR, 'msg': 'token不存在，需要加入组合'}
@@ -106,11 +120,10 @@ def deletetoken(tokenname,open_id,length):
     try:
         db.session.query(TokenItem).filter(TokenItem.tokenname == tokenname, TokenItem.open_id == open_id).delete()
         db.session.commit()
-        print(length)
-        print('表的长度')
         res = UserInfo.query.filter(UserInfo.open_id == open_id).first()
+        number=res.number
         UserInfo.update(res,
-                        number=length
+                        number=number-1
                         )
         res = {'code': ResponseCode.SUCCESS, 'msg': '删除成功'}
         return res
