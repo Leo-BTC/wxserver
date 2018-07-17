@@ -32,7 +32,10 @@ def login():
             'grant_type': 'authorization_code'
         }
         response = requests.get(url=Config.WX_OPEN_ID_URL, params=params)  # 向微信请求获取open_id
+        print(eval(response.text))
         open_id = eval(response.text)['openid']
+        print(open_id)
+        print('这是open_id')
         return jsonify({'data': open_id})
     except Exception as e:
         logging.debug(e)

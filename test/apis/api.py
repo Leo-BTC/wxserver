@@ -16,7 +16,7 @@ def check_open_id(open_id):
         print('查询用户数据')
         if user_obj:
             print('查询用户数据')
-            return {'code':ResponseCode.SUCCESS,'data':{'username':user_obj.username,'uid':user_obj.uid,'avatar':user_obj.avatar,'address':user_obj.address},'msg':'查询成功!'}
+            return {'code':ResponseCode.SUCCESS,'data':{'username':user_obj.username,'uid':user_obj.uid,'avatar':user_obj.avatar,'add ress':user_obj.address},'msg':'查询成功!'}
         else:
             return {'code':ResponseCode.ERROR,'msg':'用户不存在，需要注册'}
     except Exception as e:

@@ -1,0 +1,23 @@
+[2018-07-13 10:38:59,780] [INFO] server : Server initialized for gevent.
+[2018-07-13 10:38:59,817] [INFO] _internal :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-07-13 10:39:27,526] [INFO] views : login
+[2018-07-13 10:39:27,537] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-13 10:39:28,477] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wxfb9c0fa79ccd3ce2&secret=07e65e06090ef45e716d317e02171619&js_code=011q3ick0a41Bm1Ivqck0rjFck0q3icI&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-07-13 10:39:28,481] [INFO] _internal : 127.0.0.1 - - [13/Jul/2018 10:39:28] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-13 10:39:28,506] [INFO] views : check
+[2018-07-13 10:39:28,506] [INFO] api : check_open_id
+[2018-07-13 10:39:28,661] [INFO] _internal : 127.0.0.1 - - [13/Jul/2018 10:39:28] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-13 10:39:46,685] [INFO] _internal : 127.0.0.1 - - [13/Jul/2018 10:39:46] "GET /wx/login HTTP/1.1" 405 -
+[2018-07-13 10:39:47,745] [INFO] _internal : 127.0.0.1 - - [13/Jul/2018 10:39:47] "GET /favicon.ico HTTP/1.1" 404 -
+[2018-07-13 10:39:59,128] [INFO] views : home
+[2018-07-13 10:39:59,134] [INFO] _internal : 127.0.0.1 - - [13/Jul/2018 10:39:59] "GET / HTTP/1.1" 200 -
+[2018-07-13 10:39:59,502] [INFO] _internal : 127.0.0.1 - - [13/Jul/2018 10:39:59] "GET /favicon.ico HTTP/1.1" 404 -
+[2018-07-13 10:42:04,177] [INFO] server : Server initialized for gevent.
+[2018-07-13 10:42:04,211] [INFO] _internal :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-07-13 10:42:10,571] [INFO] views : login
+[2018-07-13 10:42:10,579] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-13 10:42:11,407] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wxfb9c0fa79ccd3ce2&secret=07e65e06090ef45e716d317e02171619&js_code=081mkM4j1ToXVv0PZ05j1ZK25j1mkM4l&grant_type=authorization_code HTTP/1.1" 200 82
+[2018-07-13 10:42:11,425] [INFO] _internal : 127.0.0.1 - - [13/Jul/2018 10:42:11] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-13 10:42:11,480] [INFO] views : check
+[2018-07-13 10:42:11,480] [INFO] api : check_open_id
+[2018-07-13 10:42:11,532] [INFO] _internal : 127.0.0.1 - - [13/Jul/2018 10:42:11] "POST /wx/check HTTP/1.1" 200 -

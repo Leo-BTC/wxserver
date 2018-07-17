@@ -636,3 +636,87 @@
 [2018-07-11 10:50:36,887] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:50:36] "POST /wx/check HTTP/1.1" 200 -
 [2018-07-11 10:50:41,105] [INFO] views : deletetoken
 [2018-07-11 10:50:41,110] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:50:41] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 10:51:21,036] [INFO] server : Server initialized for gevent.
+[2018-07-11 10:51:21,070] [INFO] _internal :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-07-11 10:52:46,845] [INFO] views : login
+[2018-07-11 10:52:46,851] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 10:52:47,549] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0712qNHu1x8pmc0SVtIu1M45Iu12qNHH&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 10:52:47,553] [DEBUG] views : 'openid'
+[2018-07-11 10:52:47,555] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:52:47] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 10:52:47,571] [INFO] views : check
+[2018-07-11 10:52:47,571] [INFO] api : check_open_id
+[2018-07-11 10:52:47,612] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:52:47] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 10:52:50,240] [INFO] views : deletetoken
+[2018-07-11 10:52:50,244] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 10:52:50] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 19:12:17,071] [INFO] views : login
+[2018-07-11 19:12:17,194] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 19:12:19,585] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011OdT400lA8HF1CRc800P0C400OdT4n&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 19:12:19,616] [DEBUG] views : 'openid'
+[2018-07-11 19:12:19,656] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 19:12:19] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 19:12:19,723] [INFO] views : check
+[2018-07-11 19:12:19,729] [INFO] api : check_open_id
+[2018-07-11 19:12:19,911] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 19:12:19] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 19:12:23,942] [INFO] views : deletetoken
+[2018-07-11 19:12:23,952] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 19:12:23] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 19:17:35,269] [INFO] views : login
+[2018-07-11 19:17:35,283] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 19:17:36,926] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=021Uzsmy0iY0ng1yofny0rEgmy0Uzsm4&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 19:17:36,934] [DEBUG] views : 'openid'
+[2018-07-11 19:17:36,937] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 19:17:36] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 19:17:36,986] [INFO] views : check
+[2018-07-11 19:17:36,988] [INFO] api : check_open_id
+[2018-07-11 19:17:37,009] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 19:17:37] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 19:17:42,093] [INFO] views : deletetoken
+[2018-07-11 19:17:42,099] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 19:17:42] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 22:08:43,477] [INFO] server : Server initialized for gevent.
+[2018-07-11 22:08:43,530] [INFO] _internal :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-07-11 22:09:20,459] [INFO] server : Server initialized for gevent.
+[2018-07-11 22:09:20,498] [INFO] _internal :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-07-11 22:10:35,060] [INFO] server : Server initialized for gevent.
+[2018-07-11 22:10:35,100] [INFO] _internal :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-07-11 22:11:17,025] [INFO] views : home
+[2018-07-11 22:11:17,035] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 22:11:17] "GET / HTTP/1.1" 200 -
+[2018-07-11 22:11:17,937] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 22:11:17] "GET /favicon.ico HTTP/1.1" 404 -
+[2018-07-11 22:14:14,398] [INFO] server : Server initialized for gevent.
+[2018-07-11 22:14:14,451] [INFO] _internal :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-07-11 22:14:22,079] [INFO] views : login
+[2018-07-11 22:14:22,092] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 22:14:24,617] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=061MIHYa2XSRPP0GoUZa2kovYa2MIHYC&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 22:14:24,628] [DEBUG] views : 'openid'
+[2018-07-11 22:14:24,632] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 22:14:24] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 22:14:24,695] [INFO] views : check
+[2018-07-11 22:14:24,697] [INFO] api : check_open_id
+[2018-07-11 22:14:24,811] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 22:14:24] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 22:14:31,586] [INFO] views : deletetoken
+[2018-07-11 22:14:31,591] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 22:14:31] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 22:16:21,293] [INFO] server : Server initialized for gevent.
+[2018-07-11 22:16:21,328] [INFO] _internal :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-07-11 22:16:28,212] [INFO] views : login
+[2018-07-11 22:16:28,223] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 22:16:30,333] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=0017uwlk2KyNkF0jDNmk2d2slk27uwlk&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 22:16:30,341] [DEBUG] views : 'open_id'
+[2018-07-11 22:16:30,343] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 22:16:30] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 22:16:30,393] [INFO] views : check
+[2018-07-11 22:16:30,395] [INFO] api : check_open_id
+[2018-07-11 22:16:30,459] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 22:16:30] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 22:16:35,993] [INFO] views : deletetoken
+[2018-07-11 22:16:35,998] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 22:16:35] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-11 22:17:11,947] [INFO] server : Server initialized for gevent.
+[2018-07-11 22:17:11,985] [INFO] _internal :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2018-07-11 22:17:18,466] [INFO] views : login
+[2018-07-11 22:17:18,478] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-11 22:17:21,970] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wx7874d63f3b6c72d8&secret=98bc0a8d93c6da3f5d97dfa2ddaff44f&js_code=011Sl61S0ZlwE82xgE2S0dT81S0Sl61S&grant_type=authorization_code HTTP/1.1" 200 76
+[2018-07-11 22:17:21,977] [DEBUG] views : 'openid'
+[2018-07-11 22:17:21,980] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 22:17:21] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-11 22:17:22,031] [INFO] views : check
+[2018-07-11 22:17:22,032] [INFO] api : check_open_id
+[2018-07-11 22:17:22,112] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 22:17:22] "POST /wx/check HTTP/1.1" 200 -
+[2018-07-11 22:17:27,257] [INFO] views : deletetoken
+[2018-07-11 22:17:27,260] [INFO] _internal : 127.0.0.1 - - [11/Jul/2018 22:17:27] "POST /wx/userinfo HTTP/1.1" 200 -
+[2018-07-12 09:48:28,172] [INFO] views : login
+[2018-07-12 09:48:28,233] [DEBUG] connectionpool : Starting new HTTPS connection (1): api.weixin.qq.com
+[2018-07-12 09:48:28,427] [DEBUG] connectionpool : https://api.weixin.qq.com:443 "GET /sns/jscode2session?appid=wxfb9c0fa79ccd3ce2&secret=07e65e06090ef45e716d317e02171619&js_code=081dOrke0w8UJB11y6je0Eyjke0dOrkV&grant_type=authorization_code HTTP/1.1" 200 84
+[2018-07-12 09:48:28,440] [INFO] _internal : 127.0.0.1 - - [12/Jul/2018 09:48:28] "POST /wx/login HTTP/1.1" 200 -
+[2018-07-12 09:48:28,458] [INFO] views : check
+[2018-07-12 09:48:28,461] [INFO] api : check_open_id
+[2018-07-12 09:48:28,528] [INFO] _internal : 127.0.0.1 - - [12/Jul/2018 09:48:28] "POST /wx/check HTTP/1.1" 200 -
