@@ -69,7 +69,7 @@ SQLAlchemy-Utils==0.32.19
 tablib==0.12.1
 tornado==4.5.2
 unicodecsv==0.14.1
-urllib3==1.22
+urllib3==1.26.5
 vine==1.1.4
 webassets==0.12.1
 Werkzeug==0.12.2
