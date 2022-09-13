@@ -33,7 +33,7 @@ Flask-SocketIO==2.9.2
 Flask-SQLAlchemy==2.3.2
 Flask-Uploads==0.2.1
 Flask-WTF==0.14.2
-flower==0.9.2
+flower==1.2.0
 gevent==1.2.2
 greenlet==0.4.12
 idna==2.6
