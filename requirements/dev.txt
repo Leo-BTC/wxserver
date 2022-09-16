@@ -44,7 +44,7 @@ jsmin==2.2.2
 kombu==4.1.0
 logconfig==0.4.0
 logutils==0.3.5
-Mako==1.0.7
+Mako==1.2.2
 MarkupSafe==1.0
 marshmallow==2.13.6
 marshmallow-sqlalchemy==0.13.1
